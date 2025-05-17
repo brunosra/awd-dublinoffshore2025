@@ -1,0 +1,7 @@
+@use "../vars";
+
+body {
+	&.page-home {
+		color: vars.$yellow;
+	}
+}
