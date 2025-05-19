@@ -1,1 +1,31 @@
-$yellow: #ffff00;
+// ****** //
+// Colors //
+// ****** //
+$c--blue: #327CFF;
+$c--navy: #152445;
+$c--yellow: #E9EC6B;
+$c--secondary1: #4287B5;
+$c--secondary2: #8CC3E1;
+$c--secondary3: #DEEAFF;
+$c--tertiary: #EDF0F5;
+$c--white: #FFFFFF;
+$c--black: #000000;
+
+// *********** //
+// Breakpoints //
+// *********** //
+$sm: 450px;
+$md: 768px;
+$lg: 1024px;
+
+$breakpoints: (
+  "sm": (
+    "min-width: #{$sm}"
+  ),
+  "md": (
+    "min-width: #{$md}"
+  ),
+  "lg": (
+    "min-width: #{$lg}"
+  ),
+);

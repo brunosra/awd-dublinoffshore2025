@@ -1,5 +1,7 @@
+@use "reset";
 @use "vars";
+@use "typography";
 
 html {
-	background: red;
+	background: vars.$c--navy;
 }
