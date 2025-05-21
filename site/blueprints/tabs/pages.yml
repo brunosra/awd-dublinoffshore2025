@@ -1,0 +1,78 @@
+title: Pages
+icon: page
+label: Pages
+columns:
+  left:
+    width: 1/2
+    sections:
+      # The `pages` pages section shows other main pages of the site
+      # Using the `templates` option, we limit which types of pages are shown
+      # Using the `create` option, we limit the type of page that can be created when a new page is created
+      # Note that the `sandbox` page and the `error` page that also exist in the content folder but use different blueprints thus do not show up in the list
+      # Since the error page's blueprint is set to `read: false`, it wouldn't show up here even if you added the error blueprint to the templates list
+      listed-pages:
+        headline: Listed Pages
+        help: These appear in the navigation in this order
+        type: pages
+        status: listed
+        image: 
+          back: white
+          cover: true
+
+      unlisted-pages:
+        headline: Unlisted Pages
+        help: These are pages that are live but do not appear in the navigation
+        type: pages
+        status: unlisted
+        image: 
+          back: white
+
+      draft-pages:
+        headline: Draft Pages
+        type: pages
+        status: draft
+        create: builder
+        image: 
+          back: white
+          cover: true
+
+  right:
+    width: 1/2
+    sections:
+      listed-posts:
+        type: pages
+        headline: Published Updates
+        parent: kirby.page("updates")
+        empty: No posts yet
+        info: "{{ page.published }}"
+        sortBy: published desc
+        status: listed
+        image:
+          back: white
+          cover: true
+      unlisted-posts:
+        type: pages
+        headline: Unlisted Updates
+        parent: kirby.page("updates")
+        empty: No unlisted post yet
+        info: "{{ page.published }}"
+        sortBy: published desc
+        status: unlisted
+        image:
+          back: white
+          cover: true
+        template:
+          - post
+      draft-posts:
+        type: pages
+        headline: Draft Updates
+        parent: kirby.page("updates")
+        info: "{{ page.published }}"
+        empty: No draft posts yet
+        sortBy: pulished desc
+        status: draft
+        image:
+          back: white
+          cover: true
+        template:
+          - post

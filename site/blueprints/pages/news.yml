@@ -1,0 +1,63 @@
+title: News
+icon: 🆕
+options:
+  changeTitle: false
+  duplicate: false
+  changeSlug: false
+
+tabs:
+  content:
+    label: Content
+    icon: text
+    columns:
+      # Lefft Column is for text
+      left:
+        width: 1/4
+        sections:
+          updatesContent:
+            type: fields
+            fields:
+              headline:
+                label: Headline
+                type: text
+              intro:
+                label: Intro
+                type: textarea
+                buttons: false
+
+      # Middle Column is for projects
+      middle:
+        width: 1/2
+        sections:
+          updates:
+            headline: Posts
+            type: pages
+            status: listed
+            sortBy: published desc
+            info: "{{ page.published }}"
+
+      # Right Column is for drafts
+      right:
+        width: 1/4
+        sections:
+          unlisted-posts:
+            type: pages
+            headline: Unlisted Updates
+            parent: kirby.page("updates")
+            empty: No unlisted post yet
+            sortBy: date desc
+            info: "{{ page.published }}"
+            status: unlisted
+            template:
+              - post
+          draft-posts:
+            type: pages
+            headline: Draft Updates
+            parent: kirby.page("updates")
+            empty: No draft posts yet
+            sortBy: date desc
+            info: "{{ page.published }}"
+            status: draft
+            template:
+              - post
+  seo: seo/page

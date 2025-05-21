@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ac6bef1837715f43073e1a00667b9797",
+    "content-hash": "b10e0646636f0d56a30401d3c34e200f",
     "packages": [
         {
             "name": "christian-riesen/base32",
@@ -767,6 +767,79 @@
             "time": "2024-09-11T13:17:53+00:00"
         },
         {
+            "name": "spatie/schema-org",
+            "version": "3.23.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/schema-org.git",
+                "reference": "a8dc1b6fcdd06afc1ab084c3ead9b7a4c3d7a35d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/schema-org/zipball/a8dc1b6fcdd06afc1ab084c3ead9b7a4c3d7a35d",
+                "reference": "a8dc1b6fcdd06afc1ab084c3ead9b7a4c3d7a35d",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": "^8.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^3.6",
+                "graham-campbell/analyzer": "^4.2",
+                "illuminate/collections": "^8.62.0",
+                "league/flysystem": "^2.3.0 || ^3.0",
+                "pestphp/pest": "^1.21",
+                "symfony/console": "^5.3.7 || 6.0",
+                "twig/twig": "^3.3.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\SchemaOrg\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian De Deyne",
+                    "email": "sebastian@spatie.be",
+                    "homepage": "https://spatie.be",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Tom Witkowski",
+                    "email": "dev.gummibeer@gmail.com",
+                    "homepage": "https://gummibeer.de",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A fluent builder Schema.org types and ld+json generator",
+            "homepage": "https://github.com/spatie/schema-org",
+            "keywords": [
+                "schema-org",
+                "spatie"
+            ],
+            "support": {
+                "issues": "https://github.com/spatie/schema-org/issues",
+                "source": "https://github.com/spatie/schema-org/tree/3.23.1"
+            },
+            "funding": [
+                {
+                    "url": "https://spatie.be/open-source/support-us",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/spatie",
+                    "type": "github"
+                }
+            ],
+            "time": "2025-01-31T14:54:12+00:00"
+        },
+        {
             "name": "symfony/deprecation-contracts",
             "version": "v3.5.1",
             "source": {
@@ -1227,6 +1300,136 @@
                 }
             ],
             "time": "2025-01-07T09:44:41+00:00"
+        },
+        {
+            "name": "timnarr/kirby-imagex",
+            "version": "0.1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/timnarr/kirby-imagex.git",
+                "reference": "89523048f9287ac14bdf5edd10fc29dcfc3bca6d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/timnarr/kirby-imagex/zipball/89523048f9287ac14bdf5edd10fc29dcfc3bca6d",
+                "reference": "89523048f9287ac14bdf5edd10fc29dcfc3bca6d",
+                "shasum": ""
+            },
+            "require": {
+                "getkirby/composer-installer": "^1.2",
+                "php": "~8.1.0 || ~8.2.0 || ~8.3.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^3",
+                "getkirby/cms": "^4.0",
+                "phpunit/phpunit": "^10.5"
+            },
+            "type": "kirby-plugin",
+            "extra": {
+                "kirby-cms-path": false
+            },
+            "autoload": {
+                "files": [
+                    "helpers/aspectRatio.php",
+                    "helpers/attributes.php",
+                    "helpers/misc.php",
+                    "helpers/srcset.php"
+                ],
+                "psr-4": {
+                    "TimNarr\\": [
+                        "classes/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tim Narr",
+                    "email": "dev@tim-narr.com",
+                    "homepage": "https://tim-narr.com"
+                }
+            ],
+            "description": "Modern images for Kirby CMS – This plugin helps you orchestrate modern, responsive and performant images in Kirby",
+            "homepage": "https://github.com/timnarr/kirby-imagex",
+            "keywords": [
+                "images",
+                "kirby",
+                "kirby-cms",
+                "kirby-plugin",
+                "modern-images",
+                "responsive-images"
+            ],
+            "support": {
+                "issues": "https://github.com/timnarr/kirby-imagex/issues",
+                "source": "https://github.com/timnarr/kirby-imagex/tree/0.1.3"
+            },
+            "funding": [
+                {
+                    "url": "https://www.buymeacoffee.com/tim.n",
+                    "type": "custom"
+                }
+            ],
+            "time": "2024-09-02T12:22:55+00:00"
+        },
+        {
+            "name": "tobimori/kirby-seo",
+            "version": "1.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tobimori/kirby-seo.git",
+                "reference": "a06eb676f699797fdd04a515149559ffd4746be7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tobimori/kirby-seo/zipball/a06eb676f699797fdd04a515149559ffd4746be7",
+                "reference": "a06eb676f699797fdd04a515149559ffd4746be7",
+                "shasum": ""
+            },
+            "require": {
+                "getkirby/composer-installer": "^1.2.1",
+                "php": ">=8.1.0",
+                "spatie/schema-org": "^3.14"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^3.48",
+                "getkirby/cli": "^1.2",
+                "getkirby/cms": "^4.0"
+            },
+            "type": "kirby-plugin",
+            "extra": {
+                "kirby-cms-path": false
+            },
+            "autoload": {
+                "psr-4": {
+                    "tobimori\\Seo\\": "classes"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tobias Möritz",
+                    "email": "tobias@moeritz.io"
+                }
+            ],
+            "description": "The ultimate Kirby SEO toolkit",
+            "homepage": "https://github.com/tobimori/kirby-seo#readme",
+            "support": {
+                "issues": "https://github.com/tobimori/kirby-seo/issues",
+                "source": "https://github.com/tobimori/kirby-seo/tree/1.1.2"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/tobimori",
+                    "type": "github"
+                }
+            ],
+            "time": "2024-04-10T09:49:19+00:00"
         }
     ],
     "packages-dev": [],
