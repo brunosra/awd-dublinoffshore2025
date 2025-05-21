@@ -36,43 +36,43 @@ columns:
           back: white
           cover: true
 
-  right:
-    width: 1/2
-    sections:
-      listed-posts:
-        type: pages
-        headline: Published Updates
-        parent: kirby.page("updates")
-        empty: No posts yet
-        info: "{{ page.published }}"
-        sortBy: published desc
-        status: listed
-        image:
-          back: white
-          cover: true
-      unlisted-posts:
-        type: pages
-        headline: Unlisted Updates
-        parent: kirby.page("updates")
-        empty: No unlisted post yet
-        info: "{{ page.published }}"
-        sortBy: published desc
-        status: unlisted
-        image:
-          back: white
-          cover: true
-        template:
-          - post
-      draft-posts:
-        type: pages
-        headline: Draft Updates
-        parent: kirby.page("updates")
-        info: "{{ page.published }}"
-        empty: No draft posts yet
-        sortBy: pulished desc
-        status: draft
-        image:
-          back: white
-          cover: true
-        template:
-          - post
+  # right:
+  #   width: 1/2
+  #   sections:
+  #     listed-posts:
+  #       type: pages
+  #       headline: Published Updates
+  #       parent: kirby.page("updates")
+  #       empty: No posts yet
+  #       info: "{{ page.published }}"
+  #       sortBy: published desc
+  #       status: listed
+  #       image:
+  #         back: white
+  #         cover: true
+  #     unlisted-posts:
+  #       type: pages
+  #       headline: Unlisted Updates
+  #       parent: kirby.page("updates")
+  #       empty: No unlisted post yet
+  #       info: "{{ page.published }}"
+  #       sortBy: published desc
+  #       status: unlisted
+  #       image:
+  #         back: white
+  #         cover: true
+  #       template:
+  #         - post
+  #     draft-posts:
+  #       type: pages
+  #       headline: Draft Updates
+  #       parent: kirby.page("updates")
+  #       info: "{{ page.published }}"
+  #       empty: No draft posts yet
+  #       sortBy: pulished desc
+  #       status: draft
+  #       image:
+  #         back: white
+  #         cover: true
+  #       template:
+  #         - post

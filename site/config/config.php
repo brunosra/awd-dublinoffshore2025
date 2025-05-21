@@ -8,31 +8,37 @@ return [
 			'methods' => ['password', 'password-reset']
 	],
 
-    'timnarr.imagex' => [
-        'cache' => true,
-        'customLazyloading' => false,
-        'formats' => ['avif', 'webp'],
-        'includeInitialFormat' => false,
-        'noSrcsetInImg' => false,
-        'relativeUrls' => false,
-    ],
+    // 'timnarr.imagex' => [
+    //     'cache' => true,
+    //     'customLazyloading' => false,
+    //     'formats' => ['avif', 'webp'],
+    //     'includeInitialFormat' => false,
+    //     'noSrcsetInImg' => false,
+    //     'relativeUrls' => false,
+    // ],
 
     'thumbs' => [
         'srcsets' => [
-            'my-srcset' => [ 
-            '400w'  => ['width' =>  400, 'crop' => true, 'quality' => 80],
-            '800w'  => ['width' =>  800, 'crop' => true, 'quality' => 80],
-            '1200w' => ['width' => 1200, 'crop' => true, 'quality' => 80],
+            'default' => [
+                '300w'  => ['width' => 300],
+                '600w'  => ['width' => 600],
+                '900w'  => ['width' => 900],
+                '1200w' => ['width' => 1200],
+                '1800w' => ['width' => 1800]
             ],
-            'my-srcset-webp' => [
-            '400w'  => ['width' =>  400, 'crop' => true, 'quality' => 75, 'format' => 'webp', 'sharpen' => 10],
-            '800w'  => ['width' =>  800, 'crop' => true, 'quality' => 75, 'format' => 'webp', 'sharpen' => 10],
-            '1200w' => ['width' => 1200, 'crop' => true, 'quality' => 75, 'format' => 'webp', 'sharpen' => 10],
+            'avif' => [
+                '300w'  => ['width' => 300, 'format' => 'avif'],
+                '600w'  => ['width' => 600, 'format' => 'avif'],
+                '900w'  => ['width' => 900, 'format' => 'avif'],
+                '1200w' => ['width' => 1200, 'format' => 'avif'],
+                '1800w' => ['width' => 1800, 'format' => 'avif']
             ],
-            'my-srcset-avif' => [ 
-            '400w'  => ['width' =>  400, 'crop' => true, 'quality' => 65, 'format' => 'avif', 'sharpen' => 25],
-            '800w'  => ['width' =>  800, 'crop' => true, 'quality' => 65, 'format' => 'avif', 'sharpen' => 25],
-            '1200w' => ['width' => 1200, 'crop' => true, 'quality' => 65, 'format' => 'avif', 'sharpen' => 25],
+            'webp' => [
+                '300w'  => ['width' => 300, 'quality' => 80,  'sharpen' => 10, 'format' => 'webp'],
+                '600w'  => ['width' => 600, 'quality' => 80,  'sharpen' => 10, 'format' => 'webp'],
+                '900w'  => ['width' => 900, 'quality' => 80,  'sharpen' => 10, 'format' => 'webp'],
+                '1200w' => ['width' => 1200, 'quality' => 80,  'sharpen' => 10, 'format' => 'webp'],
+                '1800w' => ['width' => 1800, 'quality' => 80,  'sharpen' => 10, 'format' => 'webp']
             ],
         ]
     ],

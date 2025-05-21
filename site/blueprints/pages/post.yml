@@ -13,6 +13,12 @@ tabs:
           projectContent:
             type: fields
             fields:
+              cover:
+                label: Cover Image
+                help: Optional
+                type: files
+                layout: cards
+                size: medium
               tags:
                 label: Tags
                 type: tags
@@ -25,16 +31,14 @@ tabs:
                   - Insights
                   - Updates
                   - Press
-                help: Tag the post as Case Study, Media, Nnews, Insights, Updates, Press
+                  - Projects
+                help: Tag the post as Case Study, Media, News, Insights, Updates, Press, or Projects
               published:
                 label: Published on
                 type: date
                 display: DD MMMM YYYY
                 default: today
                 required: true
-
-          files:
-            type: files
 
       # Right Column is for Content
       right:
@@ -51,3 +55,4 @@ tabs:
               - video
               - localvideo
   seo: seo/page
+  files: tabs/files

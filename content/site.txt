@@ -1,1 +1,111 @@
-Title: Mægazine
+Title: Dublin Offshore
+
+----
+
+Logo: []
+
+----
+
+Mainemail: hello@dublinoffshore.ie
+
+----
+
+Twitterlink: https://x.com/DublinOffshore
+
+----
+
+Linkedinlink: https://www.linkedin.com/company/dublinoffshore/
+
+----
+
+Addresses:
+
+-
+  city: Dublin
+  fulladdress: |-
+    38 Fitzwilliam Street Upper
+    Dublin
+    Ireland
+  postcode: 'D02 KV05'
+  maplocation: ''
+-
+  city: Belfast
+  fulladdress: |-
+    Arthur House
+    41 Arthur St
+    Belfast
+    United Kingdom
+  postcode: 'BT1 4GB'
+  maplocation: ''
+-
+  city: Cork
+  fulladdress: |-
+    Line 1
+    Line 2
+    Line 3
+  postcode: '123 456'
+  maplocation: ''
+
+----
+
+Googleanalytics: 
+
+----
+
+Headerinjection: 
+
+----
+
+Footerinjection: 
+
+----
+
+Metatemplate: 
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Ogdescription: 
+
+----
+
+Ogsitename: 
+
+----
+
+Ogimage: []
+
+----
+
+Twittercardtype: summary
+
+----
+
+Robotsindex: 
+
+----
+
+Robotsfollow: 
+
+----
+
+Robotsarchive: 
+
+----
+
+Robotsimageindex: 
+
+----
+
+Robotssnippet: 
+
+----
+
+Socialmediaaccounts: 

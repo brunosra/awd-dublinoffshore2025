@@ -1,0 +1,35 @@
+title: Page Builder
+icon: 📄
+
+tabs:
+  content:
+    label: Content
+    icon: text
+    columns:
+      left:
+        width: 1/1
+        fields:
+          builder:
+            label: Page Builder
+            type: blocks
+            fieldsets:
+              - hero_video
+              - hero_video_centred
+              - four_cards
+              - three_cards
+              - 2_image_right
+              - 2_image_left
+              - full_width_video
+              - team
+              - contact_block
+              - center_text
+              - benefits
+              - benefits_4_column
+              - sustainability
+              - logo_strip
+              - lrd
+              - timeline
+              - form
+              
+  files: tabs/files
+  seo: seo/page

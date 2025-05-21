@@ -1,0 +1,25 @@
+name: Logo Strip
+icon: slideshow-view
+wysiwyg: true
+preview: fields
+tabs:
+  content:
+    icon: edit
+    fields:
+      logos:
+        label: Logos
+        type: files
+        width: 1/2
+
+  # style:
+  #   label: Style
+  #   icon: cog
+  #   fields:
+  #     palette:
+  #       label: Pick a theme
+  #       type: radio
+  #       width: 1/2
+  #       options:
+  #         "light-blue-theme": Light Blue Theme
+  #         "grey-theme": Grey Theme
+  #         "white-theme": White Theme

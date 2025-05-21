@@ -3,7 +3,7 @@
         'name' => 'getkirby/starterkit',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'ba764df63a7736fb213730aa62554d0cdf53a16d',
+        'reference' => '1cf52135eccd80425dbf39c1522e484ccf2c7eeb',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -37,6 +37,15 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+        'estd/kirby-remix-icons' => array(
+            'pretty_version' => '1.0.0',
+            'version' => '1.0.0.0',
+            'reference' => 'ce353b79f0860168d29cc1c8ccaf0528a75ae38a',
+            'type' => 'kirby-plugin',
+            'install_path' => __DIR__ . '/../../site/plugins/kirby-remix-icons',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'filp/whoops' => array(
             'pretty_version' => '2.18.0',
             'version' => '2.18.0.0',
@@ -67,7 +76,7 @@
         'getkirby/starterkit' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'ba764df63a7736fb213730aa62554d0cdf53a16d',
+            'reference' => '1cf52135eccd80425dbf39c1522e484ccf2c7eeb',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
