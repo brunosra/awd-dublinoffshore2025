@@ -1,13 +1,45 @@
 <?php
 
-/**
- * The config file is optional. It accepts a return array with config options
- * Note: Never include more than one return statement, all options go within this single return array
- * In this example, we set debugging to true, so that errors are displayed onscreen. 
- * This setting must be set to false in production.
- * All config options: https://getkirby.com/docs/reference/system/options
- */
 return [
     'debug' => true,
     'yaml.handler' => 'symfony', // already makes use of the more modern Symfony YAML parser: https://getkirby.com/docs/reference/system/options/yaml (will become the default in a future Kirby version)
+
+    'auth' => [
+			'methods' => ['password', 'password-reset']
+	],
+
+    'timnarr.imagex' => [
+        'cache' => true,
+        'customLazyloading' => false,
+        'formats' => ['avif', 'webp'],
+        'includeInitialFormat' => false,
+        'noSrcsetInImg' => false,
+        'relativeUrls' => false,
+    ],
+
+    'thumbs' => [
+        'srcsets' => [
+            'my-srcset' => [ 
+            '400w'  => ['width' =>  400, 'crop' => true, 'quality' => 80],
+            '800w'  => ['width' =>  800, 'crop' => true, 'quality' => 80],
+            '1200w' => ['width' => 1200, 'crop' => true, 'quality' => 80],
+            ],
+            'my-srcset-webp' => [
+            '400w'  => ['width' =>  400, 'crop' => true, 'quality' => 75, 'format' => 'webp', 'sharpen' => 10],
+            '800w'  => ['width' =>  800, 'crop' => true, 'quality' => 75, 'format' => 'webp', 'sharpen' => 10],
+            '1200w' => ['width' => 1200, 'crop' => true, 'quality' => 75, 'format' => 'webp', 'sharpen' => 10],
+            ],
+            'my-srcset-avif' => [ 
+            '400w'  => ['width' =>  400, 'crop' => true, 'quality' => 65, 'format' => 'avif', 'sharpen' => 25],
+            '800w'  => ['width' =>  800, 'crop' => true, 'quality' => 65, 'format' => 'avif', 'sharpen' => 25],
+            '1200w' => ['width' => 1200, 'crop' => true, 'quality' => 65, 'format' => 'avif', 'sharpen' => 25],
+            ],
+        ]
+    ],
+
+    'cache' => [
+    'pages' => false 
+	]
+
+
 ];

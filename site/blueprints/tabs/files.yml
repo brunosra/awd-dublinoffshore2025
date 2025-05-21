@@ -1,0 +1,11 @@
+Title: Files
+
+icon: file
+label: Files
+columns:
+  left:
+    width: 1/2
+    sections:
+      files:
+        label: Files
+        type: files 

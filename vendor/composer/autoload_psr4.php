@@ -6,12 +6,15 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
+    'tobimori\\Seo\\' => array($baseDir . '/site/plugins/kirby-seo/classes'),
     'Whoops\\' => array($vendorDir . '/filp/whoops/src/Whoops'),
+    'TimNarr\\' => array($baseDir . '/site/plugins/kirby-imagex/classes'),
     'Symfony\\Polyfill\\Mbstring\\' => array($vendorDir . '/symfony/polyfill-mbstring'),
     'Symfony\\Polyfill\\Intl\\Normalizer\\' => array($vendorDir . '/symfony/polyfill-intl-normalizer'),
     'Symfony\\Polyfill\\Intl\\Idn\\' => array($vendorDir . '/symfony/polyfill-intl-idn'),
     'Symfony\\Polyfill\\Ctype\\' => array($vendorDir . '/symfony/polyfill-ctype'),
     'Symfony\\Component\\Yaml\\' => array($vendorDir . '/symfony/yaml'),
+    'Spatie\\SchemaOrg\\' => array($vendorDir . '/spatie/schema-org/src'),
     'Psr\\Log\\' => array($vendorDir . '/psr/log/src'),
     'PHPMailer\\PHPMailer\\' => array($vendorDir . '/phpmailer/phpmailer/src'),
     'League\\ColorExtractor\\' => array($vendorDir . '/league/color-extractor/src'),

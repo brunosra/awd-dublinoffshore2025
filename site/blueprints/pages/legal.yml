@@ -1,0 +1,11 @@
+Title: Legal
+icon: ✒️
+fields:
+  headline:
+    label: Headline
+    type: text
+  legaltext:
+    label: Legal Text
+    type: textarea
+  files:
+    type: files

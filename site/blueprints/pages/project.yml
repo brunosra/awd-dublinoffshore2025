@@ -1,0 +1,46 @@
+title: Projects
+
+tabs:
+  content:
+    label: Content
+    icon: text
+    columns:
+      # Lefft Column is for text
+      left:
+        width: 1/3
+        sections:
+          projectContent:
+            type: fields
+            fields:
+              cover:
+                type: files
+                multiple: false
+                layout: cards
+                cover: true
+                size: large
+              projectInfo:
+                label: Project Info
+                type: textarea
+                buttons:
+                  - ul
+                  - bold
+          files:
+            type: files
+
+      # Right Column is for Content
+      right:
+        width: 2/3
+        fields:
+          projectContent:
+            label: Project Content
+            headline: headline
+            type: blocks
+            fieldsets:
+              - heading
+              - text
+              - list
+              - image
+              - video
+              - localvideo
+
+  seo: seo/page

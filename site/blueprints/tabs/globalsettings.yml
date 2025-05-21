@@ -1,0 +1,62 @@
+Title: Global Settings
+
+icon: settings
+label: Global Settings
+columns:
+  left:
+    width: 1/2
+    fields:
+      colorLogo:
+        label: Logo (on light)
+        type: files
+        layout: cards
+        width: 1/2
+      whiteLogo:
+        label: Logo (on dark)
+        type: files
+        layout: cards
+        width: 1/2
+      favicon:
+        label: Favicon
+        type: files
+      mainEmail:
+        label: Primary Email
+        type: email
+        help: This is the email shown in footer.
+      calendarLink:
+        label: Calendar Link
+        type: url
+      twitterLink:
+        icon: twitter
+        label: Twitter Account
+        type: url
+      linkedinLink:
+        icon: linkedin
+        label: LinkedIn Account
+        type: url
+      googleLocation:
+        label: Google Maps Location
+        type: text
+      googleLocationMap:
+        label: Google Maps Link
+        type: text
+      footerText:
+        label: Footer Text
+        type: text
+
+  right:
+    width: 1/2
+    fields:
+      googleAnalytics:
+        label: Google Analytics
+        type: text
+      headerInjection:
+        label: Header Injection
+        type: textarea
+        size: medium
+        buttons: false
+      footerInjection:
+        label: Footer Injection
+        type: textarea
+        size: medium
+        buttons: false
