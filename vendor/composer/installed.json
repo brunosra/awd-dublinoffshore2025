@@ -472,6 +472,44 @@
             "install-path": "../getkirby/composer-installer"
         },
         {
+            "name": "jg/kirby-fields-block",
+            "version": "v1.2.1",
+            "version_normalized": "1.2.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jongacnik/kirby-fields-block.git",
+                "reference": "e56c4d109edd921a1b4436e3df0e64b1117f1b83"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jongacnik/kirby-fields-block/zipball/e56c4d109edd921a1b4436e3df0e64b1117f1b83",
+                "reference": "e56c4d109edd921a1b4436e3df0e64b1117f1b83",
+                "shasum": ""
+            },
+            "require": {
+                "getkirby/composer-installer": "^1.1"
+            },
+            "time": "2023-01-22T19:02:00+00:00",
+            "type": "kirby-plugin",
+            "installation-source": "dist",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jon Gacnik",
+                    "email": "jon@folderstudio.com"
+                }
+            ],
+            "description": "Kirby Fields Block",
+            "support": {
+                "issues": "https://github.com/jongacnik/kirby-fields-block/issues",
+                "source": "https://github.com/jongacnik/kirby-fields-block/tree/v1.2.1"
+            },
+            "install-path": "../../site/plugins/kirby-fields-block"
+        },
+        {
             "name": "laminas/laminas-escaper",
             "version": "2.16.0",
             "version_normalized": "2.16.0.0",

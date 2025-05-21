@@ -2,11 +2,11 @@ Title: Dublin Offshore awarded Wind Europe 2025 Poster Prize
 
 ----
 
-Cover: []
+Cover: - 'file://emZp9Bh4nJwLDdbG'
 
 ----
 
-Tags: 
+Tags: Case Study
 
 ----
 
@@ -15,6 +15,10 @@ Published: 2025-05-21
 ----
 
 Postcontent: 
+
+----
+
+Related: []
 
 ----
 

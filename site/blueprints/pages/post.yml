@@ -54,5 +54,21 @@ tabs:
               - image
               - video
               - localvideo
+      bottom:
+        width: 1/1
+        fields:
+          related:
+            label: Related    
+            type: pages    
+            max: 3
+            query: site.find('updates')
+            layout: cards
+            text: "{{ page.title }} | {{ page.description }}"
+            image:
+              query: page.projectCover.toFile
+              cover: true
+              ratio: 16/9  
+            size: medium  
   seo: seo/page
   files: tabs/files
+                
