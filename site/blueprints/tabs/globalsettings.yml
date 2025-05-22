@@ -29,14 +29,17 @@ columns:
         label: Addresses
         type: structure
         fields:
-          city:
-            label: City
-            type: text
-          fullAddress:
-            label: Full Address
+          streetAddress:
+            label: Street Address
             type: textarea
             buttons: false
             size: small
+          country:
+            label: Country
+            type: text
+          city:
+            label: City
+            type: text
           postcode:
             label: Eircode / Postcode
             type: text

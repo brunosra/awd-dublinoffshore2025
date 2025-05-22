@@ -21,30 +21,42 @@ Linkedinlink: https://www.linkedin.com/company/dublinoffshore/
 Addresses:
 
 -
+  streetaddress: '38 Fitzwilliam Street Upper'
+  country: Ireland
   city: Dublin
-  fulladdress: |-
-    38 Fitzwilliam Street Upper
-    Dublin
-    Ireland
   postcode: 'D02 KV05'
   maplocation: ''
+  streetddress: '38 Fitzwilliam Street Upper'
+  fulladdress: '38 Fitzwilliam Street Upper'
 -
+  streetaddress: |-
+    Arthur House
+    41 Arthur St.
+  country: 'United Kingdom'
   city: Belfast
+  postcode: 'BT1 4GB'
+  maplocation: ''
+  streetddress: |-
+    Arthur House
+    41 Arthur St
   fulladdress: |-
     Arthur House
     41 Arthur St
-    Belfast
-    United Kingdom
-  postcode: 'BT1 4GB'
-  maplocation: ''
 -
+  streetaddress: |-
+    Line 1
+    Line 2
+  country: Ireland
   city: Cork
+  postcode: '123 456'
+  maplocation: ''
+  streetddress: |-
+    Line 1
+    Line 2
   fulladdress: |-
     Line 1
     Line 2
     Line 3
-  postcode: '123 456'
-  maplocation: ''
 
 ----
 

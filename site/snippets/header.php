@@ -13,14 +13,19 @@
     'assets/scss/index.scss',
     '@assets/scss/templates/'.$template.'.scss',
   ]) ?>
-  <link rel="shortcut icon" type="image/x-icon" href="<?= url('favicon.ico') ?>">
+  <link rel="shortcut icon" type="image/x-icon" href="">
   <?php snippet('seo/head'); ?>
+  <?= $site->googleAnalytics() ?>
+  <?= $site->headerInjection() ?>
+
 </head>
 <body class="page-<?= $template ?><?= $template != "home" ? " not-home" : "" ?>">
   <header class="header">
-    <a class="logo" href="<?= $site->url() ?>">
-      <?= $site->title()->esc() ?>
+    <?php if ($logo = $site->logo()->toFile()): ?>
+    <a class="" href="<?= $site->url() ?>">
+      <img class="" src="<?= $logo->url() ?>" alt="<?= $logo->alt() ?>" width="106" height="32"/>
     </a>
+    <?php endif ?>
 
     <nav class="menu">
       <?php foreach ($site->children()->listed() as $item): ?>
