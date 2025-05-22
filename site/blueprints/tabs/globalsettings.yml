@@ -43,6 +43,10 @@ columns:
           postcode:
             label: Eircode / Postcode
             type: text
+          image:
+            label: Image
+            type: files
+            max: 1
           mapLocation:
             label: Google Maps link
             type: url
