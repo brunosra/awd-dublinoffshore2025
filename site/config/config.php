@@ -8,6 +8,11 @@ return [
 			'methods' => ['password', 'password-reset']
 	],
 
+    'tobimori.icon-field' => [
+    'cache' => true,
+    'folder' => 'assets/icons'
+    ],
+
     // 'timnarr.imagex' => [
     //     'cache' => true,
     //     'customLazyloading' => false,

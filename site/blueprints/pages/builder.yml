@@ -32,6 +32,7 @@ tabs:
               - timeline
               - form
               - offices
+              - sticky_text
               
   files: tabs/files
   seo: seo/page

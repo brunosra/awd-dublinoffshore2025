@@ -1,0 +1,53 @@
+name: Stiky text with blocks
+icon: layout-right-2-line
+wysiwyg: true
+preview: fields
+tabs:
+  content:
+    icon: edit
+    fields:
+      textArea:
+        label: Text Area
+        type: writer
+        marks: false
+        width: 1/2
+      contentBlock:
+        label: Blocks
+        type: structure
+        width: 1/2
+        fields:
+          icon:
+            label: Icon
+            type: icon
+            max: 1
+          heading: 
+            label: Heading  
+            type: writer
+            marks: false
+            nodes: 
+              - heading
+            headings:
+             - 2
+             - 3
+             - 4
+          contentArea:
+            label: Content
+            type: writer
+            marks: false
+            headings:
+              - 5
+              - 6
+
+        
+  # style: 
+  #   label: Style
+  #   icon: cog
+  #   fields:
+  #     palette:
+  #       label: Pick a theme
+  #       type: radio
+  #       width: 1/2
+  #       options:
+  #         "light-blue-theme": Light Blue Theme
+  #         "grey-theme": Grey Theme
+  #         "white-theme": White Theme
