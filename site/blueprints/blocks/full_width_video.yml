@@ -1,0 +1,56 @@
+name: Full Width Video Section
+wysiwyg: true
+preview: fields
+icon: movie-fill
+fields:
+  location:
+    label: field.blocks.video.location
+    type: radio
+    columns: 2
+    width: 1/4
+    default: "web"
+    options:
+      kirby: "{{ t('field.blocks.image.location.internal') }}"
+      web: "{{ t('field.blocks.image.location.external') }}"
+  url:
+    label: field.blocks.video.url.label
+    type: url
+    width: 3/4
+    placeholder: field.blocks.video.url.placeholder
+    when:
+      location: web
+  video:
+    label: field.blocks.video.name
+    type: files
+    width: 1/4
+    query: model.videos
+    multiple: false
+    # you might want to add a template for videos here
+    when:
+      location: kirby
+  poster:
+    label: field.blocks.video.poster
+    type: files
+    width: 1/4
+    query: model.images
+    multiple: false
+    image:
+      back: black
+    uploads:
+      template: blocks/image
+    when:
+      location: kirby
+
+  textOverlay:
+    label: Text Overlay
+    type: writer
+    nodes:
+      - paragraph
+      - heading
+    headings:
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+    marks: false  

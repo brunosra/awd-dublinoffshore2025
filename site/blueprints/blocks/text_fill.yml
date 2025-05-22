@@ -1,0 +1,31 @@
+name: Text Fill
+icon: align-center
+wysiwyg: true
+preview: fields
+tabs:
+  content:
+    icon: edit
+    fields:
+      textFill:
+        label: Text Fill
+        type: writer
+        marks: false
+        nodes: 
+          - heading
+        headings:
+          - 2
+          - 3
+        help: This should be set to a H2 or H3 only.
+
+  # style:
+  #   label: Style
+  #   icon: cog
+  #   fields:
+  #     palette:
+  #       label: Pick a theme
+  #       type: radio
+  #       width: 1/2
+  #       options:
+  #         "light-blue-theme": Light Blue Theme
+  #         "grey-theme": Grey Theme
+  #         "white-theme": White Theme
