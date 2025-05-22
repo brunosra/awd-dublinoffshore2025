@@ -6,10 +6,11 @@ tabs:
   content:
     icon: edit
     fields:
-      logos:
-        label: Logos
-        type: files
-        width: 1/2
+      info:
+        label: Logo Strip
+        type: info
+        theme: info
+        text: The logos show in this strip are managed from the Glabal Settins tab on the dashboard.
 
   # style:
   #   label: Style

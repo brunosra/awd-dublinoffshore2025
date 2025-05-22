@@ -43,6 +43,13 @@ columns:
           mapLocation:
             label: Google Maps link
             type: url
+      logos:
+        label: Logo Strip Logos
+        type: files
+        width: 1/1
+        layout: cardlets
+        size: small
+
 
   right:
     width: 1/2

@@ -2,7 +2,7 @@ Title: Dublin Offshore
 
 ----
 
-Logo: []
+Logo: - 'file://qiKUmMpVesLHp4k3'
 
 ----
 
@@ -45,6 +45,15 @@ Addresses:
     Line 3
   postcode: '123 456'
   maplocation: ''
+
+----
+
+Logos:
+
+- 'file://73AXPxPevtGBIaNV'
+- 'file://mXX8mVCtniJsnqFY'
+- 'file://MeK4n7hFrMjRqh8j'
+- 'file://6FyvC1SwHnIcoM2v'
 
 ----
 
