@@ -9,11 +9,13 @@
   <?php
   $addresses = $site->addresses()->toStructure();
   foreach ($addresses as $address): ?>
-  <div>
-    <p class="small"><?= $address->country()->esc() ?></p>
-    <p class="small"><?= $address->streetAddress()->esc() ?></p>
-    <p class="small"><?= $address->city()->esc() ?>,&nbsp;<?= $address->postcode()->esc() ?></p>
-  </div>
+  <address>
+    <p class="small">
+      <?= $address->country()->esc() ?><br>
+      <?= $address->streetAddress()->esc() ?><br>
+      <?= $address->city()->esc() ?>,&nbsp;<?= $address->postcode()->esc() ?>
+    </p>
+  </address>
   <?php endforeach ?>
 
   <div class="">
@@ -32,6 +34,13 @@
 </footer>
 
 <?= $site->footerInjection() ?>
+<?php
+  $template = $page->template();
+?>
+<?= vite([
+  'assets/js/index.scss',
+  '@assets/js/templates/'.$template.'.js',
+]); ?>
 <?php snippet('seo/schemas'); ?>
 </body>
 </html>
