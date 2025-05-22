@@ -56,6 +56,10 @@ class ComposerStaticInitb1c0aabdfed18768feb9631e1b89288e
         array (
             'Kirby\\' => 6,
         ),
+        'F' => 
+        array (
+            'Femundfilou\\AssetManager\\' => 25,
+        ),
         'C' => 
         array (
             'Composer\\Semver\\' => 16,
@@ -124,6 +128,10 @@ class ComposerStaticInitb1c0aabdfed18768feb9631e1b89288e
             0 => __DIR__ . '/../..' . '/kirby/src',
             1 => __DIR__ . '/..' . '/getkirby/composer-installer/src',
         ),
+        'Femundfilou\\AssetManager\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/site/plugins/asset-manager/lib',
+        ),
         'Composer\\Semver\\' => 
         array (
             0 => __DIR__ . '/..' . '/composer/semver/src',
@@ -167,6 +175,7 @@ class ComposerStaticInitb1c0aabdfed18768feb9631e1b89288e
         'Composer\\Semver\\Intervals' => __DIR__ . '/..' . '/composer/semver/src/Intervals.php',
         'Composer\\Semver\\Semver' => __DIR__ . '/..' . '/composer/semver/src/Semver.php',
         'Composer\\Semver\\VersionParser' => __DIR__ . '/..' . '/composer/semver/src/VersionParser.php',
+        'Femundfilou\\AssetManager\\AssetManager' => __DIR__ . '/../..' . '/site/plugins/asset-manager/lib/AssetManager.php',
         'Kirby\\Api\\Api' => __DIR__ . '/../..' . '/kirby/src/Api/Api.php',
         'Kirby\\Api\\Collection' => __DIR__ . '/../..' . '/kirby/src/Api/Collection.php',
         'Kirby\\Api\\Model' => __DIR__ . '/../..' . '/kirby/src/Api/Model.php',

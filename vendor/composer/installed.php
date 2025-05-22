@@ -3,7 +3,7 @@
         'name' => 'getkirby/starterkit',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '20727ba047e0301e268fd87aa74afd5426391160',
+        'reference' => '684befbba28100833e0c8dfcd76e54e6b2d4cff8',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -46,6 +46,15 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+        'femundfilou/kirby-asset-manager' => array(
+            'pretty_version' => '1.1.0',
+            'version' => '1.1.0.0',
+            'reference' => '0fb253ee76a602850454ef98d20fdbca6633f19d',
+            'type' => 'kirby-plugin',
+            'install_path' => __DIR__ . '/../../site/plugins/asset-manager',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'filp/whoops' => array(
             'pretty_version' => '2.18.0',
             'version' => '2.18.0.0',
@@ -76,7 +85,7 @@
         'getkirby/starterkit' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '20727ba047e0301e268fd87aa74afd5426391160',
+            'reference' => '684befbba28100833e0c8dfcd76e54e6b2d4cff8',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

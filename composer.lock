@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "477429845e234823cc09c71a1c145816",
+    "content-hash": "9335f2e528fade8bb69f9b0b35a0b967",
     "packages": [
         {
             "name": "christian-riesen/base32",
@@ -234,6 +234,53 @@
                 "source": "https://github.com/veryrobert/kirby-remix-icons/tree/1.0.0"
             },
             "time": "2024-12-18T23:25:51+00:00"
+        },
+        {
+            "name": "femundfilou/kirby-asset-manager",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/femundfilou/kirby-asset-manager.git",
+                "reference": "0fb253ee76a602850454ef98d20fdbca6633f19d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/femundfilou/kirby-asset-manager/zipball/0fb253ee76a602850454ef98d20fdbca6633f19d",
+                "reference": "0fb253ee76a602850454ef98d20fdbca6633f19d",
+                "shasum": ""
+            },
+            "require": {
+                "getkirby/composer-installer": "^1.1"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^3.37"
+            },
+            "type": "kirby-plugin",
+            "extra": {
+                "installer-name": "asset-manager"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Femundfilou\\AssetManager\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Justus Kraft",
+                    "email": "justus@femundfilou.com"
+                }
+            ],
+            "description": "Add CSS and JS per (block) snippet",
+            "homepage": "https://github.com/femundfilou/kirby-asset-manager",
+            "support": {
+                "issues": "https://github.com/femundfilou/kirby-asset-manager/issues",
+                "source": "https://github.com/femundfilou/kirby-asset-manager/tree/v1.1.0"
+            },
+            "time": "2025-05-15T19:26:04+00:00"
         },
         {
             "name": "filp/whoops",

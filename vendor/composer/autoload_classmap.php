@@ -21,6 +21,7 @@ return array(
     'Composer\\Semver\\Intervals' => $vendorDir . '/composer/semver/src/Intervals.php',
     'Composer\\Semver\\Semver' => $vendorDir . '/composer/semver/src/Semver.php',
     'Composer\\Semver\\VersionParser' => $vendorDir . '/composer/semver/src/VersionParser.php',
+    'Femundfilou\\AssetManager\\AssetManager' => $baseDir . '/site/plugins/asset-manager/lib/AssetManager.php',
     'Kirby\\Api\\Api' => $baseDir . '/kirby/src/Api/Api.php',
     'Kirby\\Api\\Collection' => $baseDir . '/kirby/src/Api/Collection.php',
     'Kirby\\Api\\Model' => $baseDir . '/kirby/src/Api/Model.php',
