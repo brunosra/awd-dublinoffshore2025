@@ -1,0 +1,103 @@
+title: Builder
+tabs:
+  main:
+    icon: document
+    columns:
+      left:
+        width: 1/2
+        sections:
+          featuredWork:
+            headline: Projects
+            type: pages
+            status: listed
+            # sortBy: published desc
+            info: "{{ page.published }} {{ page.heroWrittenContent }}"
+            layout: cards
+            image:
+              query: page.heroVisualContent.toFile
+              cover: true
+              ratio: 16/9  
+            size: huge
+      right:
+        width: 1/2
+        sections:
+          draftWork:
+            type: pages
+            headline: Draft Work
+            # parent: kirby.page("work")
+            empty: No drafts yet
+            info: "{{ page.published }}"
+            status: draft
+            template:
+              - builder
+
+          unlistedWork:
+            type: pages
+            headline: Unlisted Work
+            # parent: kirby.page("work")
+            empty: Nothing unlisted yet
+            info: "{{ page.published }}"
+            status: unlisted
+            template:
+              - project
+
+          
+  seo: seo/page
+
+
+# title: Page Builder
+# tabs:
+#   main:
+#     icon: document
+#     columns:
+#       heroVisualContent:
+#         width: 1/2
+#         sections:
+#           heroVisualContent:
+#             type: fields
+#             fields:
+#               heroVisualContent:
+#                 label: Hero Background
+#                 type: files
+#                 max: 1
+#               videoPoster:
+#                 label: Poster Image
+#                 help: If the backgound is a video this image will shown while the video loads
+#                 type: files
+#                 max: 1
+
+#       heroWrittenContent:
+#         width: 1/2
+#         sections:
+#           heroWrittenContent:
+#             type: fields
+#             fields:
+#               heroWrittenContent:
+#                 label: Hero Text
+#                 type: textarea
+#                 size: medium
+#                 buttons: false   
+
+#       content:
+#         width: 1/1
+#         sections:
+#           content:
+#             type: fields
+#             fields:
+#               homepageBuilder:
+#                 label: Homepage Builder
+#                 type: blocks
+#                 fieldsets:
+#                   - large_image
+#   seo: seo/page
+#   files:
+#     icon: file-image
+#     files:
+#     width: 2/3
+#     sections:
+#       files:
+#         type: files
+#         layout: cards
+#         image:
+#           ratio: 16/9
+#           cover: true

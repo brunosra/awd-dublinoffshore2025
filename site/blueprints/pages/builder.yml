@@ -33,6 +33,7 @@ tabs:
               - form
               - offices
               - sticky_text
+              - layouts
               
   files: tabs/files
   seo: seo/page

@@ -1,0 +1,54 @@
+name: LRD
+wysiwyg: true
+preview: fields
+icon: bar-chart-box-ai-line
+tabs:
+  content:
+    label: Content
+    icon: edit
+    fields:
+      heading:
+        label: Heading
+        type: text
+      textArea:
+        label: Content
+        type: writer
+        width: 1/2
+        marks:
+          - link 
+      info:
+        label: Interactive Graph
+        type: info
+        width: 1/2
+        text: |
+          The graph and controlls are managed directly in the code and can not be modified from the CMS. Please get in touch at aengus@anywherestudio.ie to adjust this section.
+      formPlaceholder:
+        label: Form placeholder
+        width: 1/2
+        type: info
+        text: |
+            Placeholder
+      # form:
+      #   label: Select your form
+      #   extends: dreamform/fields/form
+      #   width: 1/2 
+  # style:
+  #   label: Style
+  #   icon: cog
+  #   fields:
+  #     toggle:
+  #       label: Is this a page title section?
+  #       type: toggle
+  #       width: 1/2
+  #       text:
+  #         - "No"
+  #         - "Yes"
+  #     palette:
+  #       label: Pick a theme
+  #       type: radio
+  #       width: 1/2
+  #       options:
+  #         "light-blue-theme": Light Blue Theme
+  #         "dark-blue-theme": Navy Theme
+  #         "grey-theme": Grey Theme
+  #         "white-theme": White Theme
