@@ -6,43 +6,57 @@ columns:
   left:
     width: 1/2
     fields:
-      colorLogo:
-        label: Logo (on light)
+      logo:
+        label: Logo
         type: files
         layout: cards
         width: 1/2
-      whiteLogo:
-        label: Logo (on dark)
-        type: files
-        layout: cards
-        width: 1/2
-      favicon:
-        label: Favicon
-        type: files
       mainEmail:
         label: Primary Email
         type: email
         help: This is the email shown in footer.
-      calendarLink:
-        label: Calendar Link
-        type: url
       twitterLink:
-        icon: twitter
+        icon: twitter-x-fill
         label: Twitter Account
         type: url
+        width: 1/2
       linkedinLink:
-        icon: linkedin
+        icon: linkedin-fill
         label: LinkedIn Account
         type: url
-      googleLocation:
-        label: Google Maps Location
-        type: text
-      googleLocationMap:
-        label: Google Maps Link
-        type: text
-      footerText:
-        label: Footer Text
-        type: text
+        width: 1/2
+      addresses:
+        label: Addresses
+        type: structure
+        fields:
+          streetAddress:
+            label: Street Address
+            type: textarea
+            buttons: false
+            size: small
+          country:
+            label: Country
+            type: text
+          city:
+            label: City
+            type: text
+          postcode:
+            label: Eircode / Postcode
+            type: text
+          image:
+            label: Image
+            type: files
+            max: 1
+          mapLocation:
+            label: Google Maps link
+            type: url
+      logos:
+        label: Logo Strip Logos
+        type: files
+        width: 1/1
+        layout: cardlets
+        size: small
+
 
   right:
     width: 1/2

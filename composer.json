@@ -26,7 +26,10 @@
     "getkirby/cms": "^4.0",
     "lukaskleinschmidt/kirby-laravel-vite": "^2.1",
     "timnarr/kirby-imagex": "^0.1.3",
-    "tobimori/kirby-seo": "^1.1"
+    "tobimori/kirby-seo": "^1.1",
+    "estd/kirby-remix-icons": "^1.0",
+    "jg/kirby-fields-block": "^1.2",
+    "tobimori/kirby-icon-field": "^2.2"
   },
   "config": {
     "allow-plugins": {

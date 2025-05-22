@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b10e0646636f0d56a30401d3c34e200f",
+    "content-hash": "477429845e234823cc09c71a1c145816",
     "packages": [
         {
             "name": "christian-riesen/base32",
@@ -198,6 +198,42 @@
                 }
             ],
             "time": "2024-09-19T14:15:21+00:00"
+        },
+        {
+            "name": "estd/kirby-remix-icons",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/veryrobert/kirby-remix-icons.git",
+                "reference": "ce353b79f0860168d29cc1c8ccaf0528a75ae38a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/veryrobert/kirby-remix-icons/zipball/ce353b79f0860168d29cc1c8ccaf0528a75ae38a",
+                "reference": "ce353b79f0860168d29cc1c8ccaf0528a75ae38a",
+                "shasum": ""
+            },
+            "require": {
+                "getkirby/composer-installer": "^1.1"
+            },
+            "type": "kirby-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Robert Farrelly",
+                    "email": "hi@estd.dev",
+                    "homepage": "https://github.com/veryrobert/kirby-remix-icons"
+                }
+            ],
+            "description": "A Kirby CMS plugin to use Remix Icons.",
+            "support": {
+                "issues": "https://github.com/veryrobert/kirby-remix-icons/issues",
+                "source": "https://github.com/veryrobert/kirby-remix-icons/tree/1.0.0"
+            },
+            "time": "2024-12-18T23:25:51+00:00"
         },
         {
             "name": "filp/whoops",
@@ -419,6 +455,41 @@
                 }
             ],
             "time": "2020-12-28T12:54:39+00:00"
+        },
+        {
+            "name": "jg/kirby-fields-block",
+            "version": "v1.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jongacnik/kirby-fields-block.git",
+                "reference": "e56c4d109edd921a1b4436e3df0e64b1117f1b83"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jongacnik/kirby-fields-block/zipball/e56c4d109edd921a1b4436e3df0e64b1117f1b83",
+                "reference": "e56c4d109edd921a1b4436e3df0e64b1117f1b83",
+                "shasum": ""
+            },
+            "require": {
+                "getkirby/composer-installer": "^1.1"
+            },
+            "type": "kirby-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jon Gacnik",
+                    "email": "jon@folderstudio.com"
+                }
+            ],
+            "description": "Kirby Fields Block",
+            "support": {
+                "issues": "https://github.com/jongacnik/kirby-fields-block/issues",
+                "source": "https://github.com/jongacnik/kirby-fields-block/tree/v1.2.1"
+            },
+            "time": "2023-01-22T19:02:00+00:00"
         },
         {
             "name": "laminas/laminas-escaper",
@@ -1373,6 +1444,56 @@
                 }
             ],
             "time": "2024-09-02T12:22:55+00:00"
+        },
+        {
+            "name": "tobimori/kirby-icon-field",
+            "version": "2.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tobimori/kirby-icon-field.git",
+                "reference": "087d4c6643cd12443223fc7bb9912e09b3a8ac2c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tobimori/kirby-icon-field/zipball/087d4c6643cd12443223fc7bb9912e09b3a8ac2c",
+                "reference": "087d4c6643cd12443223fc7bb9912e09b3a8ac2c",
+                "shasum": ""
+            },
+            "require": {
+                "getkirby/composer-installer": "^1.2",
+                "php": ">=8.2.0"
+            },
+            "require-dev": {
+                "getkirby/cms": "^4.0.1"
+            },
+            "type": "kirby-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tobias Möritz",
+                    "email": "tobias@moeritz.io",
+                    "homepage": "https://moeritz.io"
+                }
+            ],
+            "description": "A simple Icon field plugin for Kirby CMS",
+            "keywords": [
+                "kirby",
+                "kirby-plugin"
+            ],
+            "support": {
+                "issues": "https://github.com/tobimori/kirby-icon-field/issues",
+                "source": "https://github.com/tobimori/kirby-icon-field/tree/2.2.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/tobimori",
+                    "type": "github"
+                }
+            ],
+            "time": "2024-10-30T19:37:15+00:00"
         },
         {
             "name": "tobimori/kirby-seo",

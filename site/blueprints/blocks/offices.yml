@@ -1,0 +1,15 @@
+name: Offices
+icon: building-fill
+wysiwyg: true
+preview: fields
+fields:
+  heading:
+    label: Heading
+    type: text
+    width: 1/2
+  info:
+    label: Office Locations
+    type: info
+    theme: info
+    text: The office locations are managed from the Glabal Settins tab on the dashboard.
+    width: 1/2

@@ -1,1 +1,138 @@
-Title: Mægazine
+Title: Dublin Offshore
+
+----
+
+Logo: - 'file://qiKUmMpVesLHp4k3'
+
+----
+
+Mainemail: hello@dublinoffshore.ie
+
+----
+
+Twitterlink: https://x.com/DublinOffshore
+
+----
+
+Linkedinlink: https://www.linkedin.com/company/dublinoffshore/
+
+----
+
+Addresses:
+
+-
+  streetaddress: '38 Fitzwilliam Street Upper'
+  country: Ireland
+  city: Dublin
+  postcode: 'D02 KV05'
+  image:
+    - 'file://Ewcc8zh7IG4Ck6u3'
+  maplocation: 'https://maps.app.goo.gl/e57uART6L9E8R3Dd6'
+  streetddress: '38 Fitzwilliam Street Upper'
+  fulladdress: '38 Fitzwilliam Street Upper'
+-
+  streetaddress: |-
+    Arthur House
+    41 Arthur St.
+  country: 'United Kingdom'
+  city: Belfast
+  postcode: 'BT1 4GB'
+  image:
+    - 'file://Ewcc8zh7IG4Ck6u3'
+  maplocation: 'https://maps.app.goo.gl/NiGm3NThtoVxn7nM7'
+  streetddress: |-
+    Arthur House
+    41 Arthur St
+  fulladdress: |-
+    Arthur House
+    41 Arthur St
+-
+  streetaddress: |-
+    Line 1
+    Line 2
+  country: Ireland
+  city: Cork
+  postcode: '123 456'
+  image:
+    - 'file://Ewcc8zh7IG4Ck6u3'
+  maplocation: 'https://maps.app.goo.gl/MjcHn2Mbj86th1ef8'
+  streetddress: |-
+    Line 1
+    Line 2
+  fulladdress: |-
+    Line 1
+    Line 2
+    Line 3
+
+----
+
+Logos:
+
+- 'file://73AXPxPevtGBIaNV'
+- 'file://mXX8mVCtniJsnqFY'
+- 'file://MeK4n7hFrMjRqh8j'
+- 'file://6FyvC1SwHnIcoM2v'
+
+----
+
+Googleanalytics: 
+
+----
+
+Headerinjection: 
+
+----
+
+Footerinjection: 
+
+----
+
+Metatemplate: 
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Ogdescription: 
+
+----
+
+Ogsitename: 
+
+----
+
+Ogimage: []
+
+----
+
+Twittercardtype: summary
+
+----
+
+Robotsindex: 
+
+----
+
+Robotsfollow: 
+
+----
+
+Robotsarchive: 
+
+----
+
+Robotsimageindex: 
+
+----
+
+Robotssnippet: 
+
+----
+
+Socialmediaaccounts: 

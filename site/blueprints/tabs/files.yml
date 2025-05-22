@@ -9,3 +9,4 @@ columns:
       files:
         label: Files
         type: files 
+        layout: cardlets

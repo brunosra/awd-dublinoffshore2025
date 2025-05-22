@@ -1,0 +1,25 @@
+name: Team
+icon: team-fill
+wysiwyg: true
+preview: fields
+fields:
+  heading:
+    label: Heading
+    type: text
+  teamMembers:
+    label: Team Members
+    type: structure
+    fields:
+      image:
+        label: Image
+        type: files
+      memberName:
+        label: Name
+        type: text
+      position:
+        label: Position
+        type: text
+      bio:
+        label: Bio
+        type: textarea
+        buttons: false

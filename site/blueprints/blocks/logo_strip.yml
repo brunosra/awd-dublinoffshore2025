@@ -1,0 +1,26 @@
+name: Logo Strip
+icon: slideshow-view
+wysiwyg: true
+preview: fields
+tabs:
+  content:
+    icon: edit
+    fields:
+      info:
+        label: Logo Strip
+        type: info
+        theme: info
+        text: The logos show in this strip are managed from the Glabal Settins tab on the dashboard.
+
+  # style:
+  #   label: Style
+  #   icon: cog
+  #   fields:
+  #     palette:
+  #       label: Pick a theme
+  #       type: radio
+  #       width: 1/2
+  #       options:
+  #         "light-blue-theme": Light Blue Theme
+  #         "grey-theme": Grey Theme
+  #         "white-theme": White Theme

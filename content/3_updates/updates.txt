@@ -1,0 +1,85 @@
+Title: Updates & Projects
+
+----
+
+Headline: Updates
+
+----
+
+Intro: ​​News, case studies, and updates from time to time
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: DublinOffshore
+
+----
+
+Robotsindex: true
+
+----
+
+Robotsfollow: true
+
+----
+
+Robotsarchive: true
+
+----
+
+Robotsimageindex: false
+
+----
+
+Robotssnippet: true
+
+----
+
+Metainherit: robots, twitterAuthor, twitterCardType
+
+----
+
+Meta-title: News and Updates
+
+----
+
+Meta-description: The latest news and updates from Dublin Offshore.
+
+----
+
+Uuid: RV62UhzqPwHQI9JH
