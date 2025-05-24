@@ -2,4 +2,50 @@
 
 nav {
 	background-color: vars.$c--navy;
+
+	.burger {
+		$stroke-width: 1.25px;
+		width: 40px;
+		height: 40px;
+		background-color: crimson;
+		justify-content: space-between;
+		padding: 10px 5px;
+		display: block;
+		position: relative;
+		
+		div {
+			content: '';
+			background-color: white;
+			height: 1.25px;
+			width: 30px;
+			transition: all 0.3s ease-in-out;
+			position: absolute;
+
+			&:nth-child(1) {
+				top: calc(10px - 1.25px);
+			}
+			&:nth-child(2) {
+				top: calc(20px - 1.25px);
+			}
+			&:nth-child(3) {
+				bottom: calc(10px - 1.25px);
+			}
+		}
+
+		&.close {
+			div {
+				&:nth-child(1) {
+					transform: rotate(45deg);
+					top: calc(20px - 1.25px);
+				}
+				&:nth-child(2) {
+					width: 0;
+				}
+				&:nth-child(3) {
+					transform: rotate(-45deg);
+					bottom: calc(20px - 1.25px);
+				}
+			}
+		}
+	}
 }
