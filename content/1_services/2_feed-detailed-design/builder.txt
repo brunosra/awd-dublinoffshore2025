@@ -2,4 +2,72 @@ Title:  FEED / Detailed Design
 
 ----
 
+Builder: [{"content":{"heading":" FEED / Detailed Design","background":[]},"id":"f5608025-8972-469e-908f-f19ab23c4617","isHidden":false,"type":"pageHero"}]
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: []
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
 Uuid: 1wetTLucHph82FWT

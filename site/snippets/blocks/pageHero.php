@@ -1,1 +1,1 @@
-<?php snippet('pageHero') ?>
+<?php snippet('pageHero', ['block' => $block]);?>
