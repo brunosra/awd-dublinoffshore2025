@@ -14,6 +14,9 @@ const input = globSync([
 );
 
 export default defineConfig ({
+	server: {
+		cors: { origin: "*" },
+	},
 	css: {
 		transformer: 'lightningcss',
 		lightningcss: {

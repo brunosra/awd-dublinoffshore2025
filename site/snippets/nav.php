@@ -1,12 +1,22 @@
+<?php 
+  $assetManager->add('css', vite()->asset('assets/scss/snippets/nav.scss'));
+  $assetManager->add('js', vite()->asset('assets/js/snippets/nav.js'));
+?>
+
 <header class="header">
-  <?php if ($logo = $site->logo()->toFile()): ?>
-  <a class="" href="<?= $site->url() ?>">
-    <img class="" src="<?= $logo->url() ?>" alt="<?= $logo->alt() ?>" width="106" height="32"/>
-  </a>
-  <?php endif ?>
   <nav class="menu">
-  <?php foreach ($site->children()->listed() as $item): ?>
-    <a <?php e($item->isOpen(), 'aria-current="page"') ?> href="<?= $item->url() ?>"><?= $item->title()->esc() ?></a>
-  <?php endforeach ?>
+    <?php snippet('logo') ?>
+    <div class="expander">
+      <ul>
+        <?php foreach ($site->children()->listed() as $item): ?>
+          <li><a <?php e($item->isOpen(), 'aria-current="page"') ?> href="<?= $item->url() ?>"><?= $item->title()->esc() ?></a></li>
+        <?php endforeach ?>
+      </ul>
+    </div>
+    <a href="#" class="burger">
+      <div id="burger1"></div>
+      <div id="burger2"></div>
+      <div id="burger3"></div>
+    </a>
   </nav>
 </header>

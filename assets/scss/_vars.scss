@@ -5,6 +5,7 @@ $c--blue: #327CFF;
 $c--navy: #152445;
 $c--yellow: #E9EC6B;
 $c--secondary1: #4287B5;
+$c--secondary1-25: rgba(50,124,255,0.25);
 $c--secondary2: #8CC3E1;
 $c--secondary3: #DEEAFF;
 $c--tertiary: #EDF0F5;
@@ -29,3 +30,8 @@ $breakpoints: (
     "min-width: #{$lg}"
   ),
 );
+
+// ********** //
+// Typography //
+// ********** //
+$ff-primary: 'Manrope', sans-serif;

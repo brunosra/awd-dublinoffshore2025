@@ -1,3 +1,9 @@
+// Processing static assets with VITE 
+import.meta.glob([
+  '../images/**',
+  '../fonts/**',
+]);
+
 // Lightbox
 Array.from(document.querySelectorAll("[data-lightbox]")).forEach(element => {
   element.onclick = (e) => {

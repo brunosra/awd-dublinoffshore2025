@@ -1,3 +1,6 @@
+<?php 
+  $assetManager->add('css', vite()->asset('assets/scss/index.scss'));
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,7 +13,6 @@
     $template = $page->template();
   ?>
   <?= vite([
-    'assets/scss/index.scss',
     '@assets/scss/templates/'.$template.'.scss',
   ]) ?>
   <link rel="shortcut icon" type="image/x-icon" href="">

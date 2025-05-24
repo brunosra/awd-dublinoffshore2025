@@ -3,7 +3,7 @@
         'name' => 'getkirby/starterkit',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '684befbba28100833e0c8dfcd76e54e6b2d4cff8',
+        'reference' => '23ebebdc2d793a82a68f8b02108fd3f90695af8f',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -85,7 +85,7 @@
         'getkirby/starterkit' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '684befbba28100833e0c8dfcd76e54e6b2d4cff8',
+            'reference' => '23ebebdc2d793a82a68f8b02108fd3f90695af8f',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
