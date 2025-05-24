@@ -1,4 +1,5 @@
 @use "../vars";
+@use "../mixins";
 
 nav {
 	background-color: vars.$c--navy;
@@ -111,6 +112,31 @@ nav {
 			opacity: 1;
 			ul {
 				visibility: visible;
+			}
+		}
+	}
+
+	@include mixins.responsive('md') {
+		max-width: 700px;
+		margin: 0 auto;
+
+		.burger {
+			display: none;
+		}
+
+		.expander {
+			display: flex;
+			position: static;
+			background: none;
+			width: unset;
+			padding: 0;
+			opacity: unset;
+			overflow: unset;
+
+			ul {
+				flex-direction: row;
+				gap: 0;
+				visibility: unset;
 			}
 		}
 	}
