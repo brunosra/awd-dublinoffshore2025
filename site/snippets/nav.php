@@ -6,11 +6,13 @@
 <header class="header">
   <nav class="menu">
     <?php snippet('logo') ?>
-    <ul>
-      <?php foreach ($site->children()->listed() as $item): ?>
-        <li><a <?php e($item->isOpen(), 'aria-current="page"') ?> href="<?= $item->url() ?>"><?= $item->title()->esc() ?></a></li>
-      <?php endforeach ?>
-    </ul>
+    <div class="expander">
+      <ul>
+        <?php foreach ($site->children()->listed() as $item): ?>
+          <li><a <?php e($item->isOpen(), 'aria-current="page"') ?> href="<?= $item->url() ?>"><?= $item->title()->esc() ?></a></li>
+        <?php endforeach ?>
+      </ul>
+    </div>
     <a href="#" class="burger">
       <div id="burger1"></div>
       <div id="burger2"></div>

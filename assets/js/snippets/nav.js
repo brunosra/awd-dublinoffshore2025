@@ -1,2 +1,6 @@
 let burger = document.querySelector('.burger');
-burger.addEventListener('click', () => burger.classList.toggle('close'));
+let floating_nav = document.querySelector('nav .expander');
+burger.addEventListener('click', (evt) => {
+	burger.classList.toggle('close');
+	floating_nav.classList.toggle('open');
+});
