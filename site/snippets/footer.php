@@ -1,5 +1,6 @@
 <?php 
   $assetManager->add('css', vite()->asset('assets/scss/snippets/footer.scss'));
+  $assetManager->add('js', vite()->asset('assets/js/index.js'));
 ?>
 
 </main>
@@ -42,7 +43,6 @@
   $template = $page->template();
 ?>
 <?= vite([
-  'assets/js/index.scss',
   '@assets/js/templates/'.$template.'.js',
 ]); ?>
 <?php snippet('seo/schemas'); ?>
