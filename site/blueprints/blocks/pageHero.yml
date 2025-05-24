@@ -1,0 +1,15 @@
+name: Page Hero
+icon: layout-top-2-line
+wysiwyg: true
+preview: fields
+fields:
+  heading:
+    label: Heading
+    type: text
+  background:
+    label: Background Image
+    type: files
+    max: 1
+    help: Optional
+    layout: cards
+    size: medium

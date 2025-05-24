@@ -13,6 +13,7 @@ tabs:
             label: Page Builder
             type: blocks
             fieldsets:
+              - pageHero
               - hero_video
               - hero_video_centred
               - four_cards
