@@ -8,14 +8,9 @@ tabs:
     fields:
       textFill:
         label: Text Fill
-        type: writer
-        marks: false
-        nodes: 
-          - heading
-        headings:
-          - 2
-          - 3
-        help: This should be set to a H2 or H3 only.
+        type: textarea
+        buttons: false
+        size: medium
 
   # style:
   #   label: Style
