@@ -9,7 +9,6 @@ nav {
 		height: 40px;
 		background-color: crimson;
 		justify-content: space-between;
-		padding: 10px 5px;
 		display: block;
 		position: relative;
 		
@@ -20,6 +19,7 @@ nav {
 			width: 30px;
 			transition: all 0.3s ease-in-out;
 			position: absolute;
+			left: 5px;
 
 			&:nth-child(1) {
 				top: calc(10px - 1.25px);
@@ -37,13 +37,17 @@ nav {
 				&:nth-child(1) {
 					transform: rotate(45deg);
 					top: calc(20px - 1.25px);
+					left: 2px;
+					width: calc(30px * 1.2)
 				}
 				&:nth-child(2) {
 					width: 0;
 				}
 				&:nth-child(3) {
 					transform: rotate(-45deg);
-					bottom: calc(20px - 1.25px);
+					bottom: calc(20px);
+					left: 2px;
+					width: calc(30px * 1.2)
 				}
 			}
 		}
