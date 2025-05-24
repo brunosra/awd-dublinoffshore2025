@@ -5,12 +5,7 @@
 
 </main>
 <footer>
-  <?php if ($logo = $site->logo()->toFile()): ?>
-  <a class="" href="<?= $site->url() ?>">
-    <img class="" src="<?= $logo->url() ?>" alt="<?= $logo->alt() ?>" width="106" height="32">
-  </a>
-  <?php endif ?>
-
+  <?php snippet('logo') ?>
   <?php
   $addresses = $site->addresses()->toStructure();
   foreach ($addresses as $address): ?>
@@ -24,8 +19,8 @@
   <?php endforeach ?>
 
   <div class="">
-        <a class="" href="<?= $site->twitterLink()->url() ?>" target="_blank" rel="noopener nofollow"><img class="" src="<?= url('assets/images/#') ?>" alt="Twitter"></a>
-        <a class="" href="<?= $site->linkedinLink()->url() ?>" target="_blank" rel="noopener nofollow" ><img class="" src="<?= url('assets/images/#') ?>" alt="LinkedIn"></a> 
+    <a class="" href="<?= $site->twitterLink()->url() ?>" target="_blank" rel="noopener nofollow"><img class="" src="<?= vite()->asset('assets/images/icon-x.svg') ?>" alt="Twitter"></a>
+    <a class="" href="<?= $site->linkedinLink()->url() ?>" target="_blank" rel="noopener nofollow" ><img class="" src="<?= vite()->asset('assets/images/icon-linkedin.svg') ?>" alt="LinkedIn"></a> 
   </div>
   <div class="" >
     <p class="small">© <?= date("Y"); ?> — All rights reserved — <a href="https://anywherestudio.ie" target="_blank" rel="noopener nofollow" >Site&nbsp;Credits </a></p>
