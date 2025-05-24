@@ -1,10 +1,6 @@
 <?php snippet('header') ?>
 
-<section class="">
-<h2><?= $page->title() ?></h2>
-</section>
-
-
+<?php snippet('pageHero') ?>
 
 <aside class="">
   <h5>Filter by type</h5>
