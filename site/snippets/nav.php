@@ -1,3 +1,7 @@
+<?php 
+  $assetManager->add('css', vite()->asset('assets/scss/snippets/nav.scss'));
+?>
+
 <header class="header">
   <?php if ($logo = $site->logo()->toFile()): ?>
   <a class="" href="<?= $site->url() ?>">
