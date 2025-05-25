@@ -2,7 +2,7 @@
 $template = $page->intendedTemplate()->name();
 ?>
 
-<section>
+<section class="page-hero">
 
 <?php if ($template === 'updates'): ?>
   <h1><?= $page->title()->html() ?></h1>
@@ -60,7 +60,7 @@ $template = $page->intendedTemplate()->name();
     <!-- no background image -->
   <?php endif ?>
 
-  <h1><?= $block->heading() ?></h1>
+  <h1><?= isset($block) ? $block->heading() : "" ?></h1>
 <?php endif ?>
 
 </section>
