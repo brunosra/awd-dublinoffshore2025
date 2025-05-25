@@ -1,8 +1,9 @@
 <?php
 $template = $page->intendedTemplate()->name();
+$assetManager->add('css', vite()->asset('assets/scss/snippets/pageHero.scss'));
 ?>
 
-<section class="page-hero">
+<section class="page-hero<?= " ".$template ?>">
 
 <?php if ($template === 'updates'): ?>
   <h1><?= $page->title()->html() ?></h1>
