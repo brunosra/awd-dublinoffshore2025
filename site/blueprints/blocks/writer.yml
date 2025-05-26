@@ -1,0 +1,30 @@
+name: Writer
+icon: align-center
+wysiwyg: true
+preview: fields
+tabs:
+  content:
+    icon: edit
+    fields:
+      contentArea:
+        label: ''
+        type: writer
+        marks: false
+        icon: false
+        nodes: 
+          - paragraph
+          - heading
+          - bulletList
+
+  # style:
+  #   label: Style
+  #   icon: cog
+  #   fields:
+  #     palette:
+  #       label: Pick a theme
+  #       type: radio
+  #       width: 1/2
+  #       options:
+  #         "light-blue-theme": Light Blue Theme
+  #         "grey-theme": Grey Theme
+  #         "white-theme": White Theme
