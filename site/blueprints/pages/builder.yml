@@ -25,7 +25,6 @@ tabs:
             label: Page Builder
             type: blocks
             fieldsets:
-              - layout
               - full_width_video
               - team
               - center_text

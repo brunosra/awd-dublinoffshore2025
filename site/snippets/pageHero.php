@@ -60,8 +60,12 @@ $assetManager->add('css', vite()->asset('assets/scss/snippets/pageHero.scss'));
   <?php else: ?>
     <!-- no background image -->
   <?php endif ?>
+  <?php if ($page->heading()->isNotEmpty()): ?> 
+    <h1><?= $page->heading()?></h1>
+  <?php else: ?>
+    <h1><?= $page->title()?></h1>
+  <?php endif ?>
 
-  <h1><?= $page->heading()?></h1>
 <?php endif ?>
 
 </section>
