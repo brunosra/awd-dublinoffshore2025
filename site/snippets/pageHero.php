@@ -37,8 +37,8 @@ $assetManager->add('css', vite()->asset('assets/scss/snippets/pageHero.scss'));
   <?php endif ?>
 
 <?php else: ?>
-  <?php if (isset($block) && $block->background()->isNotEmpty()): ?>
-    <?php foreach ($block->background()->toFiles() as $image): ?>
+  <?php if ($page->background()->isNotEmpty()): ?>
+    <?php foreach ($page->background()->toFiles() as $image): ?>
       <?php
       $sizes = "(min-width: 1200px) 50vw,
                 (min-width: 900px) 33vw,
@@ -61,7 +61,7 @@ $assetManager->add('css', vite()->asset('assets/scss/snippets/pageHero.scss'));
     <!-- no background image -->
   <?php endif ?>
 
-  <h1><?= isset($block) ? $block->heading() : "" ?></h1>
+  <h1><?= $page->heading()?></h1>
 <?php endif ?>
 
 </section>

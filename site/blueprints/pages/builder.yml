@@ -9,11 +9,22 @@ tabs:
       left:
         width: 1/1
         fields:
+          heading:
+            label: Heading
+            type: text
+            width: 1/2
+          background:
+            label: Background Image
+            type: files
+            max: 1
+            help: Optional
+            layout: cards
+            size: medium
+            width: 1/2
           builder:
             label: Page Builder
             type: blocks
             fieldsets:
-              - pageHero
               - layout
               - full_width_video
               - team
