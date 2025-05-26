@@ -1,0 +1,18 @@
+@use "mixins";
+
+.container {
+	width: 100%;
+	max-width: 1512px;
+	margin: 0 auto;
+	padding-left: 16px;
+	padding-right: 16px;
+	grid-template-columns: 1fr;
+	gap: 0;
+
+	@include mixins.responsive('lg') {
+		padding-left: 40px;
+		padding-right: 40px;
+		grid-template-columns: repeat(4fr);
+		grid: 32px;
+	}
+}
