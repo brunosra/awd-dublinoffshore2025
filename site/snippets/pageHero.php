@@ -21,8 +21,8 @@ switch($pageTemplate) {
 
 ?>
 
-<section class="page-hero<?= " ".$finalClass ?>"> 
-
+<section class="page-hero<?= " ".$finalClass ?>">
+<div class="container">
 <?php if ($template === 'updates'): ?>
   <h1><?= $page->title()->html() ?></h1>
 
@@ -81,5 +81,7 @@ switch($pageTemplate) {
 
   <h1><?= isset($block) ? $block->heading() : "" ?></h1>
 <?php endif ?>
+</div>
+
 
 </section>

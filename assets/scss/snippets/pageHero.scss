@@ -1,3 +1,5 @@
+@use '../vars';
+
 section.page-hero {
-	background: yellow;
+	background-color: vars.$c--secondary3;
 }
