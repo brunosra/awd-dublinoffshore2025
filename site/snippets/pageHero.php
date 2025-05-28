@@ -79,8 +79,8 @@ switch($pageTemplate) {
         </picture>
       <?php endforeach ?>
     <?php else: ?>
-      <!-- no background image
-    <?php endif ?> -->
+      <!-- no background image -->
+    <?php endif ?> 
   <div class="container">
     <h1><?= isset($block) ? $block->heading() : "" ?></h1>
   </div>
