@@ -16,7 +16,7 @@
       <?= $contentBlock->heading() ?>
     </div>
     <?php endif ?>
-      <?= $contentBlock->contentArea()->html() ?>
+      <?= $contentBlock->contentArea() ?>
     </div>
   </article> 
   <?php endforeach ?>
