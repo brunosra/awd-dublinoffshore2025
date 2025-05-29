@@ -11,7 +11,7 @@ switch($pageTemplate) {
     $finalClass = 'post';
     break;
   default:
-    if (isset($block) && $block->background()->isNotEmpty()) {
+    if ($page->background()->isNotEmpty()) {
       $finalClass = 'cover';
     } else {
       $finalClass = '';
@@ -59,8 +59,8 @@ switch($pageTemplate) {
   </div>
 
 <?php else: ?>
-    <?php if (isset($block) && $block->background()->isNotEmpty()): ?>
-      <?php foreach ($block->background()->toFiles() as $image): ?>
+    <?php if ($page->background()->isNotEmpty()): ?>
+      <?php foreach ($page->background()->toFiles() as $image): ?>
         <?php
         $sizes = "(min-width: 1200px) 50vw,
                   (min-width: 900px) 33vw,
@@ -83,7 +83,7 @@ switch($pageTemplate) {
       <!-- no background image -->
     <?php endif ?> 
   <div class="container">
-    <h1><?= isset($block) ? $block->heading() : "" ?></h1>
+    <h1><?= $page->heading()->isNotEmpty() ? $page->heading() : "" ?></h1>
   </div>
 <?php endif ?>
 </section>

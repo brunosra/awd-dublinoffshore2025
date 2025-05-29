@@ -1,7 +1,7 @@
 @use "../vars";
 @use "../mixins";
 
-nav {
+nav.menu {
 	background-color: vars.$c--navy;
 	position: fixed;
 	display: flex;
