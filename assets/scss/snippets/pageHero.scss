@@ -1,3 +1,89 @@
+@use '../vars';
+@use '../mixins';
+
 section.page-hero {
-	background: yellow;
+	background-color: vars.$c--secondary3;
+	padding-top: calc(40px + 64px + 40px);
+	padding-bottom: 40px;
+	h1 {
+		grid-column: 1 / 13;
+	}
+
+	@include mixins.responsive('lg')
+	{
+		padding-bottom: 140px;
+	}
+
+	.container {
+		z-index: 10;
+		color: vars.$c--blue;
+		align-items: end;
+		min-height: 420px;
+	}
+	
+	&.post {
+		background-color: vars.$c--blue;
+
+		.container {
+			z-index: 10;
+			color: vars.$c--white;
+			height: 100%;
+			align-items: end;
+			gap: 1.5rem;
+
+			picture {
+				img {
+					width: 100%;
+					border-radius: 1rem;
+				}
+			}
+
+			@include mixins.responsive('lg')
+			{
+				gap: initial;
+				.title {
+					grid-column: 1 / 8;
+				}
+
+				picture {
+					grid-column: 9 / 13;
+				}
+			}
+		}
+	}
+
+	&.cover {
+		height: 100vh;
+		min-width: 100vw;
+		background-color: transparent;
+		background-image: linear-gradient(180deg, rgba(21, 36, 69, 0.00) 48.45%, #152445 100%);
+		padding-top: 0;
+		picture {
+			position: absolute;
+			height: 100%;
+			width: 100%;
+			z-index: -1;
+			background-color: transparent;
+			img {
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+				object-position: center center;
+			}
+		}
+		.container {
+			z-index: 10;
+			color: vars.$c--white;
+			height: 100%;
+			align-items: end;
+		}
+		@include mixins.responsive('xl')
+		{
+			background-image: linear-gradient(180deg, rgba(21, 36, 69, 0.00) 69.27%, #152445 100%);
+		}
+		@include mixins.responsive('lg')
+		{
+			padding-bottom: 40px;
+		}
+	}
 }
