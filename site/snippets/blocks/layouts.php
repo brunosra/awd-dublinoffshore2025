@@ -1,8 +1,10 @@
-<?php foreach ($field->toLayouts() as $layout): ?>
-<section class="grid margin-xl" id="<?= esc($layout->id(), 'attr') ?>" style="--gutter: 1.5rem">
+<!-- https://getkirby.com/docs/reference/panel/fields/layout -->
+
+<?php foreach ($block->layout()->toLayouts() as $layout): ?>
+<section class="" id="<?= $layout->id() ?>">
   <?php foreach ($layout->columns() as $column): ?>
-  <div class="column" style="--columns:<?= esc($column->span(), 'css') ?>">
-    <div class="text">
+  <div class="" style="">
+    <div class="blocks">
       <?= $column->blocks() ?>
     </div>
   </div>
