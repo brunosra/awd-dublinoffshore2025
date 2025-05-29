@@ -15,6 +15,7 @@ fields:
     #   - heading
     #   - text
       - image
+      - icon_list
     # # settings:
     # #   fields:
     # #     class:

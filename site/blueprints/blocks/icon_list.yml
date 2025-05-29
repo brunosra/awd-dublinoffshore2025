@@ -1,0 +1,16 @@
+name: Icon List
+icon: list-check-2
+wysiwyg: true
+preview: fields
+fields:
+  iconList:
+    label: Icon List
+    type: structure
+    fields:
+      icon:
+        label: Icon
+        type: files
+        max: 1
+      description:
+        label: Description
+        type: text
