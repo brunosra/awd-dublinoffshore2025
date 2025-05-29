@@ -1,6 +1,7 @@
 @use "reset";
 @use "vars";
 @use "typography";
+@use "grid";
 
 html {
 	background: vars.$c--white;
