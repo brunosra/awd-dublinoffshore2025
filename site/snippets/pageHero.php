@@ -29,9 +29,10 @@ switch($pageTemplate) {
 
 <?php elseif ($template === 'post'): ?>
   <div class="container">
-    <h5><?= $page->parent()->title()->esc() ?></h5>
-    <h1><?= $page->title()->html() ?></h1>
-
+    <div class="title">
+      <h5><?= $page->parent()->title()->esc() ?></h5>
+      <h1><?= $page->title()->html() ?></h1>
+    </div>
     <?php if ($page->cover()->isNotEmpty()): ?>
       <?php foreach ($page->cover()->toFiles() as $image): ?>
         <?php
