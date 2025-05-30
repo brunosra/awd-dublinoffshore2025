@@ -6,12 +6,12 @@
 
 <?php foreach ($block->layout()->toLayouts() as $layout): ?>
 <section class="layouts" id="<?= $layout->id() ?>">
-  <?php foreach ($layout->columns() as $column): ?>
-  <div class="" style="">
+  <div class="container">
+    <?php foreach ($layout->columns() as $column): ?>
     <div class="blocks">
       <?= $column->blocks() ?>
     </div>
+    <?php endforeach ?>
   </div>
-  <?php endforeach ?>
 </section>
 <?php endforeach ?>

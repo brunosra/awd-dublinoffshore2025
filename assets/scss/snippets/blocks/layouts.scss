@@ -1,3 +1,23 @@
+@use "../../mixins";
+
 section.layouts {
-	
+	.container {
+		div:nth-child(1) {
+			grid-column: 1 / 2;
+			background: rgb(54, 107, 153);
+		}
+		div:nth-child(2) {
+			grid-column: 1 / 2;
+			background: yellow;
+		}
+
+		@include mixins.responsive('lg') {
+			div:nth-child(1) {
+				grid-column: 1 / 6;
+			}
+			div:nth-child(2) {
+				grid-column: 7 / 13;
+			}
+		}
+	}
 }
