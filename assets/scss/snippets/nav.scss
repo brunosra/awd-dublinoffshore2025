@@ -79,6 +79,13 @@ nav.menu {
 		border-radius: 28px;
 		opacity: 0;
 
+		ul a {
+			border-radius: 100px;
+			&:hover {
+				background-color: rgba(35, 66, 103, 0.5);
+			}
+		}
+
 		& > ul {
 			outline: none;
 			list-style: none;
@@ -118,20 +125,26 @@ nav.menu {
 						grid-template-rows: 0fr;
 						overflow: hidden;
 						transition: all 0.3s ease-in-out;
-						padding: 0 1rem;
+						padding: 0;
 						top: 72px;
 						left: 0;
 						width: 100%;
 						background-color: vars.$c--navy;
 						border-radius: 28px;
 						opacity: 0;
+						ul {
+							visibility: visible;
+
+							li {
+								a {
+									color: vars.$c--white-75;
+								}
+							}
+						}
 						&.open {
 							grid-template-rows: 1fr;
-							padding: 0.75rem 1rem;
+							padding: 0.75rem 0;
 							opacity: 1;
-							ul {
-								visibility: visible;
-							}
 						}
 					}
 					ul {
@@ -146,6 +159,14 @@ nav.menu {
 						@include mixins.responsive('md') {
 							// position: absolute;
 							top: calc(100% + 8px);
+						}
+
+						li {
+							&a[aria-current]
+							{
+								background-color: vars.$c--secondary1-25;
+								border-radius: 100px;
+							}
 						}
 					}
 				}
