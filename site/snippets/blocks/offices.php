@@ -1,4 +1,8 @@
-<section class="">
+<?php 
+  $assetManager->add('css', vite()->asset('assets/scss/snippets/blocks/offices.scss'));
+?>
+
+<section class="offices">
   <h2><?= $block->heading()->esc() ?></h2>
   <?php
   $addresses = $site->addresses()->toStructure();

@@ -1,6 +1,6 @@
 <?php
 $template = $page->intendedTemplate()->name();
-$assetManager->add('css', vite()->asset('assets/scss/snippets/pageHero.scss'));
+$assetManager->add('css', vite()->asset('assets/scss/snippets/page-hero.scss'));
 $pageTemplate = $page->template();
 
 switch($pageTemplate) {

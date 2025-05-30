@@ -1,3 +1,7 @@
+<?php 
+  $assetManager->add('css', vite()->asset('assets/scss/snippets/blocks/gallery.scss'));
+?>
+
 <?php
 /** @var \Kirby\Cms\Block $block */
 ?>

@@ -1,7 +1,11 @@
+<?php 
+  $assetManager->add('css', vite()->asset('assets/scss/snippets/blocks/lrd-app.scss'));
+  $assetManager->add('js', vite()->asset('assets/js/snippets/blocks/lrd-app.js'));
+?>
 
 <iframe name="hiddenIframe" id="hiddenIframe" class="hide-this"></iframe>
 
-<section class="">
+<section class="lrd-app">
   <div>
     <h2><?= $block->heading() ?></h2>
   </div>

@@ -1,5 +1,5 @@
 <?php snippet('header') ?>
-<?php snippet('pageHero') ?>
+<?php snippet('page_hero') ?>
 
 <aside class="">
   <h5>Filter by type</h5>
