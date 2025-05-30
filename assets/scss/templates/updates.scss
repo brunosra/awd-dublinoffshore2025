@@ -1,0 +1,144 @@
+@use "../vars";
+@use "../mixins";
+
+body.page-updates {
+	.container {
+		padding-top: 3.75rem;
+		padding-bottom: 3.75rem;
+
+		aside,
+		section.post-list {
+			grid-column: 1 / 2;
+		}
+	
+		aside {
+			ul.tag-list {
+				list-style: none;
+				display: flex;
+				gap: 0.5rem;
+				padding-left: 0;
+				margin-top: 2.5rem;
+			}
+		}
+
+		section.post-list {
+			article {
+				display: grid;
+				grid-template-columns: 1fr;
+				position: relative;
+				img {
+					width: 100%;
+					border-radius: 1rem;
+				}
+				.post-meta {
+					display: flex;
+					align-items: center;
+					justify-content: space-between;
+					margin-top: 1rem;
+					p.year {
+						color: vars.$c--blue;
+					}
+					ul.post-meta-tags {
+						list-style: none;
+						display: flex;
+						gap: 0.5rem;
+						padding-left: 0;
+						li {
+							a {
+								position: relative;
+							}
+						}
+					}
+				}
+				a.article-card {
+					text-decoration: none;
+					background-image: unset;
+					background-size: unset;
+					background-position: unset;
+					-webkit-background-clip: unset;
+					-webkit-text-fill-color: unset;
+					transition: all 0.2s ease-in-out;
+					&::after {
+						content: '';
+						position:absolute;
+						top: 0;
+						left: 0;
+						right: 0;
+						bottom: 0;
+					}
+				}
+				.read-more {
+					display: none;
+				}
+			}
+		}
+		@include mixins.responsive('lg') {
+			aside {
+				grid-column: 1 / 4;
+			}
+			section.post-list {
+				grid-column: 4 / 13;
+				display: grid;
+				grid-template-columns: subgrid;
+				article {
+					padding: 1.5rem;
+					border-radius: 2.5rem;
+					grid-template-columns: subgrid;
+					grid-template-rows: min-content 1fr min-content;
+					grid-column: 1 / 10;
+					transition: all 0.2s ease-in-out;
+
+					picture {
+						grid-column: 1 / 4;
+						grid-row: 1 / 4;
+					}
+
+					.post-meta {
+						grid-column: 4 / 10;
+						display: grid;
+						grid-template-columns: subgrid;
+						align-items:center;
+						padding-bottom: 2.5rem;
+						margin-top: 0;
+						.year {
+							margin-bottom: 0;
+						}
+						ul.post-meta-tags {
+							grid-column: 2 / 10;
+							margin-bottom: 0;
+						}
+					}
+
+					a.article-card {
+						grid-column: 5 / 10;
+					}
+					.read-more {
+						display: inline-block;
+						padding: 0.625rem 1.5rem;
+						background-color: vars.$c--yellow;
+						width: fit-content;
+						height: fit-content;
+						grid-area: 3 / 5 / 4 / 6;
+						justify-self: start;
+						align-self: start;
+						border-radius: 20px;
+						opacity: 0;
+						transform: translate(-0.5rem, 0.5rem);
+						transition: all 0.2s ease-in-out;
+						img {
+							width: 10px;
+							height: 10px;
+						}
+					}
+					&:hover {
+						background-color: vars.$c--tertiary;
+						.read-more {
+							opacity: 1;
+							transform: translate(0,0);
+						}
+					}
+				}
+			}
+		}
+	}
+}
