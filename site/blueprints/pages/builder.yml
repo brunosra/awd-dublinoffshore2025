@@ -22,20 +22,7 @@ tabs:
             size: medium
             width: 1/2
           builder:
-            label: Page Builder
-            type: blocks
-            fieldsets:
-              - full_width_video
-              - team
-              - center_text
-              - logo_strip
-              - text_fill 
-              - lrd
-              - form
-              - offices
-              - sticky_text
-              - layouts
-              - page_grid
+            extends: sections/builder_list
               
   files: tabs/files
   seo: seo/page
