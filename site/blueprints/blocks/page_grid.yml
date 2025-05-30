@@ -1,0 +1,20 @@
+name: Page Grid
+icon: layout-grid-fill
+wysiwyg: true
+preview: fields
+fields:
+  contentArea:
+    label: Section Title
+    type: writer
+    marks: false
+    icon: false
+    nodes: 
+      - paragraph
+      - heading
+    width: 1/2
+  linkedPages:
+    label: Linked Pages
+    type: pages
+    width: 1/2
+    layout: cardlets
+    # subpages: false

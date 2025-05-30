@@ -35,6 +35,7 @@ tabs:
               - offices
               - sticky_text
               - layouts
+              - page_grid
               
   files: tabs/files
   seo: seo/page
