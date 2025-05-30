@@ -79,7 +79,7 @@ nav.menu {
 		border-radius: 28px;
 		opacity: 0;
 
-		ul {
+		& > ul {
 			outline: none;
 			list-style: none;
 			display: flex;
@@ -101,6 +101,32 @@ nav.menu {
 					{
 						background-color: vars.$c--secondary1-25;
 						border-radius: 100px;
+					}
+				}
+
+				&.has-children {
+					& > a:after {
+						content: '';
+						width: 12px;
+						height: 12px;
+						display: inline-flex;
+						margin-left: 0.5rem;
+						background-image: url(../../images/nav-chevron.svg);
+					}
+					ul {
+						outline: none;
+						list-style: none;
+						display: flex;
+						padding: 0;
+						flex-direction: column;
+						gap: 1.5rem;
+						min-height: 0;
+
+						@include mixins.responsive('md') {
+							position: absolute;
+							top: calc(100% + 8px);
+							background-color: vars.$c--navy;
+						}
 					}
 				}
 			}
