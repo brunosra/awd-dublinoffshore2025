@@ -11,6 +11,9 @@ fields:
         label: Icon
         type: files
         max: 1
+        image:
+          cover: true
+          back: white
       description:
         label: Description
         type: text

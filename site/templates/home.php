@@ -47,4 +47,7 @@
       <a href="#" class="btn btn-invisible btn-small">Invisible Button</a>
     </div>
   </div>
+  <?php foreach ($page->builder()->toBlocks() as $block): ?>
+  <?= $block ?>
+<?php endforeach ?>
 <?php snippet('footer') ?>

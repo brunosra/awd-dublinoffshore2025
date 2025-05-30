@@ -34,6 +34,10 @@ tabs:
             label: Content
             type: writer
             marks: false
+            nodes: 
+              - heading
+              - paragraph
+              - bulletList
             headings:
               - 5
               - 6

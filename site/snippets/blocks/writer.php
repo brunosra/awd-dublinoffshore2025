@@ -1,3 +1,3 @@
 <div class="">
-  <?= $block->contentArea() ?>
+  <?= $block->contentArea()->kt() ?>
 </div>
