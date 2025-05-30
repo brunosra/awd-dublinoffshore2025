@@ -1,4 +1,8 @@
-<section class="">
+<?php 
+  $assetManager->add('css', vite()->asset('assets/scss/snippets/blocks/team.scss'));
+?>
+
+<section class="team">
   <h2><?= $block->heading()->esc() ?></h2>
   <?php $members = $block->teamMembers()->toStructure(); foreach ($members as $member): ?>
     <article class="">

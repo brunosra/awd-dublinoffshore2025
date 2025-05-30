@@ -1,4 +1,8 @@
-<section class="">
+<?php 
+  $assetManager->add('css', vite()->asset('assets/scss/snippets/blocks/full-width-video.scss'));
+?>
+
+<section class="full-width-video">
 
   <?= $block->textOverlay() ?>
 

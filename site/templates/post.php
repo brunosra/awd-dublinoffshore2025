@@ -1,5 +1,5 @@
 <?php snippet('header') ?>
-<?php snippet('pageHero') ?>
+<?php snippet('page_hero') ?>
 <aside>
   <?php foreach ($page->tags() as $tag): ?>
     <p class="small"><?= $tag ?></p>

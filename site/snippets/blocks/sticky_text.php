@@ -1,4 +1,8 @@
-<section class="">
+<?php 
+  $assetManager->add('css', vite()->asset('assets/scss/snippets/blocks/sticky-text.scss'));
+?>
+
+<section class="sticky-text">
   <div>
   <?= $block->textArea() ?>
   </div>

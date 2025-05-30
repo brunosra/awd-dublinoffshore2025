@@ -1,3 +1,7 @@
+<?php 
+  $assetManager->add('css', vite()->asset('assets/scss/snippets/blocks/image.scss'));
+?>
+
 <?php
 
 /*
@@ -25,7 +29,7 @@ if ($block->location()->value() === 'web') {
 
 ?>
 <?php if ($src): ?>
-<figure>
+<figure class="image">
   <?php snippet('image', [
     'alt'      => $alt,
     'contain'  => $block->crop()->isFalse(),

@@ -1,6 +1,6 @@
 <?php snippet('header') ?>
 
-<section class="pageHero text-center light-blue-theme">
+<section class="page_hero text-center light-blue-theme">
   <div class="grid-center container">
       <div class="col-6" data-aos="fade-up" data-aos-duration="800">
         <h3><?= $page->headline()->html() ?></h3>
