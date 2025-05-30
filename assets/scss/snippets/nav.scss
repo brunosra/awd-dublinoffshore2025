@@ -125,7 +125,6 @@ nav.menu {
 						@include mixins.responsive('md') {
 							position: absolute;
 							top: calc(100% + 8px);
-							background-color: vars.$c--navy;
 						}
 					}
 				}
