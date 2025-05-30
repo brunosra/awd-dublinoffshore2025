@@ -96,6 +96,7 @@ nav.menu {
 			min-height: 0;
 			visibility: hidden;
 			transition: visibility 0.3s ease-in-out;
+			margin-bottom: 0;
 
 			li {
 				a {
@@ -152,6 +153,7 @@ nav.menu {
 						flex-direction: column;
 						gap: 1.5rem;
 						min-height: 0;
+						margin-bottom: 0;
 
 						@include mixins.responsive('md') {
 							// position: absolute;
