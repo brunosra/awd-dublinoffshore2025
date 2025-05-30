@@ -1,3 +1,7 @@
+<?php 
+  $assetManager->add('css', vite()->asset('assets/scss/snippets/blocks/video.scss'));
+?>
+
 <?php
 /*
   Snippets are a great way to store code snippets for reuse
@@ -13,7 +17,7 @@
 */
 ?>
 <?php if ($block->url()->isNotEmpty()): ?>
-<figure>
+<figure class="video">
   <span class="video" style="--w:16;--h:9">
     <?= video($block->url()) ?>
   </span>
