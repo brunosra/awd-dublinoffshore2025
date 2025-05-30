@@ -12,14 +12,16 @@
       <ul>
         <?php foreach($items as $item): ?>
           <?php $children = $item->children()->listed(); ?>
-          <li class="<?php if($children->isNotEmpty()){ echo ' has-children'; } ?>">
-            <a<?php e($item->isActive(), ' aria-current="page"') ?> href="<?php if($children->isNotEmpty()){ echo '#'; }else{ echo $item->url(); } ?>"><?= $item->title()->html() ?></a>
-            <?php if($children->isNotEmpty()): ?>
+          <li class="<?php if($children->isNotEmpty() && $item->template() != "updates"){ echo ' has-children'; } ?>">
+            <a <?php e($item->isActive(), 'aria-current="page"') ?> href="<?php if($children->isNotEmpty() && $item->template() != "updates"){ echo '#'; }else{ echo $item->url(); } ?>">
+              <?= $item->title()->html() ?>
+            </a>
+            <?php if($children->isNotEmpty() && $item->template() != "updates"): ?>
               <div class="expander-sub">
                 <ul>
                   <?php foreach($children as $child): ?>
                   <li>
-                    <a<?php e($child->isActive(), ' aria-current="page"') ?> href="<?= $child->url() ?>">
+                    <a <?php e($child->isActive(), 'aria-current="page"') ?> href="<?= $child->url() ?>">
                       <?= $child->title()->html() ?>
                     </a>
                   </li>
