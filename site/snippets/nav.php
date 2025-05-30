@@ -3,13 +3,32 @@
   $assetManager->add('js', vite()->asset('assets/js/snippets/nav.js'));
 ?>
 
+<?php $items = $pages->listed(); ?>
+
 <header class="header">
   <nav class="menu">
     <?php snippet('logo') ?>
     <div class="expander">
       <ul>
-        <?php foreach ($site->children()->listed() as $item): ?>
-          <li><a <?php e($item->isOpen(), 'aria-current="page"') ?> href="<?= $item->url() ?>"><?= $item->title()->esc() ?></a></li>
+        <!-- <?php foreach ($site->children()->listed() as $item): ?>
+          <li><a <?php e($item->isOpen(), ' aria-current="page"') ?> href="<?= $item->url() ?>"><?= $item->title()->esc() ?></a></li>
+        <?php endforeach ?> -->
+        <?php foreach($items as $item): ?>
+          <?php $children = $item->children()->listed(); ?>
+          <li class="<?php if($children->isNotEmpty()){ echo ' has-children'; } ?>">
+            <a<?php e($item->isOpen(), ' aria-current="page"') ?> href="<?php if($children->isNotEmpty()){ echo '#'; }else{ echo $item->url(); } ?>"><?= $item->title()->html() ?></a>
+            <?php if($children->isNotEmpty()): ?>
+              <ul>
+                <?php foreach($children as $child): ?>
+                <li>
+                  <a<?php e($child->isOpen(), 'aria-current="page"') ?> href="<?= $child->url() ?>">
+                    <?= $child->title()->html() ?>
+                  </a>
+                </li>
+                <?php endforeach ?>
+              </ul>
+            <?php endif ?>
+          </li>
         <?php endforeach ?>
       </ul>
     </div>
