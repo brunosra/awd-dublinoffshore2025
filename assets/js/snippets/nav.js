@@ -11,6 +11,6 @@ burger.addEventListener('click', (evt) => {
 
 toggles.forEach((item) => {
 	item.addEventListener("click", () => {
-		item.querySelector('div.expander-sub').classList.toggle('open');
+		item.classList.toggle('open');
 	})
 });

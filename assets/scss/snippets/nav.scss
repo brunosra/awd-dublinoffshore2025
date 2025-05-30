@@ -103,6 +103,7 @@ nav.menu {
 					text-decoration: none;
 					padding: 0.75rem 1rem;
 					display: block;
+					transition: background-color 0.3s ease-in-out;
 	
 					&[aria-current]
 					{
@@ -112,6 +113,7 @@ nav.menu {
 				}
 
 				&.has-children {
+					position:relative;
 					& > a:after {
 						content: '';
 						width: 12px;
@@ -119,6 +121,7 @@ nav.menu {
 						display: inline-flex;
 						margin-left: 0.5rem;
 						background-image: url(../../images/nav-chevron.svg);
+						transition: transform 0.3s ease-in-out;
 					}
 					.expander-sub {
 						display: grid;
@@ -134,17 +137,11 @@ nav.menu {
 						opacity: 0;
 						ul {
 							visibility: visible;
-
 							li {
 								a {
 									color: vars.$c--white-75;
 								}
 							}
-						}
-						&.open {
-							grid-template-rows: 1fr;
-							padding: 0.75rem 0;
-							opacity: 1;
 						}
 					}
 					ul {
@@ -160,13 +157,22 @@ nav.menu {
 							// position: absolute;
 							top: calc(100% + 8px);
 						}
-
 						li {
 							&a[aria-current]
 							{
 								background-color: vars.$c--secondary1-25;
 								border-radius: 100px;
 							}
+						}
+					}
+					&.open {
+						& > a:after {
+							transform: rotate(180deg);
+						}
+						.expander-sub {
+							grid-template-rows: 1fr;
+							padding: 0.75rem 0;
+							opacity: 1;
 						}
 					}
 				}
@@ -200,10 +206,20 @@ nav.menu {
 			opacity: unset;
 			overflow: unset;
 
-			ul {
+			& > ul {
 				flex-direction: row;
 				gap: 0;
 				visibility: unset;
+
+				li {
+					&.has-children {
+						.expander-sub {
+							position: absolute;
+							width: max-content;
+							left: 0;
+						}
+					}
+				}
 			}
 		}
 	}
