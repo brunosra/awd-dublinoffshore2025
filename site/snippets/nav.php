@@ -10,15 +10,12 @@
     <?php snippet('logo') ?>
     <div class="expander">
       <ul>
-        <!-- <?php foreach ($site->children()->listed() as $item): ?>
-          <li><a <?php e($item->isOpen(), ' aria-current="page"') ?> href="<?= $item->url() ?>"><?= $item->title()->esc() ?></a></li>
-        <?php endforeach ?> -->
         <?php foreach($items as $item): ?>
           <?php $children = $item->children()->listed(); ?>
           <li class="<?php if($children->isNotEmpty()){ echo ' has-children'; } ?>">
             <a<?php e($item->isOpen(), ' aria-current="page"') ?> href="<?php if($children->isNotEmpty()){ echo '#'; }else{ echo $item->url(); } ?>"><?= $item->title()->html() ?></a>
             <?php if($children->isNotEmpty()): ?>
-              <div class="expander">
+              <div class="expander-sub">
                 <ul>
                   <?php foreach($children as $child): ?>
                   <li>
