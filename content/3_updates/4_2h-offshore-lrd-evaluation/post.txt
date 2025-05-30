@@ -1,0 +1,25 @@
+Title: Third Party Case Study (2H Offshore) - LRD Evaluation
+
+----
+
+Tags: Case Study
+
+----
+
+Published: 2024-03-25
+
+----
+
+Postcontent: [{"content":{"location":"kirby","image":["2h-lrd.png"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"f5e4cd68-ff18-48e5-8bba-7ae8543628e9","isHidden":false,"type":"image"},{"content":{"text":"<p>2H Offshore Presentation on Load Reduction Device evaluation at Floating Wind Solutions 2023. Summary outcomes were 44% Load Reduction using Dublin Offshore Load Reduction Device. <\/p><p><\/p><p>Full presentation <a href=\"https:\/\/www.dublinoffshore.ie\/media\/pages\/updates\/2h-offshore-lrd-evaluation\/3a928ab851-1711383089\/fws-23-evaluation-of-mooring-lr-devices-yusuf-arikan.pdf\" rel=\"noopener noreferrer nofollow\">https:\/\/www.dublinoffshore.ie\/media\/pages\/updates\/2h-offshore-lrd-evaluation\/3a928ab851-1711383089\/fws-23-evaluation-of-mooring-lr-devices-yusuf-arikan.pdf<\/a> <\/p><p><\/p><p>See <a href=\"https:\/\/2hoffshore.com\/sectors\/renewables\/floating-wind\/moorings-and-anchors\" rel=\"noopener noreferrer nofollow\">https:\/\/2hoffshore.com\/sectors\/renewables\/floating-wind\/moorings-and-anchors<\/a> for contact details. <\/p>"},"id":"a388e518-abd2-493f-91fc-591ff2afa2e0","isHidden":false,"type":"text"},{"content":{"location":"kirby","image":["lrd-results.png"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"55192b22-ad65-4b49-be58-4522012b8953","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["timeseries.png"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"b83c8db3-e767-4cd3-a0ed-8afa8a0650fd","isHidden":false,"type":"image"}]
+
+----
+
+Meta-title: 
+
+----
+
+Meta-description: 
+
+----
+
+Uuid: xtPWJbQx4HuEFYCq

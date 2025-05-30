@@ -1,0 +1,3 @@
+Alt: mooring system baseline and lrd chart
+----
+Template: blocks/image
