@@ -68,10 +68,17 @@ Addresses:
 
 Logos:
 
-- 'file://73AXPxPevtGBIaNV'
-- 'file://mXX8mVCtniJsnqFY'
-- 'file://MeK4n7hFrMjRqh8j'
-- 'file://6FyvC1SwHnIcoM2v'
+- 'file://Bi0pD8ao8ydj8A0T'
+- 'file://4bjW9Q1V64w9Mqfw'
+- 'file://3gBYk5yBEJxhNJwM'
+- 'file://MBferLgW4P3tP5jY'
+- 'file://kIgqkvUBhG31ulau'
+- 'file://TPJ4kMzf3IYPUWPi'
+- 'file://YdcVx8XrQCyeGxy5'
+- 'file://kYZmjsr5kgwXHjxQ'
+- 'file://H7tHzL4R9i7AJBKQ'
+- 'file://t9CzwBeFK88MVMKe'
+- 'file://2O0MK02o3jbrGLJr'
 
 ----
 

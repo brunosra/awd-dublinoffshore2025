@@ -12,5 +12,5 @@ fields:
     type: files
     max: 1
     help: Optional
-    layout: cards
-    size: medium
+    layout: cardlets
+    # size: medium

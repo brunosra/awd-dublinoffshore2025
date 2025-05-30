@@ -3,5 +3,5 @@
 ?>
 
 <div class="writer">
-  <?= $block->contentArea() ?>
+  <?= $block->contentArea()->kt() ?>
 </div>

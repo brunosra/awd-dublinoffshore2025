@@ -1,0 +1,40 @@
+title: Page Builder
+icon: 📄
+
+tabs:
+  content:
+    label: Content
+    icon: text
+    columns:
+      left:
+        width: 1/1
+        fields:
+          heading:
+            label: Heading
+            type: text
+            width: 1/2
+          background:
+            label: Background Image
+            type: files
+            max: 1
+            help: Optional
+            layout: cards
+            size: medium
+            width: 1/2
+          builder:
+            label: Page Builder
+            type: blocks
+            fieldsets:
+              - full_width_video
+              - team
+              - center_text
+              - logo_strip
+              - text_fill 
+              - lrd
+              - form
+              - offices
+              - sticky_text
+              - layouts
+              
+  files: tabs/files
+  seo: seo/page
