@@ -57,6 +57,7 @@
             </ul>
           </div>
           <a class="article-card h6" href="<?= $post->url() ?>"><?= $post->title()->esc() ?></a>
+          <span class="read-more"><img src="<?= vite()->asset('assets/images/arrow.svg') ?>" alt="Read More" width="10" height="10"></span>
       </article>
     <?php endforeach ?>
     <nav class="pagination">     <!-- pagination -->
