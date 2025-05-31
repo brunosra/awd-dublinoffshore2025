@@ -1,3 +1,44 @@
-section.logo-strip {
-	
+@use '../../vars';
+@use '../../mixins';
+
+.logo-strip {
+	background-color: vars.$c--navy;
+	min-height: 140px;
+	display: none;
+
+	&__container {
+		grid-template-columns: 1fr;
+		position: relative;
+	}
+
+	&__fade {
+		position: absolute;
+		height: 100%;
+		min-height: 140px;
+		width: 300px;
+	}
+
+	&__fade-start {
+		top: 0;
+		left: 0;
+		background: linear-gradient(to right, vars.$c--navy, transparent);
+	}
+
+	&__fade-end {
+		background: linear-gradient(to left, vars.$c--navy, transparent);
+		bottom: 0;
+		right: 0;
+	}
+
+	&__logos {
+		display: grid;
+		grid-template-columns: repeat(12, 1fr);
+		gap: 2rem;
+		justify-content: center;
+		align-items: center;
+	}
+
+	@include mixins.responsive('lg') {
+		display: flex;
+	}
 }

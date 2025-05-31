@@ -1,3 +1,32 @@
-section.text-fill {
-	
+@use '../../vars';
+@use '../../mixins';
+
+.text-fill {
+	background-color: vars.$c--navy;
+	padding-top: 4.93rem;
+	padding-bottom: 4.93rem;
+
+	&__content {
+		color: vars.$c--white;
+		text-align: center;
+		grid-column: 1 / -1;
+
+		h3 {
+			line-height: 140%;
+		}
+
+		span {
+			color: #ffffff4d;
+		}
+	}
+
+	@include mixins.responsive('lg') {
+		padding-top: 17.125rem;
+		padding-bottom: 17.125rem;
+
+		&__content {
+			padding-left: 9rem;
+			padding-right: 9rem;
+		}
+	}
 }
