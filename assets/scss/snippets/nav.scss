@@ -14,7 +14,7 @@ nav.menu {
 	border-radius: 100px;
 	outline: 2px solid vars.$c--secondary1-25;
 	outline-offset: -2px;
-
+	z-index: 1000;
 
 	.burger {
 		$stroke-width: 1.25px;
@@ -96,6 +96,7 @@ nav.menu {
 			min-height: 0;
 			visibility: hidden;
 			transition: visibility 0.3s ease-in-out;
+			margin-bottom: 0;
 
 			li {
 				a {
@@ -152,6 +153,7 @@ nav.menu {
 						flex-direction: column;
 						gap: 1.5rem;
 						min-height: 0;
+						margin-bottom: 0;
 
 						@include mixins.responsive('md') {
 							// position: absolute;
@@ -173,6 +175,10 @@ nav.menu {
 							grid-template-rows: 1fr;
 							padding: 0.75rem 0;
 							opacity: 1;
+
+							@include mixins.responsive('md') {
+								padding: 0.75rem;
+							}
 						}
 					}
 				}

@@ -25,6 +25,7 @@ button,
 	background-position: 0 -100%;
 	transition: background-position 0.75s ease-in-out, color 0.25s ease-in-out 0.25s;
 	cursor: pointer;
+	border: 0;
 
 	&:hover {
 		background-position: center;
@@ -48,6 +49,11 @@ button,
 	/* flavours: */
 	&.btn-primary {
 		background-color: vars.$c--yellow2;
+		color: vars.$c--navy;
+	}
+
+	&.btn-blue {
+		background-color: vars.$c--blue;
 		color: vars.$c--navy;
 	}
 

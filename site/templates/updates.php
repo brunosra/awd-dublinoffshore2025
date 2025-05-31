@@ -1,26 +1,26 @@
 <?php snippet('header') ?>
 <?php snippet('page_hero') ?>
 
-<aside class="">
-  <h5>Filter by type</h5>
-  <ul class="">
-    <li class="">
-      <a href="<?= $page->url() ?>">All</a>
-    </li>
-    <?php foreach($tags as $tag): ?>
-    <li class="tag">
-      <a href="<?= url($page->url(), ['params' => ['tag' => urlencode($tag)]]) ?>">
-        <?= html($tag) ?>
-      </a>
-    </li>
-    <?php endforeach ?>
-  </ul>
-</aside>
+<div class="container">
+  <aside class="tags">
+    <h5>Filter by type</h5>
+    <ul class="tag-list">
+      <li class="tag-item">
+        <a href="<?= $page->url() ?>" class="btn btn-tag btn-small">All</a>
+      </li>
+      <?php foreach($tags as $tag): ?>
+      <li class="tag-item">
+        <a href="<?= url($page->url(), ['params' => ['tag' => urlencode($tag)]]) ?>" class="btn btn-tag btn-small">
+          <?= html($tag) ?>
+        </a>
+      </li>
+      <?php endforeach ?>
+    </ul>
+  </aside>
 
-<section class="">
-  <?php foreach($posts as $post): ?>
-    <article>
-      <a class="" href="<?= $post->url() ?>">
+  <section class="post-list">
+    <?php foreach($posts as $post): ?>
+      <article>
           <?php if ($post->cover()->isNotEmpty()): ?>
             <?php foreach ($post->cover()->toFiles() as $image): ?>
               <?php
@@ -42,25 +42,37 @@
               </picture>
             <?php endforeach ?>
           <?php else: ?>
-          <!-- Hard coded location of placeholder image here  <?//= url('assets/images/#.webp') ?>-->
+            <picture>
+              <img src="<?= vite()->asset('assets/images/default-post-image.svg') ?>" alt="<?= $post->title()->esc() ?>">
+            </picture>
           <?php endif ?>
-          <p class="small"><?= $post->published()->toDate('Y') ?></p>
-          <?php foreach ($post->tags() as $tag): ?>
-            <p class="small"><?= $tag ?></p>
-          <?php endforeach ?>
-          <h6 class=""><?= $post->title()->esc() ?></h6>
-      </a>  
-    </article>
-  <?php endforeach ?>
-  <nav class="pagination">     <!-- pagination -->
-    <?php if($pagination->hasPrevPage()): ?>
-      <h6><a style="" href="<?= $pagination->prevPageUrl() ?>">&lsaquo; Previous</a></h6>
-    <?php endif ?>
-    <?php if($pagination->hasNextPage()): ?>
-      <h6><a style="" href="<?= $pagination->nextPageUrl() ?>">Next &rsaquo;</a></h6>
-    <?php endif ?>
-  </nav>     <!-- padgination end -->
-</section>
+          <div class="post-meta">
+            <p class="small year"><?= $post->published()->toDate('Y') ?></p>
+            <ul class="post-meta-tags">
+              <?php foreach ($post->tags() as $tag): ?>
+                <li>
+                  <a href="<?= url($page->url(), ['params' => ['tag' => urlencode($tag)]]) ?>" class="btn btn-tag btn-small">
+                    <?= html($tag) ?>
+                  </a>
+                </li>
+              <?php endforeach ?>
+            </ul>
+          </div>
+          <a class="article-card h6" href="<?= $post->url() ?>"><?= $post->title()->esc() ?></a>
+          <span class="read-more"><img src="<?= vite()->asset('assets/images/arrow.svg') ?>" alt="Read More" width="10" height="10"></span>
+      </article>
+    <?php endforeach ?>
+    <nav class="pagination">     <!-- pagination -->
+      <?php if($pagination->hasPrevPage()): ?>
+        <h6><a style="" href="<?= $pagination->prevPageUrl() ?>">&lsaquo; Previous</a></h6>
+      <?php endif ?>
+      <?php if($pagination->hasNextPage()): ?>
+        <h6><a style="" href="<?= $pagination->nextPageUrl() ?>">Next &rsaquo;</a></h6>
+      <?php endif ?>
+    </nav>     <!-- padgination end -->
+  </section>
+</div>
+
 
 <?php snippet('footer') ?>
 
