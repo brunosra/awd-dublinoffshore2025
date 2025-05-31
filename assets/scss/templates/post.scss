@@ -1,0 +1,29 @@
+@use "../mixins";
+
+body.page-post {
+	.container {
+		padding-top: 3.75rem;
+		padding-bottom: 3.75rem;
+
+		aside,
+		section.post-content {
+			grid-column: 1 / 2;
+		}
+	}
+
+	@include mixins.responsive('lg') {
+		.container {
+			padding-top: 7.5rem;
+			padding-bottom: 7.5rem;
+
+			aside {
+				grid-column: 1 / 4;
+				background-color: aliceblue;
+			}
+
+			section.post-content {
+				grid-column: 4 / 13;
+			}
+		}
+	}
+}
