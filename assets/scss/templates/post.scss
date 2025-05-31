@@ -1,3 +1,4 @@
+@use "../vars";
 @use "../mixins";
 
 body.page-post {
@@ -9,6 +10,48 @@ body.page-post {
 		section.post-content {
 			grid-column: 1 / 2;
 		}
+
+		aside {
+			.post-meta {
+				display: flex;
+				flex-direction: row;
+				align-items: top;
+				justify-content: space-between;
+				border-bottom: 1px solid vars.$c--tertiary;
+				margin-bottom: 1.5rem;
+				padding-bottom: 0.5rem;
+
+				ul.tag-list {
+					list-style: none;
+					display: flex;
+					gap: 0.5rem;
+					padding-left: 0;
+					flex-wrap: wrap;
+				}
+				p.small {
+					margin-top: 0.625rem;
+				}
+			}
+			.social-icons {
+				list-style: none;
+				display: flex;
+				gap: 1.5rem;
+				padding-left: 0;
+				flex-wrap: wrap;
+				li {
+					a {
+						padding: 0.625rem;
+						border-radius: 2rem;
+					}
+				}
+			}
+		}
+
+		.post-content {
+			h2, h3, h4, h5, h6 {
+				margin-bottom: 1em;
+			}
+		}
 	}
 
 	@include mixins.responsive('lg') {
@@ -18,7 +61,6 @@ body.page-post {
 
 			aside {
 				grid-column: 1 / 4;
-				background-color: aliceblue;
 			}
 
 			section.post-content {

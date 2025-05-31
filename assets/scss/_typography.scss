@@ -114,3 +114,13 @@ main a, .link {
 		background-position: 0;
 	}
 }
+
+main a.not-text {
+	color: inherit;
+	background-image: unset;
+	background-size: unset;
+	background-position: unset;
+	-webkit-background-clip: unset;
+  	-webkit-text-fill-color: unset;
+	transition: all 0.2s ease-in-out;
+}

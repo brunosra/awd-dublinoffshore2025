@@ -2,28 +2,35 @@
 <?php snippet('page_hero') ?>
 <div class="container">
   <aside>
-    <div class="date-tag">
+    <div class="post-meta">
+      <ul class="tag-list">
       <?php foreach ($page->tags() as $tag): ?>
-        <p class="small"><?= $tag ?></p>
+        <li>
+          <a href="<?= "/updates/tag:".urlencode($tag) ?>" class="btn btn-tag btn-small">
+            <?= html($tag) ?>
+          </a>
+        </li>
       <?php endforeach ?>
-        <p class="small"><?= $page->published()->toDate('Y') ?></p>
-    </div>
-      <ul class="">
-        <li>
-          <a width="38px" height="38px" rel="nofollow" onClick="window.open('https://www.facebook.com/sharer/sharer.php?u=<?= $page->url() ?>','sharer','toolbar=0,status=0,width=580,height=325');" href="javascript: void(0)">
-            <img src="<?= url('assets/images/facebook.png') ?>" width="22px" height="22px" alt="Share on Facebook"/>
-          </a>
-        </li>
-        <li>
-          <a width="38px" height="38x" href="https://x.com/intent/tweet?<?= $page->url() ?>" target="blank" rel="noopener noreferrer nofollow">
-            <img src="<?= url('assets/images/twitter.png') ?>"alt="Share Page on X"/>
-          </a>
-        </li>
-        <li>
-          <a width="38x" height="38px" href="https://www.linkedin.com/shareArticle?<?= $page->url() ?>" target="blank" rel="noopener noreferrer nofollow">
-            <img src="<?= url('assets/images/linkedin.png') ?>" alt="Share Page on LinkedIn"/></a>
-        </li>
       </ul>
+      <p class="small"><?= $page->published()->toDate('Y') ?></p>
+    </div>
+    <ul class="social-icons">
+      <li>
+        <a class="btn btn-blue" rel="nofollow" onClick="window.open('https://www.facebook.com/sharer/sharer.php?u=<?= $page->url() ?>','sharer','toolbar=0,status=0,width=580,height=325');" href="javascript: void(0)">
+          <img src="<?= vite()->asset('assets/images/icon-facebook.svg') ?>" width="14px" height="14px" alt="Share on Facebook"/>
+        </a>
+      </li>
+      <li>
+        <a class="btn btn-blue" href="https://x.com/intent/tweet?<?= $page->url() ?>" target="blank" rel="noopener noreferrer nofollow">
+          <img src="<?= vite()->asset('assets/images/icon-x.svg') ?>" width="14px" height="14px" alt="Share page on X"/>
+        </a>
+      </li>
+      <li>
+        <a class="btn btn-blue" href="https://www.linkedin.com/shareArticle?<?= $page->url() ?>" target="blank" rel="noopener noreferrer nofollow">
+          <img src="<?= vite()->asset('assets/images/icon-linkedin.svg') ?>" width="14px" height="14px" alt="Share page on LinkedIn"/>
+        </a>
+      </li>
+    </ul>
   </aside>
     
   <section class="post-content">

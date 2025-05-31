@@ -50,6 +50,11 @@ button, .btn {
 		color: vars.$c--navy;
 	}
 
+	&.btn-blue {
+		background-color: vars.$c--blue;
+		color: vars.$c--navy;
+	}
+
 	&.btn-ghost {
 		background-color: transparent;
 		color: vars.$c--navy;
