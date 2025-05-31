@@ -1,3 +1,5 @@
+@use "../vars";
+
 textarea,
 input {
 	&[type="text"],
@@ -8,5 +10,22 @@ input {
 	&[type="time"],
 	&[type="date"] {
 		padding: 0.625rem 1rem;
+		border-radius: 0.625rem;
+		transition: all 0.2s ease-in-out;
+		outline: 1px solid vars.$c--grey-input;
+		
+		&::placeholder {
+			color: vars.$c--placeholder-input;
+		}
+
+		&:focus-visible {
+			outline: 1px solid vars.$c--blue;
+		}
+		&[disabled] {
+			opacity: 0.75;
+		}
+		&[disabled] {
+			border: 1px solid vars.$c--grey-input;
+		}
 	}
 }

@@ -6,6 +6,13 @@ section.lrd-app {
 		& > .left-col,
 		& > .right-col {
 			grid-column: 1 / 2;
+
+			form#identify {
+				input,
+				button {
+					width: 100%;
+				}
+			}
 		}
 	}
 
