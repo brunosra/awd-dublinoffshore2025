@@ -67,7 +67,16 @@ h6, .h6 {
 	margin-bottom: 0.25em;
 }
 
-p, .p {
+p,
+.p, 
+textarea,
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="tel"],
+input[type="time"],
+input[type="date"] {
 	font-size: clamp(1rem, 1vw + 0.5rem, 1.125rem);
 	line-height: 1.2em;
 	letter-spacing: -2%;

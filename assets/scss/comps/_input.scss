@@ -1,0 +1,12 @@
+textarea,
+input {
+	&[type="text"],
+	&[type="email"],
+	&[type="number"],
+	&[type="password"],
+	&[type="tel"],
+	&[type="time"],
+	&[type="date"] {
+		padding: 0.625rem 1rem;
+	}
+}

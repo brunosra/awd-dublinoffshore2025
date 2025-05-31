@@ -23,6 +23,7 @@ button, .btn {
 	background-repeat: repeat-x;
 	background-position: 0 -100%;
 	transition: background-position 0.75s ease-in-out, color 0.25s ease-in-out 0.25s;
+	border: 0;
 
 	&:hover {
 		background-position: center;
