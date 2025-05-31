@@ -175,6 +175,10 @@ nav.menu {
 							grid-template-rows: 1fr;
 							padding: 0.75rem 0;
 							opacity: 1;
+
+							@include mixins.responsive('md') {
+								padding: 0.75rem;
+							}
 						}
 					}
 				}

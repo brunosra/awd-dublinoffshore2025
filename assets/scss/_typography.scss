@@ -67,7 +67,16 @@ h6, .h6 {
 	margin-bottom: 0.25em;
 }
 
-p, .p {
+p,
+.p, 
+textarea,
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="tel"],
+input[type="time"],
+input[type="date"] {
 	font-size: clamp(1rem, 1vw + 0.5rem, 1.125rem);
 	line-height: 1.2em;
 	letter-spacing: -2%;
@@ -113,4 +122,14 @@ main a, .link {
 	&:hover {
 		background-position: 0;
 	}
+}
+
+main a.not-text {
+	color: inherit;
+	background-image: unset;
+	background-size: unset;
+	background-position: unset;
+	-webkit-background-clip: unset;
+  	-webkit-text-fill-color: unset;
+	transition: all 0.2s ease-in-out;
 }

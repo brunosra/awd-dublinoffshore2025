@@ -3,6 +3,7 @@
 @use "typography";
 @use "grid";
 @use "comps/buttons";
+@use "comps/input";
 
 html {
 	background: vars.$c--white;

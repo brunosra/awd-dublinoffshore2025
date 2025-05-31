@@ -83,7 +83,11 @@ switch($pageTemplate) {
       <!-- no background image -->
     <?php endif ?> 
   <div class="container">
-    <h1><?= $page->heading()->isNotEmpty() ? $page->heading() : "" ?></h1>
+    <?php if($page->heading()->isNotEmpty()): ?>
+      <h1><?=  $page->heading() ?></h1>
+    <?php else: ?>
+      <h1><?=  $page->title() ?></h1>
+    <?php endif ?>
   </div>
 <?php endif ?>
 </section>
