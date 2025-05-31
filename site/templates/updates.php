@@ -42,7 +42,9 @@
               </picture>
             <?php endforeach ?>
           <?php else: ?>
-          <!-- Hard coded location of placeholder image here  <?//= url('assets/images/#.webp') ?>-->
+            <picture>
+              <img src="<?= vite()->asset('assets/images/default-post-image.svg') ?>" alt="<?= $post->title()->esc() ?>">
+            </picture>
           <?php endif ?>
           <div class="post-meta">
             <p class="small year"><?= $post->published()->toDate('Y') ?></p>
