@@ -1,10 +1,14 @@
 <?php 
+  $template = $page->intendedTemplate()->name();
   $assetManager->add('css', vite()->asset('assets/scss/snippets/footer.scss'));
   $assetManager->add('js', vite()->asset('assets/js/index.js'));
 ?>
 
 </main>
 <footer>
+  <?php if ($template !== 'contact'): ?>
+  <?php snippet('contact_block') ?>
+  <?php endif ?>
   <?php snippet('logo') ?>
   <?php
   $addresses = $site->addresses()->toStructure();

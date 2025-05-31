@@ -1,30 +1,44 @@
-name: Writer
-icon: align-center
-wysiwyg: true
-preview: fields
-tabs:
-  content:
-    icon: edit
-    fields:
-      contentArea:
-        label: false
-        type: writer
-        marks: false
-        icon: false
-        nodes: 
-          - paragraph
-          - heading
-          - bulletList
+title: Contact Bloack
 
-  # style:
-  #   label: Style
-  #   icon: cog
-  #   fields:
-  #     palette:
-  #       label: Pick a theme
-  #       type: radio
-  #       width: 1/2
-  #       options:
-  #         "light-blue-theme": Light Blue Theme
-  #         "grey-theme": Grey Theme
-  #         "white-theme": White Theme
+sections: # keyword that allows you to add multiple section types
+  contactBlockArea:
+    label: false
+    type: writer
+    marks: false
+    icon: false
+    nodes: 
+      - paragraph
+      - heading
+      - bulletList
+  extends: dreamform/fields/form
+# type: blocks
+# fieldsets:
+#   - full_width_video
+#   - team
+#   - center_text
+#   - logo_strip
+#   - text_fill 
+#   - lrd
+#   - form
+#   - offices
+#   - sticky_text
+#   - layouts
+#   - page_grid
+  ########
+# : Contact Block
+# icon: mail-send-line
+# wysiwyg: true
+# preview: fields
+# content:
+#   icon: edit
+#   fields:
+#     contactBlockArea:
+#       label: false
+#       type: writer
+#       marks: false
+#       icon: false
+#       nodes: 
+#         - paragraph
+#         - heading
+#         - bulletList
+#     extends: dreamform/fields/form

@@ -23,6 +23,8 @@ tabs:
             width: 1/2
           builder:
             extends: pages/builder_list
+          contact:
+            extends: blocks/contact_block
 
               
   files: tabs/files

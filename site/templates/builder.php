@@ -5,4 +5,5 @@
     <?= $block ?>
   <?php endforeach ?>
 </section>
+
 <?php snippet('footer') ?>
