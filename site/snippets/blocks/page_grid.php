@@ -1,5 +1,5 @@
 <?php 
-  $assetManager->add('css', vite()->asset('assets/scss/snippets/blocks/page_grid.scss'));
+  $assetManager->add('css', vite()->asset('assets/scss/snippets/blocks/page-grid.scss'));
 ?>
 
 <section class="">
