@@ -1,4 +1,5 @@
 <?php 
+  $assetManager->add('js', vite()->asset('assets/js/vendor/plotly-3.0.1.min.js'));
   $assetManager->add('css', vite()->asset('assets/scss/snippets/blocks/lrd-app.scss'));
   $assetManager->add('js', vite()->asset('assets/js/snippets/blocks/lrd-app.js'));
 ?>
@@ -6,56 +7,59 @@
 <iframe name="hiddenIframe" id="hiddenIframe" class="hide-this"></iframe>
 
 <section class="lrd-app">
-  <div>
+  <div class="container">
     <h2><?= $block->heading() ?></h2>
+    <div class="left-col">
+      <div>
+        <?= $block->textArea() ?>
+      </div>
+    </div>
+    <div class="right-col">
+      <form id="identify" action="#">
+        <div class="kirby-form hide-this">
+          <?php snippet('dreamform/form', [
+            'form' => $block->form()->toPage(),
+            'attr' => [
+              // General attributes
+              'form' => [],
+              'row' => [],
+              'column' => [],
+              'field' => [],
+              'label' => [],
+              'error' => [],
+              'input' => [],
+              'button' => ['class' => 'primary'],
+
+              'email' => [
+                'field' => [],
+                'label' => [],
+                'error' => [],
+                'input' => ['class' => 'input-button'],
+              ],
+
+              'success' => [], // Success message
+              'inactive' => [], // Inactive message
+            ]
+          ]); ?>
+        </div>
+        <div class="formline">
+          <label for="email" class="small">Enter you email to use the calculator</label>
+          <div class="input-button">
+            <input type="email" name="email" id="email" placeholder="Your email">
+            <button class="btn btn-primary" id="check-email" type="submit">Submit</button>
+            <img src="/assets/images/spinner.svg" class="spinner" alt="spinner">
+          </div>
+          <div class="message"></div>
+        </div>
+      </form>
+    </div>
   </div>
-  <div>
-    <?= $block->textArea() ?>
-  </div>
+  
 
   <div>
     <dialog id="loading">
       <h1>Loading...</h1>
     </dialog>
-
-    <div class="kirby-form hide-this">
-      <?php snippet('dreamform/form', [
-        'form' => $block->form()->toPage(),
-        'attr' => [
-          // General attributes
-          'form' => [],
-          'row' => [],
-          'column' => [],
-          'field' => [],
-          'label' => [],
-          'error' => [],
-          'input' => [],
-          'button' => ['class' => 'primary'],
-
-          'email' => [
-            'field' => [],
-            'label' => [],
-            'error' => [],
-            'input' => ['class' => 'input-button'],
-          ],
-
-          'success' => [], // Success message
-          'inactive' => [], // Inactive message
-        ]
-      ]); ?>
-    </div>
-
-    <form id="identify" action="#">
-      <div class="formline">
-        <label for="email">Enter you email to use the calculator</label>
-        <div class="input-button">
-          <input type="email" name="email" id="email">
-          <button class="primary" id="check-email" type="submit">Submit</button>
-          <img src="/assets/images/spinner.svg" class="spinner" alt="spinner">
-        </div>
-        <div class="message"></div>
-      </div>
-    </form>
     <!-- Create input sliders -->
     <div id="sliders">
       <div class="slider-group">
