@@ -7,6 +7,7 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'tobimori\\Seo\\' => array($baseDir . '/site/plugins/kirby-seo/classes'),
+    'tobimori\\DreamForm\\' => array($baseDir . '/site/plugins/kirby-dreamform/classes'),
     'Whoops\\' => array($vendorDir . '/filp/whoops/src/Whoops'),
     'TimNarr\\' => array($baseDir . '/site/plugins/kirby-imagex/classes'),
     'Symfony\\Polyfill\\Mbstring\\' => array($vendorDir . '/symfony/polyfill-mbstring'),

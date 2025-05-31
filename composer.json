@@ -30,7 +30,8 @@
     "estd/kirby-remix-icons": "^1.0",
     "jg/kirby-fields-block": "^1.2",
     "tobimori/kirby-icon-field": "^2.2",
-    "femundfilou/kirby-asset-manager": "^1.1"
+    "femundfilou/kirby-asset-manager": "^1.1",
+    "tobimori/kirby-dreamform": "^1.4"
   },
   "config": {
     "allow-plugins": {

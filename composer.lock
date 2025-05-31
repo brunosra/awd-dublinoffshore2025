@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9335f2e528fade8bb69f9b0b35a0b967",
+    "content-hash": "3e25197cad30e55b55d180ebb0034a72",
     "packages": [
         {
             "name": "christian-riesen/base32",
@@ -1491,6 +1491,57 @@
                 }
             ],
             "time": "2024-09-02T12:22:55+00:00"
+        },
+        {
+            "name": "tobimori/kirby-dreamform",
+            "version": "1.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tobimori/kirby-dreamform.git",
+                "reference": "cc0b386a61916966b4aabc33655210e3ab34bec7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tobimori/kirby-dreamform/zipball/cc0b386a61916966b4aabc33655210e3ab34bec7",
+                "reference": "cc0b386a61916966b4aabc33655210e3ab34bec7",
+                "shasum": ""
+            },
+            "require": {
+                "getkirby/composer-installer": "^1.2.1",
+                "php": ">=8.2.0"
+            },
+            "type": "kirby-plugin",
+            "extra": {
+                "kirby-cms-path": false
+            },
+            "autoload": {
+                "psr-4": {
+                    "tobimori\\DreamForm\\": "classes"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Tobias Möritz",
+                    "email": "tobias@moeritz.io"
+                }
+            ],
+            "description": "Kirby DreamForm is an opiniated form builder plugin for Kirby CMS 4+ that makes forms work like magic",
+            "homepage": "https://plugins.andkindness.com/dreamform",
+            "support": {
+                "issues": "https://github.com/tobimori/kirby-dreamform/issues",
+                "source": "https://github.com/tobimori/kirby-dreamform/tree/1.4.1"
+            },
+            "funding": [
+                {
+                    "url": "https://plugins.andkindness.com/dreamform/pricing",
+                    "type": "custom"
+                }
+            ],
+            "time": "2024-08-22T20:42:34+00:00"
         },
         {
             "name": "tobimori/kirby-icon-field",

@@ -1,0 +1,6 @@
+fields:
+  successMessage:
+    label: dreamform.form.successMessage.label
+    placeholder: dreamform.form.successMessage.default
+    type: writer
+    extends: dreamform/fields/writer
