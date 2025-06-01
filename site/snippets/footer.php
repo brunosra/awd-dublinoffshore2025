@@ -7,11 +7,11 @@ $template = $page->intendedTemplate()->name();
 </main>
 <footer class="footer">
   <?php if ($template !== 'contact'): ?>
-  <?php snippet('contact_block') ?>
+    <?php snippet('contact_block') ?>
   <?php endif ?>
 
   <!-- WAVE -->
-  <div class="footer__wave"></div>
+  <div class="container footer__wave"></div>
 
   <!-- ADDRESSES -->
   <section class="container footer__addresses">
@@ -44,19 +44,19 @@ $template = $page->intendedTemplate()->name();
     <div class="footer__legal">
       <ul>
         <li>
-          <a href="<?= page('privacy')->url() ?>">
-            <p class="small">Privacy</p>
+          <a class="small" href="<?= page('privacy')->url() ?>">
+            Privacy
           </a>
         </li>
         <li>
-          <a href="<?= page('terms-and-conditions')->url() ?>">
-            <p class="small">Terms & Conditions</p>
+          <a class="small" href="<?= page('terms-and-conditions')->url() ?>">
+            Terms & Conditions
           </a>
         </li>
       </ul>
     </div>
   </section>
-  
+
 </footer>
 
 <?= $site->footerInjection() ?>
