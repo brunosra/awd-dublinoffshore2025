@@ -1,0 +1,16 @@
+title: Contact Page
+icon: 📄
+
+tabs:
+  content:
+    label: Content
+    icon: text
+    columns:
+      left:
+        width: 1/1
+        fields:
+          builder:
+            extends: pages/builder_list
+              
+  files: tabs/files
+  seo: seo/page

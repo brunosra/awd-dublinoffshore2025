@@ -1,0 +1,25 @@
+Title: Contact Form
+
+----
+
+Fields: [{"attrs":[],"columns":[{"blocks":[{"content":{"key":"name","label":"Full Name","placeholder":"Full Name","required":"true","errormessage":""},"id":"f8ac6b93-9886-4746-95b0-fa4b49c55881","isHidden":false,"type":"text-field"}],"id":"c37713b8-98bf-4173-8949-9bb30cecc4b9","width":"1/2"},{"blocks":[{"content":{"key":"company","label":"Company","placeholder":"","required":"true","errormessage":""},"id":"24844280-7afc-49a6-b14c-484a320cb9c1","isHidden":false,"type":"text-field"}],"id":"1250b78c-8284-4b4d-99f4-202595ab8219","width":"1/2"}],"id":"adf1519f-be9a-4871-9010-f6367d798e16"},{"attrs":[],"columns":[{"blocks":[{"content":{"key":"email","label":"Email","placeholder":"Company Email","required":"true","errormessage":""},"id":"0d9ff3ae-2ba8-4507-9fbf-dc2160389f10","isHidden":false,"type":"email-field"}],"id":"2e3e7341-48e5-4e3d-a83e-d0735b4f5046","width":"1/2"},{"blocks":[{"content":{"key":"phone-number","label":"Phone Number","placeholder":"Phone Number","required":"false","errormessage":""},"id":"d2e49987-e951-4a59-9aa4-f2d5929c1c02","isHidden":false,"type":"text-field"}],"id":"1936d2ad-f910-4992-9de9-8cf0cf165a56","width":"1/2"}],"id":"764dd4a3-df84-4629-b907-7a29708f6920"},{"attrs":[],"columns":[{"blocks":[{"content":{"key":"message","label":"Message","placeholder":"Let's talk solutions!","required":"true","errormessage":""},"id":"55eb3fe1-efd0-4a22-8be2-debdde0141a2","isHidden":false,"type":"textarea-field"}],"id":"457531f7-aad5-4a2d-91bc-6864a4114d70","width":"1/1"}],"id":"c108ee3d-ac16-4036-9658-437726c1b322"},{"attrs":[],"columns":[{"blocks":[{"content":{"label":"Send"},"id":"605846cd-ecff-4f67-beba-8e2acdd96389","isHidden":false,"type":"button-field"}],"id":"e7e80465-6a99-491a-85be-6f32c16fdf97","width":"1/1"}],"id":"204fae6e-a9ba-4fed-85f1-504b610c923e"}]
+
+----
+
+Actions: [{"content":{"sendto":"static","sendtofield":"","sendtostatic":"aengustukel@yahoo.com","replyto":"field","replytofield":"0d9ff3ae-2ba8-4507-9fbf-dc2160389f10","replytostatic":"","subject":"Dublin Offshore Contact Form Submission","templatetype":"default","kirbytemplate":"","fieldtemplate":""},"id":"61d828f4-43a3-4180-bbcd-0a37a695fad9","isHidden":false,"type":"email-action"}]
+
+----
+
+Successmessage: Your message has been sent, thank you. We will get back to you soon!
+
+----
+
+Continueonerror: false
+
+----
+
+Storesubmissions: true
+
+----
+
+Uuid: FANeYQJpjoUXR493

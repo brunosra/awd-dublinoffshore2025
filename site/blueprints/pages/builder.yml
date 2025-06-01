@@ -22,7 +22,10 @@ tabs:
             size: medium
             width: 1/2
           builder:
-            extends: sections/builder_list
+            extends: pages/builder_list
+          contact:
+            extends: blocks/contact_block
+
               
   files: tabs/files
   seo: seo/page

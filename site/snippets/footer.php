@@ -5,30 +5,9 @@ $assetManager->add('js', vite()->asset('assets/js/index.js'));
 
 </main>
 <footer class="footer">
-  <!-- CONTACT -->
-  <section class="container footer__contact">
-    <div class="footer__contact-title">
-      <h3>Get in touch with us today</h3>
-      <h5>hello@dublinoffshore.ie</h5>
-    </div>
-    <form>
-      <div class="footer__contact-inputs">
-        <input type="text" placeholder="Full name">
-        <input type="text" placeholder="Company / Organization">
-        <input type="email" placeholder="Email">
-        <input type="text" placeholder="Phone Number (Optional)">
-        <input type="text" placeholder="Message">
-      </div>
-
-      <button class="btn-primary">Send</button>
-
-      <p class="small footer__contact-privacy">By clicking on “Send”, you agree to our
-        <a href="<?= page('privacy')->url() ?>">
-          Privacy Policy
-        </a>
-      </p>
-    </form>
-  </section>
+  <?php if ($template !== 'contact'): ?>
+  <?php snippet('contact_block') ?>
+  <?php endif ?>
 
   <!-- WAVE -->
   <div class="footer__wave"></div>
@@ -76,8 +55,7 @@ $assetManager->add('js', vite()->asset('assets/js/index.js'));
       </ul>
     </div>
   </section>
-
-
+  
 </footer>
 
 <?= $site->footerInjection() ?>

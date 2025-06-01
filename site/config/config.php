@@ -1,8 +1,17 @@
 <?php
 
+use tobimori\DreamForm\Support\Menu;
+
 return [
     'debug' => true,
-    'yaml.handler' => 'symfony', // already makes use of the more modern Symfony YAML parser: https://getkirby.com/docs/reference/system/options/yaml (will become the default in a future Kirby version)
+    'yaml.handler' => 'symfony',
+
+    'panel.menu' => fn () => [
+        'site' => Menu::site(),
+        'forms' => Menu::forms(),
+        'users',
+        'system',
+    ],
 
     'auth' => [
 			'methods' => ['password', 'password-reset']

@@ -73,7 +73,6 @@
   </section>
 </div>
 
-
 <?php snippet('footer') ?>
 
 
