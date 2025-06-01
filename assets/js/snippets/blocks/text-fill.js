@@ -22,8 +22,8 @@ const tl = gsap.timeline({
 	scrollTrigger: {
 		trigger: '.text-fill h3',
 		scrub: 1,
-		start: 'top 60%',
-		end: 'bottom 60%',
+		start: 'top 80%',
+		end: 'bottom 40%',
 	},
 })
 tl.to('.char', {
