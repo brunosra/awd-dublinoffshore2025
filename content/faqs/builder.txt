@@ -1,0 +1,81 @@
+Title: FAQs
+
+----
+
+Heading: 
+
+----
+
+Background: []
+
+----
+
+Builder: [{"content":{"faqs":[{"question":"What mooring configurations is the LRD compatible with?","answer":"The LRD is compatible with all conventional mooring types including catenary, hybrid and tension-leg moorings, and some others. The LRD performance has been extensively validated in chain catenaries, hybrid moorings, and with inclined taut moorings."},{"question":"How do I know which LRD is right for my project?","answer":"<p>Please see our LRD design guide for more information.<br>We also provide mooring optimisation as an Engineering Service so if you don’t currently operate specialist mooring software we can support design optimisation activities, or work with third party designers to integrate LRD in to your system to reduce cost.</p>"},{"question":"Can it be tuned to my site and mooring configuration?","answer":"<p>Yes – the LRD is highly tuneable by changing the unit’s dimensions, mass or the position of the arm’s axes. By changing these parameters, a specific force response curve can be achieved, optimised for your site. As part of LRD integration into the mooring system there is an opportunity to optimise the whole mooring system and maximise the LRD benefits: </p><p><strong>Cost</strong></p><ul><li><p>LCOE Reduction</p></li><li><p>Cost-Optimized mooring configuration</p></li><li><p>Reduced logistics with smaller mooring BOM</p></li><li><p>Local Content</p></li><li><p>Global fabrication supply chain </p></li><li><p>Remove Supply-Chain bottlenecks for mooring system </p></li></ul><p><strong>Environmental</strong></p><ul><li><p>Reduced seabed footprint</p></li><li><p>Remove chain thrashing at seabed</p></li><li><p>Support reduced site boundaries and permitting requirements</p></li></ul><p><strong>Design</strong></p><ul><li><p>Increased use of synthetics</p></li><li><p>Reduced design driving load</p></li><li><p>Remove line replacement operation</p></li><li><p>Bespoke mooring response</p></li><li><p>No novel materials</p></li><li><p>25 years maintenance free </p></li></ul>"},{"question":"What is the design life?","answer":"<p>The design life for the LRD is 30 years. </p>"},{"question":"How much does it cost?","answer":"<p>By optimising the mooring system for the reduced loading offered by the LRD, the device will pay for itself through CAPEX savings alone. See case studies (LINK) showing LCOE reduction of up to 15%. </p>"},{"question":"I need an LRD now – how soon can you deliver?","answer":"<p>We work closely with a distributed supply chain in order to maintain short lead times. LRD can deliver cost savings, and risk mitigation at every stage of project delivery, but to fully optimise the system and deliver the maximum cost savings for the project, consider integrating the LRD as soon as possible.</p>"},{"question":"How big is it?","answer":"<p>Here is a table of approximate sizing as reference. The size, weight of the LRD is project specific and only finalised as part of the mooring system optimisation. <br>(image: picture-1.png)</p>"},{"question":"Have you developed an installation method statement for a full-scale unit including an installation storyboard and defined vessel/equipment requirements?","answer":"<p>Have you developed an installation method statement for a full-scale unit including an installation storyboard and defined vessel/equipment requirements?</p><p>The installation method is project specific and depends on how the rest of the mooring system is installed. The LRD can be deployed using standard AHVs and does not require offshore geared vessels or large construction vessels. The LRD can be placed in wet storage at the seabed or closer to the surface as required by the project. Because it is neutrally buoyant it does not need to be flooded or purged to be moved and can be set-down with minimal force as needed. </p><p>We have developed an (link: <a href=\"https://youtu.be/DwqtjTh7aWU\">https://youtu.be/DwqtjTh7aWU</a> text: installation video) for a typical deployment using AHVs.</p>"},{"question":"What testing and validation has been done to date?","answer":"<p>The LRD has been tested in both tank test, and ocean conditions which has been used to validate the numerical model and the basis of design. DNV have reviewed the basis of the design and issued a statement of feasibility which confirms that the LRD fits within known engineering design standards and has a high degree of technical maturity. Our development to date is summarised as follows:</p><p>(image: picture-2.png)</p>"},{"question":"What is the impact of marine growth on LRD performance and mooring line tensions?","answer":"<p>The impact of Marine Growth is relatively minor on performance and can be accommodated in design through allowing for the small changes to the hydrodynamics it will create. The main impact is to add weight and slightly increase the surface roughness - ie drag coefficient - of the LRD. Where it is considered necessary, the LRD can be designed to be slightly positively buoyant to accommodate any lifetime marine growth weight addition.</p>"},{"question":"What O&M activities are expected to be required, in particular maintenance of the bearings and marine growth cleaning (or other means required to control buoyancy e.g. removal of water / reinjection of air)?","answer":"<p>The LRD is designed for zero maintenance, and will be subject to the same inspection requirements as all mooring components. The impact of Marine Growth is minimal and therefore cleaning of the component during the product lifetime is not required. The bearings are designed to be maintenance free for the full lifetime. </p>"},{"question":"Apart from reducing chain costs, what else does it do?","answer":"<p>Mooring line costs are just the start. For example:</p><ul><li><p>By reducing dynamic loading, seabed thrashing is greatly reduced or eliminated. </p></li><li><p>LRD enables new mooring configurations with dramatically reduced mooring spread such as inclined taut moorings. </p></li><li><p>LRD can address supply chain bottlenecks by removing the need for extra-large mooring components.</p></li></ul>"}]},"id":"f850498c-b6f1-4936-a0ae-1171265ee4dc","isHidden":false,"type":"faqs"}]
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: []
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: TZ9IWq6ConZAgQlt

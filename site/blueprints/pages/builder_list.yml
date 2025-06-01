@@ -12,3 +12,4 @@ fieldsets:
   - sticky_text
   - layouts
   - page_grid
+  - faqs

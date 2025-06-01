@@ -1,6 +1,5 @@
 name: Layout
 icon: layout-column-line
-
 wysiwyg: true
 preview: fields
 fields:

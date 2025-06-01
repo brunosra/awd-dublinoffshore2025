@@ -1,0 +1,21 @@
+Title: FAQs
+icon: questionnaire-fill
+wysiwyg: true
+preview: fields
+fields:
+  faqs:
+    label: FAQs
+    type: structure
+    fields:
+      question:
+        label: Question
+        type: textarea
+        buttons: false
+      answer:
+        label: Answer
+        type: writer
+        # buttons:
+        #  - bold
+        #  - bulletList
+        #  - email
+        #  - link
