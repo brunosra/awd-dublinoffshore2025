@@ -18,12 +18,12 @@ if (logosContainer && logosContainer.children.length > 0) {
 
 		// Start with the content shifted left by one set
 		gsap.set(logosContainer, {
-			x: -singleContentWidth,
+			x: 0,
 			// Use translate3d for hardware acceleration
 			transform: 'translate3d(0,0,0)',
 		})
 
-		const speed = 200 // px/sec, adjust as needed
+		const speed = 90 // px/sec, adjust as needed
 		const duration = singleContentWidth / speed
 
 		const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches
@@ -32,11 +32,11 @@ if (logosContainer && logosContainer.children.length > 0) {
 		gsap.to(logosContainer, {
 			ease: 'none',
 			duration: duration,
-			x: 0,
+			x: -singleContentWidth,
 			repeat: -1,
 			onRepeat: () => {
-				gsap.set(logosContainer, { x: -singleContentWidth })
-			},
+				gsap.set(logosContainer, { x: 0 })
+  		},
 		})
 	}
 

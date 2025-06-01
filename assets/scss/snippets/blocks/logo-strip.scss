@@ -17,6 +17,7 @@
 		height: 100%;
 		min-height: 140px;
 		width: 300px;
+		z-index: 99;
 	}
 
 	&__fade-start {
@@ -33,13 +34,13 @@
 
 	&__logos {
 		display: flex;
-		gap: 4rem;
+		gap: 5rem;
 		align-items: center;
-		opacity: 0.7;
+		opacity: 0.5;
 		will-change: transform;
 
 		img {
-			height: 50px;
+			height: 35px;
 		}
 	}
 
