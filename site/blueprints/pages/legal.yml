@@ -1,9 +1,6 @@
 Title: Legal
 icon: ✒️
 fields:
-  headline:
-    label: Headline
-    type: text
   legaltext:
     label: Legal Text
     type: writer
@@ -15,5 +12,3 @@ fields:
       - paragraph
       - heading
       - bulletList
-  files:
-    type: files
