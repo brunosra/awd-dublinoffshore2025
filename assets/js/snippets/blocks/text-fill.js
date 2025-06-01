@@ -28,5 +28,5 @@ const tl = gsap.timeline({
 })
 tl.to('.char', {
 	'--highlight-offset': '100%',
-	stagger: 0.5,
+	stagger: 0.9,
 })
