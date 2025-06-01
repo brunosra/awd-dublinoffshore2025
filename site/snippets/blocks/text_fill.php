@@ -1,6 +1,6 @@
 <?php
 $assetManager->add('css', vite()->asset('assets/scss/snippets/blocks/text-fill.scss'));
-$assetManager->add('js', vite()->asset('assets/js/snippets/blocks/text-fill.js'));
+$assetManager->add('js', vite()->asset('assets/js/snippets/blocks/text-fill.js'), ['type' => 'module']);
 ?>
 
 <section class="text-fill">

@@ -6,17 +6,30 @@
 	padding-top: 4.93rem;
 	padding-bottom: 4.93rem;
 
+	&__container {
+		grid-template-columns: 1fr;
+	}
+
 	&__content {
 		color: vars.$c--white;
 		text-align: center;
-		grid-column: 1 / -1;
 
 		h3 {
 			line-height: 140%;
+			color: #fff;
 		}
 
-		span {
-			color: #ffffff4d;
+		.char {
+			position: relative;
+			-webkit-background-clip: text;
+			background-clip: text;
+			color: transparent;
+			--highlight-offset: 0%;
+			background-image: linear-gradient(
+				90deg,
+				white var(--highlight-offset),
+				rgba(255, 255, 255, 0.2) var(--highlight-offset)
+			);
 		}
 	}
 
