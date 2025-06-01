@@ -1,7 +1,8 @@
-@use "../vars";
-@use "../mixins";
+@use '../vars';
+@use '../mixins';
 
-button, .btn {
+button,
+.btn {
 	/* Remove <a> styles: */
 	text-decoration: none;
 	background-image: unset;
@@ -23,6 +24,7 @@ button, .btn {
 	background-repeat: repeat-x;
 	background-position: 0 -100%;
 	transition: background-position 0.75s ease-in-out, color 0.25s ease-in-out 0.25s;
+	cursor: pointer;
 	border: 0;
 
 	&:hover {
@@ -30,8 +32,7 @@ button, .btn {
 		color: vars.$c--white !important;
 	}
 
-	@include mixins.responsive('md')
-	{
+	@include mixins.responsive('md') {
 		font-size: 1.25rem;
 		display: inline-flex;
 	}
@@ -44,7 +45,7 @@ button, .btn {
 		letter-spacing: -2%;
 		font-weight: 500;
 	}
-	
+
 	/* flavours: */
 	&.btn-primary {
 		background-color: vars.$c--yellow2;
@@ -74,13 +75,9 @@ button, .btn {
 		color: vars.$c--blue;
 		padding-left: 0rem;
 		padding-right: 0rem;
-		
+
 		color: inherit;
-		background-image: linear-gradient(
-			to left,
-			vars.$c--blue,
-			vars.$c--blue 50%,
-			vars.$c--navy 50%);
+		background-image: linear-gradient(to left, vars.$c--blue, vars.$c--blue 50%, vars.$c--navy 50%);
 		background-size: 200% 100%;
 		background-position: 100%;
 		-webkit-background-clip: text;
