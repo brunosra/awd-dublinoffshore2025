@@ -4,6 +4,114 @@
 .footer {
 	background-color: vars.$c--navy;
 
+	&__offices {
+		background-color: vars.$c--navy;
+		padding-top: 3.75rem;
+		padding-bottom: 3.75rem;
+
+		&-container {
+			display: flex;
+			flex-direction: column;
+			gap: 0px;
+		}
+
+		&-heading {
+			color: vars.$c--white;
+			margin-bottom: 2.5rem;
+		}
+
+		&-list {
+			list-style: none;
+			padding-left: 0px;
+			margin-bottom: 0px;
+			display: grid;
+			gap: 2rem;
+		}
+
+		&-item {
+			a {
+				display: inline-block;
+				text-decoration: none;
+				border-radius: 0.5rem;
+				overflow: hidden;
+				-webkit-text-fill-color: unset;
+			}
+		}
+
+		&-item-content {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			color: vars.$c--white;
+			background-color: vars.$c--blue;
+			padding: 1rem;
+
+			h6 {
+				margin-bottom: 0px;
+			}
+		}
+
+		@include mixins.responsive('lg') {
+		}
+	}
+
+	&__contact {
+		color: vars.$c--white;
+		grid-template-columns: 1fr;
+		padding-top: 60px;
+		padding-bottom: 60px;
+		gap: 50px;
+
+		&-title {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+
+			h5 {
+				color: vars.$c--yellow;
+				padding-top: 40px;
+			}
+		}
+
+		form {
+			display: flex;
+			flex-direction: column;
+			gap: 40px;
+
+			button {
+				width: fit-content;
+			}
+		}
+
+		&-inputs {
+			display: flex;
+			flex-direction: column;
+			gap: 24px;
+
+			input {
+				padding: 16px;
+				border-radius: 8px;
+				background-color: #4287b54d;
+				border: none;
+				color: white;
+
+				&::placeholder {
+					color: white;
+					opacity: 1;
+				}
+			}
+		}
+
+		&-privacy {
+			color: vars.$c--secondary3;
+
+			a {
+				color: vars.$c--secondary3;
+				text-decoration: none;
+			}
+		}
+	}
+
 	&__wave {
 		background-image: url('../../images//wavePattern.svg');
 		background-size: cover;
@@ -100,6 +208,23 @@
 	}
 
 	@include mixins.responsive('lg') {
+		// OFFICES
+		&__offices {
+			padding-top: 7.5rem;
+			padding-bottom: 7.5rem;
+
+			&-list {
+				grid-template-columns: repeat(3, 1fr);
+			}
+		}
+
+		// CONTACT
+		&__contact {
+			grid-template-columns: repeat(2, 1fr);
+			padding-top: 120px;
+			padding-bottom: 120px;
+		}
+
 		// ADDRESSES
 		&__addresses {
 			grid-template-columns: repeat(2, 1fr);
