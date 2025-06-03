@@ -1,5 +1,6 @@
 <?php
 $assetManager->add('css', vite()->asset('assets/scss/snippets/blocks/logo-strip.scss'));
+$assetManager->add('js', vite()->asset('assets/js/snippets/blocks/logo-strip.js'), ['type' => 'module']);
 ?>
 
 <section class="logo-strip">

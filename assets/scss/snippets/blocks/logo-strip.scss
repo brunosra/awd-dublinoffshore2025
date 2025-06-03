@@ -9,6 +9,7 @@
 	&__container {
 		grid-template-columns: 1fr;
 		position: relative;
+		overflow: hidden;
 	}
 
 	&__fade {
@@ -16,6 +17,7 @@
 		height: 100%;
 		min-height: 140px;
 		width: 300px;
+		z-index: 99;
 	}
 
 	&__fade-start {
@@ -31,11 +33,15 @@
 	}
 
 	&__logos {
-		display: grid;
-		grid-template-columns: repeat(12, 1fr);
-		gap: 2rem;
-		justify-content: center;
+		display: flex;
+		gap: 5rem;
 		align-items: center;
+		opacity: 0.5;
+		will-change: transform;
+
+		img {
+			height: 35px;
+		}
 	}
 
 	@include mixins.responsive('lg') {
