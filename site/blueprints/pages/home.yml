@@ -12,19 +12,27 @@ tabs:
           heading:
             label: Heading
             type: text
-            width: 1/2
+            width: 1/3
           background:
-            label: Background Image
+            label: Background Image or video
             type: files
             max: 1
-            help: Optional
+            required: true
             layout: cards
             size: medium
-            width: 1/2
+            width: 1/3
+          thumbnail:
+            label: thumbnail for video
+            type: files
+            max: 1
+            required: true
+            layout: cards
+            size: medium
+            width: 1/3
           builder:
             extends: pages/builder_list
           contact:
             extends: blocks/contact_block
-              
+
   files: tabs/files
   seo: seo/page

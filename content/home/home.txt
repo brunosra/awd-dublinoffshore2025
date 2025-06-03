@@ -6,7 +6,11 @@ Heading: Engineering technology solutions for the world’s oceans
 
 ----
 
-Background: []
+Background: - 'file://4G82oLYClQCyYv9n'
+
+----
+
+Thumbnail: - 'file://GXcG4FLi0xK9rXJ9'
 
 ----
 
