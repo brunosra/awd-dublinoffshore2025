@@ -4,57 +4,6 @@
 .footer {
 	background-color: vars.$c--navy;
 
-	&__offices {
-		background-color: vars.$c--navy;
-		padding-top: 3.75rem;
-		padding-bottom: 3.75rem;
-
-		&-container {
-			display: flex;
-			flex-direction: column;
-			gap: 0px;
-		}
-
-		&-heading {
-			color: vars.$c--white;
-			margin-bottom: 2.5rem;
-		}
-
-		&-list {
-			list-style: none;
-			padding-left: 0px;
-			margin-bottom: 0px;
-			display: grid;
-			gap: 2rem;
-		}
-
-		&-item {
-			a {
-				display: inline-block;
-				text-decoration: none;
-				border-radius: 0.5rem;
-				overflow: hidden;
-				-webkit-text-fill-color: unset;
-			}
-		}
-
-		&-item-content {
-			display: flex;
-			justify-content: space-between;
-			align-items: center;
-			color: vars.$c--white;
-			background-color: vars.$c--blue;
-			padding: 1rem;
-
-			h6 {
-				margin-bottom: 0px;
-			}
-		}
-
-		@include mixins.responsive('lg') {
-		}
-	}
-
 	&__contact {
 		color: vars.$c--white;
 		grid-template-columns: 1fr;
@@ -208,15 +157,6 @@
 	}
 
 	@include mixins.responsive('lg') {
-		// OFFICES
-		&__offices {
-			padding-top: 7.5rem;
-			padding-bottom: 7.5rem;
-
-			&-list {
-				grid-template-columns: repeat(3, 1fr);
-			}
-		}
 
 		// CONTACT
 		&__contact {

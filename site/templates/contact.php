@@ -1,14 +1,14 @@
 <?php snippet('header') ?>
 <?php snippet('contact_block') ?>
 
-<section class="footer__offices">
-  <div class="container footer__offices-container">
-    <h2 class="footer__offices-heading">Our offices</h2>
-    <ul class="footer__offices-list">
+<section class="contact__offices">
+  <div class="container contact__offices-container">
+    <h2 class="contact__offices-heading">Our offices</h2>
+    <ul class="contact__offices-list">
       <?php
       $addresses = $site->addresses()->toStructure();
       foreach ($addresses as $address): ?>
-        <li class="footer__offices-item">
+        <li class="contact__offices-item">
           <a class="" href="<?= $address->mapLocation()->url() ?>" target="_blank" rel="noopener nofollow">
             <?php foreach ($address->image()->toFiles() as $image): ?>
               <?php
@@ -30,7 +30,7 @@
                           ?>">
               </picture>
             <?php endforeach ?>
-            <div class="footer__offices-item-content">
+            <div class="contact__offices-item-content">
               <h6 class="small"><?= $address->city()->esc() ?>,&nbsp;<?= $address->country()->esc() ?></h6>
               <h6 class="small"><?= $address->postcode()->esc() ?></h6>
             </div>
