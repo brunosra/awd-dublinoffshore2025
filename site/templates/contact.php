@@ -2,7 +2,8 @@
 <?php snippet('contact_block') ?>
 
 <section>
-  <?php $addresses = $site->addresses()->toStructure(); foreach ($addresses as $address): ?>
+  <?php $addresses = $site->addresses()->toStructure();
+  foreach ($addresses as $address): ?>
 
     <a href="<?= $address->mapLocation()->url() ?>">
       <?php foreach ($address->image()->toFiles() as $image): ?>
@@ -15,13 +16,14 @@
         <picture>
           <source srcset="<?= $image->srcset('webp') ?>" sizes="<?= $sizes ?>" type="image/webp">
           <img
-              class=""
-              alt="<?= $image->alt() ?>"
-              data-src="<?= $image->resize(300)->url() ?>"
-              data-srcset="<?= $image->srcset() ?>"
-              sizes="<?= $sizes ?>"
-              width="<?= $image->resize(456)->width() ?>"
-              height="<?//= $image->resize(500)->height() ?>">
+            class=""
+            alt="<?= $image->alt() ?>"
+            data-src="<?= $image->resize(300)->url() ?>"
+            data-srcset="<?= $image->srcset() ?>"
+            sizes="<?= $sizes ?>"
+            width="<?= $image->resize(456)->width() ?>"
+            height="<? //= $image->resize(500)->height() 
+                    ?>">
         </picture>
       <?php endforeach ?>
       <h5><?= $address->city() ?>, <?= $address->country() ?></h5>
