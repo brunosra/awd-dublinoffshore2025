@@ -1,0 +1,158 @@
+@use '../../vars';
+@use '../../mixins';
+
+.page-grid {
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+	&__container {
+		display: flex;
+		flex-direction: column;
+	}
+
+	&__header {
+		margin-top: 60px;
+		margin-bottom: 40px;
+		color: vars.$c--white;
+		h2 {
+			margin-bottom: 8px;
+		}
+
+		p {
+			margin-bottom: 0px;
+			line-height: 140%;
+		}
+	}
+
+	&__list {
+		background-color: #edf0f5cc;
+		display: flex;
+		flex-direction: column;
+		margin-left: -16px;
+		margin-right: -16px;
+	}
+
+	&__card {
+		min-height: 356px;
+		padding: 20px 16px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		border-top: 1px solid vars.$c--navy;
+		-webkit-text-fill-color: unset;
+		text-decoration: none;
+		background-clip: unset;
+		-webkit-background-clip: unset;
+		background-image: none;
+
+		h4 {
+			line-height: 140%;
+			margin-bottom: 0px;
+			color: vars.$c--navy;
+		}
+	}
+
+	&__card-content {
+		display: flex;
+		flex-direction: column;
+		gap: 32px;
+	}
+
+	&__card-paragraphs {
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
+
+		p {
+			margin-bottom: 0px;
+			color: vars.$c--navy;
+		}
+	}
+
+	&__card-arrow {
+		display: inline-block;
+		padding: 0.625rem 1.5rem;
+		background-color: vars.$c--yellow;
+		width: fit-content;
+		height: fit-content;
+		border-radius: 20px;
+
+		img {
+			width: 10px;
+			height: 10px;
+		}
+	}
+
+	@include mixins.responsive('lg') {
+		&__header {
+			margin: 0px;
+			padding: 40px;
+
+			p {
+				max-width: 750px;
+			}
+		}
+
+		&__list {
+			background-color: unset;
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			grid-template-rows: repeat(2, 1fr);
+		}
+
+		&__card {
+			padding: 40px;
+			min-height: 468px;
+			border-top: 1px solid vars.$c--tertiary;
+			transition: all 0.2s ease-in-out;
+
+			&:nth-child(odd) {
+				border-right: 1px solid vars.$c--tertiary;
+			}
+
+			h4 {
+				color: vars.$c--white;
+			}
+		}
+
+		&__card-content {
+			opacity: 0;
+			transition: all 0.2s ease-in-out;
+		}
+
+		&__card-paragraphs {
+			p {
+				color: vars.$c--white;
+			}
+		}
+
+		&__card-arrow {
+			opacity: 0;
+			transform: translate(-0.5rem, 0.5rem);
+			transition: all 0.2s ease-in-out;
+		}
+
+		&__card:hover {
+			background-color: #edf0f5cc;
+
+			h4 {
+				color: vars.$c--blue;
+				text-decoration: underline;
+			}
+
+			.page-grid__card-content {
+				opacity: 1;
+			}
+
+			.page-grid__card-paragraphs p {
+				color: vars.$c--navy;
+			}
+
+			.page-grid__card-arrow {
+				opacity: 1;
+				transform: translate(0, 0);
+			}
+		}
+	}
+}
