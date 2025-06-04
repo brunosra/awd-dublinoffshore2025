@@ -42,8 +42,6 @@
 		border-top: 1px solid vars.$c--navy;
 		-webkit-text-fill-color: unset;
 		text-decoration: none;
-		transition: background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1),
-			transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 		background-clip: unset;
 		-webkit-background-clip: unset;
 		background-image: none;
@@ -52,7 +50,6 @@
 			line-height: 140%;
 			margin-bottom: 0px;
 			color: vars.$c--navy;
-			transition: color 0.3s cubic-bezier(0.4, 0, 0.2, 1), text-decoration 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 		}
 	}
 
@@ -69,7 +66,6 @@
 
 		p {
 			margin-bottom: 0px;
-			transition: color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 			color: vars.$c--navy;
 		}
 	}
@@ -106,9 +102,10 @@
 		}
 
 		&__card {
-			padding: 52px;
+			padding: 40px;
 			min-height: 468px;
 			border-top: 1px solid vars.$c--tertiary;
+			transition: all 0.2s ease-in-out;
 
 			&:nth-child(odd) {
 				border-right: 1px solid vars.$c--tertiary;
@@ -117,27 +114,11 @@
 			h4 {
 				color: vars.$c--white;
 			}
+		}
 
-			&:hover {
-				background-color: vars.$c--tertiary;
-				box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08), 0 1.5px 4px rgba(0, 0, 0, 0.04);
-				transform: translateY(-4px) scale(1.02);
-
-				h4 {
-					color: vars.$c--blue;
-					text-decoration: underline;
-				}
-
-				.page-grid__card-paragraphs p {
-					color: vars.$c--navy;
-				}
-
-				.page-grid__card-arrow {
-					opacity: 1;
-					transform: translate(0, 0);
-					transition-delay: 0.05s;
-				}
-			}
+		&__card-content {
+			opacity: 0;
+			transition: all 0.2s ease-in-out;
 		}
 
 		&__card-paragraphs {
@@ -150,6 +131,28 @@
 			opacity: 0;
 			transform: translate(-0.5rem, 0.5rem);
 			transition: all 0.2s ease-in-out;
+		}
+
+		&__card:hover {
+			background-color: #edf0f5cc;
+
+			h4 {
+				color: vars.$c--blue;
+				text-decoration: underline;
+			}
+
+			.page-grid__card-content {
+				opacity: 1;
+			}
+
+			.page-grid__card-paragraphs p {
+				color: vars.$c--navy;
+			}
+
+			.page-grid__card-arrow {
+				opacity: 1;
+				transform: translate(0, 0);
+			}
 		}
 	}
 }
