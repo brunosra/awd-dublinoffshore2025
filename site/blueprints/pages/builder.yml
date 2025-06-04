@@ -16,6 +16,7 @@ tabs:
           background:
             label: Background Image
             type: files
+            query: page.images
             max: 1
             help: Optional
             layout: cards

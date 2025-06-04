@@ -1,5 +1,5 @@
 <?php snippet('header') ?>
-<?php snippet('page_hero') ?>
+<?php snippet('homepage_hero') ?>
   <div class="container">
     <div style="grid-column: 1 / 13;">
       <h1 style="margin: 2rem 0;">Design System</h1>
