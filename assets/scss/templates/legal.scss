@@ -1,0 +1,16 @@
+@use '../vars';
+@use '../mixins';
+
+.legal {
+	padding-top: 120px;
+	padding-bottom: 120px;
+
+	&__container {
+		grid-template-columns: 1fr;
+		gap: 0px;
+	}
+
+	&__content {
+		max-width: 900px;
+	}
+}
