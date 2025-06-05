@@ -26,7 +26,7 @@ Addresses:
   city: Dublin
   postcode: 'D02 KV05'
   image:
-    - 'file://Ewcc8zh7IG4Ck6u3'
+    - 'file://9zK5TO5bFllNZ5rW'
   maplocation: 'https://maps.app.goo.gl/e57uART6L9E8R3Dd6'
   streetddress: '38 Fitzwilliam Street Upper'
   fulladdress: '38 Fitzwilliam Street Upper'
@@ -38,7 +38,7 @@ Addresses:
   city: Belfast
   postcode: 'BT1 4GB'
   image:
-    - 'file://Ewcc8zh7IG4Ck6u3'
+    - 'file://46TUCb3yswZjheN6'
   maplocation: 'https://maps.app.goo.gl/NiGm3NThtoVxn7nM7'
   streetddress: |-
     Arthur House
@@ -54,7 +54,7 @@ Addresses:
   city: Cork
   postcode: '123 456'
   image:
-    - 'file://Ewcc8zh7IG4Ck6u3'
+    - 'file://tvDwkGSZJLNCUsuT'
   maplocation: 'https://maps.app.goo.gl/MjcHn2Mbj86th1ef8'
   streetddress: |-
     Line 1

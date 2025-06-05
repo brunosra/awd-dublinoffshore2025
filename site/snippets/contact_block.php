@@ -10,7 +10,7 @@ $template = $page->intendedTemplate()->name();
   <div class="container contact-block__container">
     <div class="contact-block__title">
       <?php if ($page->contactBlockArea()->isNotEmpty()): ?>
-        <?= $block->contactBlockArea() ?>
+        <?= $page->contactBlockArea() ?>
       <?php else: ?>
         <h3>Get in touch with us today</h3>
       <?php endif; ?>

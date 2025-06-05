@@ -37,8 +37,8 @@
                     data-src="<?= $image->resize(300)->url() ?>"
                     data-srcset="<?= $image->srcset() ?>"
                     sizes="<?= $sizes ?>"
-                    width="<?= $image->resize(310)->width() ?>"
-                    height="<?//= $image->resize(500)->height() ?>">
+                    width="<?= $image->width(310) ?>"
+                    height="<? $image->height(235) ?>">
               </picture>
             <?php endforeach ?>
           <?php else: ?>

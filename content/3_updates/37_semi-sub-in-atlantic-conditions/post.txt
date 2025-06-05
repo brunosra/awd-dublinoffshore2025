@@ -1,0 +1,101 @@
+Title: Case Study - 1GW Atlantic Project
+
+----
+
+Cover: []
+
+----
+
+Tags: Case Study
+
+----
+
+Published: 2021-09-15
+
+----
+
+Postcontent: [{"content":{"text":"<p>The Case Study project considers a proposed floating wind farm in an Atlantic site. The project particulars used in the study are summarized as follows:</p><p><a href=\"https://www.dublinoffshore.ie/media/pages/updates/semi-sub-in-atlantic-conditions/23b16a301c-1719217072/case-study-atlantic.pdf\">View the Case Study</a></p>"},"id":"aaa6699d-6f6d-4c11-a3af-3b3ac20ecb0e","isHidden":false,"type":"text"}]
+
+----
+
+Related: []
+
+----
+
+Contactblockarea: 
+
+----
+
+Extends: - 'page://FANeYQJpjoUXR493'
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: []
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Meta-description: The Case Study project considers a proposed floating wind farm in an Atlantic site.
+
+----
+
+Uuid: yKOHHi6cG1iEjBnh

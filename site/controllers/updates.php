@@ -11,11 +11,11 @@ return function($page) {
   
     // add the tag filter
     if($tag = param('tag')) {
-        $articles = $posts->filterBy('tags', $tag, ',');
+        $posts = $posts->filterBy('tags', $tag, ',');
     }
   
     // apply pagination
-    $posts   = $posts->paginate(8);
+    $posts = $posts->paginate(8);
     $pagination = $posts->pagination();
   
     return compact('posts', 'tags', 'tag', 'pagination');

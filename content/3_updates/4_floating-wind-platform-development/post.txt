@@ -1,0 +1,89 @@
+Title: Floating Wind Platform Development
+
+----
+
+Cover: - 'file://yBGTZUUWpr6tBLvA'
+
+----
+
+Tags: Projects
+
+----
+
+Published: 2025-06-05
+
+----
+
+Postcontent: [{"content":{"location":"kirby","image":["file://yBGTZUUWpr6tBLvA"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"b54192ad-e696-4caa-91a7-0240b74e30ec","isHidden":false,"type":"image"},{"content":{"text":"<p>The innovative platform takes advantage in the simplicity of fabrication for spar design plus the low material cost of concrete, and enhance it by addressing the loadout and transport challenges posed by a high draft structure. The result is the Enhanced Stability Spar (ESS). The developer engaged Dublin Offshore to develop the ESS concept in order to establish concept feasibility.</p><p>The delivery to TRL4 programme to date has included:</p><p>- Concept Evaluation Report.</p><p>- DNV Statement of Feasibility</p><p>- Dynamic Analysis</p><p>- Tank testing results and validated numerical model</p><p>- Market and development advice</p>"},"id":"eeb6eb40-be87-4705-9853-c227df45f397","isHidden":false,"type":"text"}]
+
+----
+
+Related: []
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: []
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: t1AXWNOfg6CWnSfP

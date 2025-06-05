@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3e25197cad30e55b55d180ebb0034a72",
+    "content-hash": "5dc451aa73a228f5b1a66fd1edf2231d",
     "packages": [
         {
             "name": "christian-riesen/base32",
@@ -502,41 +502,6 @@
                 }
             ],
             "time": "2020-12-28T12:54:39+00:00"
-        },
-        {
-            "name": "jg/kirby-fields-block",
-            "version": "v1.2.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/jongacnik/kirby-fields-block.git",
-                "reference": "e56c4d109edd921a1b4436e3df0e64b1117f1b83"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/jongacnik/kirby-fields-block/zipball/e56c4d109edd921a1b4436e3df0e64b1117f1b83",
-                "reference": "e56c4d109edd921a1b4436e3df0e64b1117f1b83",
-                "shasum": ""
-            },
-            "require": {
-                "getkirby/composer-installer": "^1.1"
-            },
-            "type": "kirby-plugin",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Jon Gacnik",
-                    "email": "jon@folderstudio.com"
-                }
-            ],
-            "description": "Kirby Fields Block",
-            "support": {
-                "issues": "https://github.com/jongacnik/kirby-fields-block/issues",
-                "source": "https://github.com/jongacnik/kirby-fields-block/tree/v1.2.1"
-            },
-            "time": "2023-01-22T19:02:00+00:00"
         },
         {
             "name": "laminas/laminas-escaper",
@@ -1420,79 +1385,6 @@
             "time": "2025-01-07T09:44:41+00:00"
         },
         {
-            "name": "timnarr/kirby-imagex",
-            "version": "0.1.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/timnarr/kirby-imagex.git",
-                "reference": "89523048f9287ac14bdf5edd10fc29dcfc3bca6d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/timnarr/kirby-imagex/zipball/89523048f9287ac14bdf5edd10fc29dcfc3bca6d",
-                "reference": "89523048f9287ac14bdf5edd10fc29dcfc3bca6d",
-                "shasum": ""
-            },
-            "require": {
-                "getkirby/composer-installer": "^1.2",
-                "php": "~8.1.0 || ~8.2.0 || ~8.3.0"
-            },
-            "require-dev": {
-                "friendsofphp/php-cs-fixer": "^3",
-                "getkirby/cms": "^4.0",
-                "phpunit/phpunit": "^10.5"
-            },
-            "type": "kirby-plugin",
-            "extra": {
-                "kirby-cms-path": false
-            },
-            "autoload": {
-                "files": [
-                    "helpers/aspectRatio.php",
-                    "helpers/attributes.php",
-                    "helpers/misc.php",
-                    "helpers/srcset.php"
-                ],
-                "psr-4": {
-                    "TimNarr\\": [
-                        "classes/"
-                    ]
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Tim Narr",
-                    "email": "dev@tim-narr.com",
-                    "homepage": "https://tim-narr.com"
-                }
-            ],
-            "description": "Modern images for Kirby CMS – This plugin helps you orchestrate modern, responsive and performant images in Kirby",
-            "homepage": "https://github.com/timnarr/kirby-imagex",
-            "keywords": [
-                "images",
-                "kirby",
-                "kirby-cms",
-                "kirby-plugin",
-                "modern-images",
-                "responsive-images"
-            ],
-            "support": {
-                "issues": "https://github.com/timnarr/kirby-imagex/issues",
-                "source": "https://github.com/timnarr/kirby-imagex/tree/0.1.3"
-            },
-            "funding": [
-                {
-                    "url": "https://www.buymeacoffee.com/tim.n",
-                    "type": "custom"
-                }
-            ],
-            "time": "2024-09-02T12:22:55+00:00"
-        },
-        {
             "name": "tobimori/kirby-dreamform",
             "version": "1.4.1",
             "source": {
@@ -1542,56 +1434,6 @@
                 }
             ],
             "time": "2024-08-22T20:42:34+00:00"
-        },
-        {
-            "name": "tobimori/kirby-icon-field",
-            "version": "2.2.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/tobimori/kirby-icon-field.git",
-                "reference": "087d4c6643cd12443223fc7bb9912e09b3a8ac2c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/tobimori/kirby-icon-field/zipball/087d4c6643cd12443223fc7bb9912e09b3a8ac2c",
-                "reference": "087d4c6643cd12443223fc7bb9912e09b3a8ac2c",
-                "shasum": ""
-            },
-            "require": {
-                "getkirby/composer-installer": "^1.2",
-                "php": ">=8.2.0"
-            },
-            "require-dev": {
-                "getkirby/cms": "^4.0.1"
-            },
-            "type": "kirby-plugin",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Tobias Möritz",
-                    "email": "tobias@moeritz.io",
-                    "homepage": "https://moeritz.io"
-                }
-            ],
-            "description": "A simple Icon field plugin for Kirby CMS",
-            "keywords": [
-                "kirby",
-                "kirby-plugin"
-            ],
-            "support": {
-                "issues": "https://github.com/tobimori/kirby-icon-field/issues",
-                "source": "https://github.com/tobimori/kirby-icon-field/tree/2.2.0"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/tobimori",
-                    "type": "github"
-                }
-            ],
-            "time": "2024-10-30T19:37:15+00:00"
         },
         {
             "name": "tobimori/kirby-seo",

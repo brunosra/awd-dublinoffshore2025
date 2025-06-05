@@ -5,19 +5,19 @@ columns:
   left:
     width: 1/2
     sections:
-      # The `pages` pages section shows other main pages of the site
-      # Using the `templates` option, we limit which types of pages are shown
-      # Using the `create` option, we limit the type of page that can be created when a new page is created
-      # Note that the `sandbox` page and the `error` page that also exist in the content folder but use different blueprints thus do not show up in the list
-      # Since the error page's blueprint is set to `read: false`, it wouldn't show up here even if you added the error blueprint to the templates list
       listed-pages:
         headline: Listed Pages
         help: These appear in the navigation in this order
         type: pages
+        layout: cardlets
         status: listed
         image: 
-          back: white
+          query: false
+          back: "#152445"
           cover: true
+          color: "#E9EC6B"
+        icon: page
+
 
       unlisted-pages:
         headline: Unlisted Pages
@@ -25,7 +25,10 @@ columns:
         type: pages
         status: unlisted
         image: 
-          back: white
+          query: false
+          back: "#DEEAFF"
+          color: "#327CFF"
+          cover: true
 
       draft-pages:
         headline: Draft Pages

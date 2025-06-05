@@ -2,11 +2,11 @@ Title: Updates & Projects
 
 ----
 
-Headline: Updates
+Contactblockarea: 
 
 ----
 
-Intro: ​​News, case studies, and updates from time to time
+Extends: - 'page://FANeYQJpjoUXR493'
 
 ----
 
@@ -38,7 +38,7 @@ Ogdescription:
 
 ----
 
-Ogimage: 
+Ogimage: []
 
 ----
 
@@ -71,6 +71,14 @@ Robotssnippet: true
 ----
 
 Metainherit: robots, twitterAuthor, twitterCardType
+
+----
+
+Headline: Updates
+
+----
+
+Intro: ​​News, case studies, and updates from time to time
 
 ----
 

@@ -1,0 +1,89 @@
+Title: Foundation Design for WTG Certification
+
+----
+
+Cover: - 'file://4nCZx8vb2VPturpC'
+
+----
+
+Tags: Projects
+
+----
+
+Published: 2025-06-05
+
+----
+
+Postcontent: [{"content":{"text":"<p>Dublin Offshore were engaged by an international project developer to deliver foundation designs to support certification of a new wind turbine by a leading OEM for a world-first installation. The project scope included the geotechnical interpretation, ground model development, and engineering of monopile, jacket and gravity bases across 2 site locations for both the Wind Turbine and the concurrent Met Mast deployment.</p>"},"id":"05316527-8864-4621-92a8-45cab9a8d077","isHidden":false,"type":"text"},{"content":{"location":"kirby","image":["file://4nCZx8vb2VPturpC"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"e8ac197a-4808-47a5-8c99-802ebd0c8c59","isHidden":false,"type":"image"}]
+
+----
+
+Related: []
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: []
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: aji90CWNNmsrzgLH

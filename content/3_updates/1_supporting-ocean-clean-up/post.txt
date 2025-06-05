@@ -1,0 +1,89 @@
+Title: Supporting Ocean Clean Up
+
+----
+
+Cover: - 'file://9Kech6UR4lzeDLKS'
+
+----
+
+Tags: Projects
+
+----
+
+Published: 2025-06-05
+
+----
+
+Postcontent: [{"content":{"text":"<p>The Dublin Offshore team are passionate about the marine environment and all too aware of the prevalence of ocean plastic in the oceans and the marine food chain. When the opportunity arose to support an Irish company developing novel technology to support ocean plastic harvesting, we couldn’t refuse. Dublin Offshore’s contribution included technology assessment and tank-testing and have co-authored papers detailing the results.</p>"},"id":"dea33dfb-ee28-4c33-9ecc-455174a5f9a3","isHidden":false,"type":"text"},{"content":{"location":"kirby","image":["file://9Kech6UR4lzeDLKS"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"44c350fc-7b26-464a-b510-e00012372752","isHidden":false,"type":"image"}]
+
+----
+
+Related: []
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: []
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: QJeF0nnEElAQndgM

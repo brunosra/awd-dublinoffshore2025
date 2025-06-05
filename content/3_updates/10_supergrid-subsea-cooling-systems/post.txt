@@ -1,0 +1,89 @@
+Title: Supergrid - Subsea Cooling Systems
+
+----
+
+Cover: - 'file://0PDUrd3gRJQjODu8'
+
+----
+
+Tags: Projects
+
+----
+
+Published: 2025-06-05
+
+----
+
+Postcontent: [{"content":{"text":"<p>Dublin Offshore were engaged by an energy transmission technology developer to support the development of subsea infrastructure required to deliver their supergrid concept. Dublin Offshore were tasked with delivering foundation suitability assessment for a subsea cooling system. Subsequently, Dublin Offshore were contracted to deliver engineering design of the pressure vessel, foundation and the installation and retrieval system within the site requirements and installation vessel constraints.</p>"},"id":"ab870a7d-00f5-4dfb-adef-a97369d0911d","isHidden":false,"type":"text"},{"content":{"location":"kirby","image":["file://0PDUrd3gRJQjODu8"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"7af84e63-fb46-4b08-8e85-7511902176a6","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file://gidOFjou61pdWvgt"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"0009e976-4c6f-43ca-914a-2120ea02e5c6","isHidden":false,"type":"image"}]
+
+----
+
+Related: []
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: []
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: CLis1AzzTrDO0y88

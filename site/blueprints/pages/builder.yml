@@ -1,5 +1,4 @@
 title: Page Builder
-icon: 📄
 
 tabs:
   content:
@@ -13,6 +12,7 @@ tabs:
             label: Heading
             type: text
             width: 1/2
+            help: If left blank the page title will be displayed.
           background:
             label: Background Image
             type: files
@@ -20,12 +20,30 @@ tabs:
             max: 1
             help: Optional
             layout: cards
-            size: medium
+            size: large
             width: 1/2
+            image:
+              cover: true
+              ratio: 1/1  
           builder:
             extends: pages/builder_list
-          contact:
-            extends: blocks/contact_block
+      bottomLeft:
+        width: 1/2
+        fields:        
+          contactBlockArea:
+            label: Contact block text
+            type: writer
+            marks: false
+            icon: false
+            help: If left blank, section will display  'Get in touch with us today' along with your primary email. Recomnded size is H3.
+            nodes: 
+              - paragraph
+              - heading
+              - bulletList
+      bottomRight:
+        width: 1/2
+        fields:          
+          extends: dreamform/fields/form
 
               
   files: tabs/files

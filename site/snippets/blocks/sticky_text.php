@@ -5,7 +5,7 @@ $assetManager->add('css', vite()->asset('assets/scss/snippets/blocks/sticky-text
 <section class="sticky-text">
   <div class="sticky-text__container container">
     <div class="sticky-text__content">
-      <h2><?= strip_tags($block->textArea()) ?></h2>
+      <?= $block->textArea() ?>
     </div>
     <div class="sticky-text__articles">
       <?php $contentBlocks = $block->contentBlock()->toStructure();
@@ -13,7 +13,9 @@ $assetManager->add('css', vite()->asset('assets/scss/snippets/blocks/sticky-text
         <article class="sticky-text__article">
           <?php if ($contentBlock->icon()->isNotEmpty()): ?>
             <span class="sticky-text__article-icon">
-              <?= svg('/assets/icons/' . $contentBlock->icon()) ?>
+              <?php foreach ($contentBlock->icon()->toFiles() as $image): ?>
+                <img src="<?= $image->url() ?>">
+              <?php endforeach ?>
             </span>
           <?php endif ?>
 

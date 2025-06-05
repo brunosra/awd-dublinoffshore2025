@@ -1,0 +1,89 @@
+Title: Marine Operations - Tidal Energy
+
+----
+
+Cover: - 'file://B69zANPyAcI1bCsk'
+
+----
+
+Tags: Projects
+
+----
+
+Published: 2025-06-05
+
+----
+
+Postcontent: [{"content":{"text":"<p>The team have extensive experience undertaking marine operations on high energy tidal sites including EMEC, Paimpol Brehat, Raz Blanchard and FORCE, (Bay of Fundy). This experience has involved the installation and removal of utility scale tidal energy generators, mooring systems, cable lay and connection, right down to minor marine operations such as ADCP, Hydrophones and site survey deployment operations etc.</p>"},"id":"53a174a5-46bb-4fcb-a432-7db111adbb49","isHidden":false,"type":"text"},{"content":{"location":"kirby","image":["file://B69zANPyAcI1bCsk"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"22df1bc9-b536-404a-9e7d-9c7faf497340","isHidden":false,"type":"image"}]
+
+----
+
+Related: []
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: []
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: AzfwLpou8glHPtxb

@@ -1,0 +1,81 @@
+Title: Memorandum of Understanding with Shimizu
+
+----
+
+Tags: News
+
+----
+
+Published: 2025-02-18
+
+----
+
+Postcontent: [{"content":{"location":"kirby","image":["file://J62FBkJaRs9hSJeK"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"bb0eb185-af6c-4ef9-a334-d96a99aa7dfa","isHidden":false,"type":"image"},{"content":{"text":"<p>Pictured (L-R) -  Shinji Kobayashi, Danny Golden, Shinichi Takiguch, Tetsuji Shiroeda, Darren Hayes, Donghee Ko, Tom Doyle</p>"},"id":"0a061f3e-45bc-4fcc-bedd-1addbcccf482","isHidden":false,"type":"text"},{"content":{"level":"h2","text":"<strong>Dublin Offshore and Shimizu Corporation Sign MOU to Advance Floating Offshore Wind Solutions in Japan</strong>"},"id":"6faef186-f200-4835-978e-9efa29c1edc1","isHidden":false,"type":"heading"},{"content":{"text":"<p> Dublin Offshore (DO), a leading innovator in mooring system solutions, and Shimizu Corporation, a prominent player in Japan’s construction and engineering sectors, have officially signed a Memorandum of Understanding (MOU) to collaborate on the development and introduction of Dublin Offshores Load Reduction Device (LRD) into the Japanese floating offshore wind market.</p><p> The partnership seeks to leverage Dublin Offshores pioneering LRD technology, which optimises mooring system performance while reducing costs, risks, and supply chain challenges. This collaboration will also enhance Shimizu’s insights into the competitive advantages of LRD technology. Together, the companies aim to capitalise on the rapid growth and potential of Japan’s floating offshore wind sector.</p><p> “Dublin Offshore is thrilled to deepen its collaboration with Shimizu Corporation. This MOU signifies a shared commitment to advancing floating offshore wind solutions in Japan, combining our expertise in innovative mooring technology with Shimizu’s leadership in the Japanese market,” said Darren Hayes, Director of Dublin Offshore Technology.</p><p> Shinichi Takiguchi, Managing Executive Officer of Shimizu Corporation’s Emerging Frontiers Division, stated, “We are excited to partner with Dublin Offshore and contribute to the expansion of floating offshore wind energy in Japan. We believe the LRD will be a key technology for Floating Offshore Wind mooring systems and this collaboration aligns with our commitment to delivering innovative, sustainable green energy solutions.”</p><p> The signing of this MOU follows almost 2 years of successful collaboration between Dublin Offshore and Shimizu, during which the companies demonstrated a shared ambition in advancing mooring design and development. This agreement formalises their collaborative relationship and sets a foundation for further innovation and growth in the renewable energy sector.</p><p></p>"},"id":"e64a6591-8bb4-460c-88b8-e68bd5d66f65","isHidden":false,"type":"text"},{"content":{"text":"<p><strong>NOTES </strong></p><p><strong> </strong></p><p><strong>About Dublin Offshore Technology Ltd</strong></p><p>Dublin Offshore Technology Ltd is a global leader in mooring system innovation, specialising in delivering optimised, cost-effective, and reliable solutions for offshore energy markets. Their groundbreaking Load Reduction Device (LRD) is transforming the design and performance of mooring systems worldwide.</p><p> </p><p><strong>About Shimizu Corporation</strong><br>Shimizu Corporation, headquartered in Tokyo, Japan, is a leading construction and engineering company with extensive experience in renewable energy and infrastructure projects. The company is committed to fostering sustainable growth through cutting-edge technologies and innovative partnerships.</p><p> </p><p>For media inquiries, please contact:</p><p><br><strong>Dublin Offshore Technology</strong><br><a href=\"mailto:hello@dublinoffshore.ie\">hello@dublinoffshore.ie</a> <br></p><p><strong>Shimizu Corporation</strong></p><p><a href=\"https://f.msgs.jp/webapp/form/20233_fydb_7/index.do\">https://f.msgs.jp/webapp/form/20233_fydb_7/index.do</a></p><p> </p><p><strong>Social Media </strong><a href=\"https://www.linkedin.com/company/dublinoffshore%20/\">linkedin.com/company/dublinoffshore</a> | <a href=\"https://www.linkedin.com/company/shimizu-corporation/\">https://www.linkedin.com/company/shimizu-corporation/</a></p>"},"id":"eea7fca8-f511-4a2b-b0b6-04db5b3c4b7c","isHidden":false,"type":"text"}]
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: OVuZerYs0CYwiW2Y

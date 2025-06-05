@@ -1,0 +1,89 @@
+Title: Fixed Wind - Construction Support Port Selection
+
+----
+
+Cover: - 'file://pX8sQdhLTU7TJCcR'
+
+----
+
+Tags: Projects
+
+----
+
+Published: 2025-06-05
+
+----
+
+Postcontent: [{"content":{"location":"kirby","image":["file://pX8sQdhLTU7TJCcR"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"35a8a316-c7a0-41e9-8a94-151521fb2494","isHidden":false,"type":"image"},{"content":{"text":"<p>Dublin Offshore were contracted by a leading Tier 1 east coast Offshore Wind Farm developer to undertake a study in order to find the optimal construction support port for the large scale Irish offshore wind farm.</p><p>The work involved the identification and screening of potential ports, the development of a Construction Support Port specification, and the evaluation of the ports with respect to that criteria. An additional task was site visits in order to ground truth the data obtained during the desk top study phase.</p><p>The outcomes of the study was a ranked list of suitable ports for the project. This will now be considered by the developer as they move to the next stage of the project.</p><p>If you need to make an assessment of the suitability of Irish ports for your offshore project get in touch via the Contact Us page.</p>"},"id":"ac563c8e-4e01-4599-a078-01fef157394c","isHidden":false,"type":"text"}]
+
+----
+
+Related: []
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: []
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: 3DrNwkB1dMBXx6Kv

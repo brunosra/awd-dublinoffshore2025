@@ -1,0 +1,105 @@
+Title: LRD - Latest Tank Test Results
+
+----
+
+Cover: []
+
+----
+
+Tags: Insights
+
+----
+
+Published: 2022-04-01
+
+----
+
+Postcontent: [{"content":{"level":"h2","text":"Tank Test Validates Huge Cost Reduction"},"id":"0f659696-0980-4322-b95d-3e86f7cdebac","isHidden":false,"type":"heading"},{"content":{"text":"<p>The work described in the summary report is the result of ongoing development of the LRD at the deep Ocean Basin in the Lír National Ocean Test Facility (NOTF). This testing campaign focussed on challenging and aggressive sites with known mooring challenges for Floating Offshore Wind. These aggressive sites are representative of the Atlantic conditions that will be experienced by Offshore Wind developers off the west coast of Ireland.</p><p><a href=\"https://www.dublinoffshore.ie/media/pages/updates/lrd-latest-tank-test-results/451980c010-1649154761/lrd-tank-test-summary-results.pdf\" rel=\"noopener noreferrer nofollow\">Read the summary report</a></p>"},"id":"2b94442b-972e-45e3-a5c3-9c6988530e2c","isHidden":false,"type":"text"},{"content":{"location":"","url":"https://youtu.be/YM2E4a2OHrI","video":[],"poster":[],"caption":"LRD Tested as Inclined Taut Mooring System at Lir","autoplay":"false","muted":"true","loop":"false","controls":"true","preload":""},"id":"8c746c62-c1bf-4152-9e81-723fde7e95cf","isHidden":false,"type":"video"},{"content":{"text":"<p>The conclusions from the testing are:</p><p>The testing has provided further validation that the LRD delivers major load reduction across LRD integrated catenary and ITM configurations.</p><p>The peak load reduction measured is 48% load reduction from baseline catenary load obtained by implementing the Inclined Taut Mooring System. This reduction was achieved during a 1 in 50 year storm event.</p><p>The anchor radius was substantially reduced from 852m to 355m. The overall platform footprint area has reduced by 83% and there are no longer any mooring lines in contact with the seabed eliminating thrashing and the associated seabed / mooring line damage.</p><p>Similar platform heave and surge response for catenary systems and inclined taut systems. This is a design choice made in specifying the test based on maintaining the baseline envelope. Further design choices can reduce excursion if required as identified by dynamic cable design. The reduced pitch and platform accelerations will also reduce loading on the dynamic cable.</p><p>Nacelle accelerations are significantly reduced by use of ITM systems.</p><p></p>"},"id":"34e085c6-7828-46fe-bfbb-ec81c11ce1e3","isHidden":false,"type":"text"}]
+
+----
+
+Related: []
+
+----
+
+Contactblockarea: 
+
+----
+
+Extends: - 'page://FANeYQJpjoUXR493'
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: []
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Meta-title: Floating Offshore Wind Mooring Testing
+
+----
+
+Meta-description: Floating Wind Testing for a Load Reduction Device developed by Irish Floating Offshore Wind Mooring System specialists Dublin Offshore. The testing was undertaken in Ireland.
+
+----
+
+Uuid: bDVJHIdLHTuyuNTO

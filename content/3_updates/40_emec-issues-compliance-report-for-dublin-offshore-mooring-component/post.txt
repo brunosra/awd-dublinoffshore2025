@@ -1,0 +1,101 @@
+Title: EMEC Issues Compliance Report for Mooring Component
+
+----
+
+Cover: []
+
+----
+
+Tags: News
+
+----
+
+Published: 2020-08-30
+
+----
+
+Postcontent: [{"content":{"text":"<p>The European Marine Energy Centre (EMEC) has completed an accredited inspection of Dublin Offshore’s mooring load reduction device (LRD) assuring compliance with international mooring standards.</p><p>Focusing on engineering solutions for the marine environment, Dublin Offshore has developed a mooring LRD for floating offshore wind turbines to reduce the tension in mooring lines during operation. The company tested a ¼ scale version at a test site off the west coast of Ireland in late 2020.</p><p>EMEC was contracted to inspect Dublin Offshore’s mooring system and verify the data gathered to International Electrotechnical Commission (IEC) technical specification ‘62600-10: assessment of mooring system for marine energy converters (MECs)’. The standard provides uniform methodologies for the design and assessment of mooring systems for floating MECs as they move up technology readiness levels towards commercialisation.</p><p>As an accredited inspection body to IEC/ISO 17020, EMEC began operations with Dublin Offshore prior to deployment to prepare the inspection plan and data collection methodology. EMEC then monitored its implementation and issued an accredited compliance report with its findings. Dublin Offshore’s LRD system was found to have a very high degree of compliance with the IEC TS 62600-10 and the data used was verified to be accurate and true.</p><p>Independently verified data on the functionality of moorings during operation enhances sector confidence that test results are credible and improves survivability and durability of devices. This benefits the development of the sector whilst proving the suitability of new technological solutions.</p><p><strong>Elaine Buck, Technical Manager at EMEC, said:</strong></p><p>“We are pleased to have worked with Dublin Offshore to support the mooring test. Our independent accreditation and expertise were sought out to ensure the mooring standard was followed during the LRD tests resulting in independent, robust data verification.</p><p>“EMEC’s work was delivered as part of a suite of support services provided through the Interreg North West Europe funded Marine Energy Alliance (MEA) project which aims to de-risk development of marine energy technologies.”</p><p><strong>Darren Hayes, Technical Director at Dublin Offshore, said:</strong></p><p>“We recognized the importance of the quality of the data to be collected from our offshore test campaign. We were delighted to draw on the technical expertise of the EMEC team in the development of the data collection methodology and the oversight of its implementation. As a result we’ve captured a high quality, independently verified data set that will be foundation for all future development.”</p>"},"id":"c09e8164-ba04-4bda-b613-d7570b60b83b","isHidden":false,"type":"text"}]
+
+----
+
+Related: []
+
+----
+
+Contactblockarea: 
+
+----
+
+Extends: - 'page://FANeYQJpjoUXR493'
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: []
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Meta-description: Private companies from five European countries have worked together to promote the competitiveness and internationalisation of the shipbuilding sector.
+
+----
+
+Uuid: 5JegqFAXer9pt7x4

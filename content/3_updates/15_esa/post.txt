@@ -1,0 +1,97 @@
+Title: Feasibility Study With ESA on Cost Reduction for FOW
+
+----
+
+Cover: - 'file://PSN38ErglW7VI4oE'
+
+----
+
+Tags: Projects
+
+----
+
+Published: 2025-06-05
+
+----
+
+Postcontent: [{"content":{"location":"kirby","image":["file://PSN38ErglW7VI4oE"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"79d29323-38bc-4647-bd63-91804e1814b7","isHidden":false,"type":"image"},{"content":{"text":"<p>Dublin Offshore have undertaken a Feasibility Study to investigate how the application of space technology and systems can be used to deliver cost reduction for Floating Offshore Wind (FOW).  The study is supported by the European Space Agency through the ESA Space Solutions/ Business Applications programme.</p><p>The project is investigating the use of Satellite Earth Observation (SatEO) data to characterise design driving metocean conditions at FOW development sites. The results will be used to drive down FOW Levelised Cost of Energy (LCOE) through the optimisation of Dublin Offshore’s Load Reduction Device (LRD). Dublin Offshore will deliver the feasibility study in collaboration with TechWorks Marine Ltd who are providing expert advice on the SatEO aspects of the system.</p>"},"id":"7fa342bd-0cd8-45a7-9440-c73ed7849d0d","isHidden":false,"type":"text"}]
+
+----
+
+Related: []
+
+----
+
+Contactblockarea: 
+
+----
+
+Extends: - 'page://FANeYQJpjoUXR493'
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: []
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: x9OjKODFo8GZiRvu

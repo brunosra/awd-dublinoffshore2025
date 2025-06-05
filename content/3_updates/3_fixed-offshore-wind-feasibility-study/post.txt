@@ -1,0 +1,89 @@
+Title: Fixed Offshore Wind Feasibility Study
+
+----
+
+Cover: - 'file://PXzMyxpUJpDNEIjR'
+
+----
+
+Tags: Projects
+
+----
+
+Published: 2025-06-05
+
+----
+
+Postcontent: [{"content":{"text":"<p>Dublin Offshore have extensive experience working on utility scale offshore wind farms from foundation &amp; transition piece design to overall planning and development. We have recently undertaken the feasibility study for a large wind farm off the north coast of Ireland. This wind farm will straddle the Irish / UK border providing up to 2.8GW of wind energy once fully operational.</p>"},"id":"4ce300b1-8846-4292-887f-7f7cdead3d22","isHidden":false,"type":"text"},{"content":{"location":"kirby","image":["file://PXzMyxpUJpDNEIjR"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"32779d0d-03fb-48c2-b415-378e3e9c945e","isHidden":false,"type":"image"}]
+
+----
+
+Related: []
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: []
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: o5cXcU3juYs7oZba
