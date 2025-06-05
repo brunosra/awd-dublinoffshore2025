@@ -148,7 +148,7 @@ document.addEventListener('DOMContentLoaded', () => {
 			scrollTrigger: {
 				trigger: heroVideo,
 				start: 'top top',
-				end: 'top+=800 top',
+				end: 'top+=900 top',
 				scrub: true,
 				markers: false,
 			},
@@ -161,14 +161,14 @@ document.addEventListener('DOMContentLoaded', () => {
 			minHeight: '0px',
 			maxWidth: 'none',
 			marginTop: '0px',
-			duration: 0.125,
+			duration: 0.250,
 		}).to(heroVideo, {
 			width: anim.endWidth,
 			height: anim.endHeight,
 			marginTop: anim.endMarginTop,
 			maxWidth: 'none',
 			minHeight: '0px',
-			duration: 0.875,
+			duration: 0.750,
 		})
 	}
 })
