@@ -10,6 +10,7 @@ section.faqs {
 		
 		hr {
 			border: 1px solid vars.$c--navy;
+			grid-column: 1 / 2;
 			opacity: 0.2;
 		}
 
@@ -95,6 +96,9 @@ section.faqs {
 		grid: 1rem;
 		.container {
 			.item {
+				grid-column: 1 / 8;
+			}
+			hr {
 				grid-column: 1 / 8;
 			}
 		}
