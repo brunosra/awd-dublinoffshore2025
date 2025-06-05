@@ -72,6 +72,23 @@ tabs:
               cover: true
               ratio: 16/9  
             size: medium  
+      bottomLeft:
+        width: 1/2
+        fields:        
+          contactBlockArea:
+            label: Contact block text
+            type: writer
+            marks: false
+            icon: false
+            help: If left blank, section will display  'Get in touch with us today' along with your primary email. Recomnded size is H3.
+            nodes: 
+              - paragraph
+              - heading
+              - bulletList
+      bottomRight:
+        width: 1/2
+        fields:          
+          extends: dreamform/fields/form
   seo: seo/page
   files: tabs/files
                 

@@ -2,6 +2,10 @@ Title: Mooring Optimisation Case Study
 
 ----
 
+Cover: []
+
+----
+
 Tags: Case Study
 
 ----
@@ -11,6 +15,18 @@ Published: 2024-09-10
 ----
 
 Postcontent: [{"content":{"level":"h2","text":"MOORING OPTIMISATION CASE STUDY"},"id":"d7c5d7eb-a9a5-4f74-abf3-d402372952b4","isHidden":false,"type":"heading"},{"content":{"location":"web","url":"https://youtu.be/TSG5J7KJe54","video":[],"poster":[],"caption":"","autoplay":"false","muted":"true","loop":"false","controls":"true","preload":"auto"},"id":"e95fda3c-8343-4a13-bfa7-36a0b54ef13b","isHidden":false,"type":"video"}]
+
+----
+
+Related: []
+
+----
+
+Contactblockarea: 
+
+----
+
+Extends: - 'page://FANeYQJpjoUXR493'
 
 ----
 
@@ -42,7 +58,7 @@ Ogdescription:
 
 ----
 
-Ogimage: 
+Ogimage: []
 
 ----
 

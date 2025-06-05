@@ -2,6 +2,10 @@ Title: Offshore Energy Exhibition 2021
 
 ----
 
+Cover: []
+
+----
+
 Tags: Updates
 
 ----
@@ -10,7 +14,83 @@ Published: 2021-10-29
 
 ----
 
-Postcontent: [{"content":{"url":"https:\/\/vimeo.com\/639460924","caption":""},"id":"ff3c64d5-325d-4bf5-b9ac-ee6645c27c97","isHidden":false,"type":"video"},{"content":{"text":"<p>Speaking via video conference at the Offshore Energy Conference, Danny Golden shared some of our experiences with the challenging offshore energy environment and the expertise and ingenuity required to tackle them successfully.<\/p><p>Commenting on the challenges \u2013 of the present and the future \u2013 Danny said:&nbsp;<em>\u201cSpecifically around floating wind, the challenges are around cost reduction. The sites for floating wind many \u2013 once you\u2019re into that deeper water it really opens up a huge expanse of ocean and the challenge is to be able to put platforms out there safely and cost-effectively<\/em>.<\/p><p><em>\u201cWe are working on the technology development in-house. It has gotten as far as testing offshore, being demonstrated in the Irish Atlantic\u201d.<\/em><\/p><p>Danny also spoke about the Marine Energy Alliance project, which supported the company in one of its calls for project. As part of the project, <a href=\"https:\/\/dublinoffshore.ie\/updates\/emec-issues-compliance-report-for-dublin-offshore-mooring-component\" rel=\"noopener noreferrer nofollow\">Dublin Offshore worked with the European Marine Energy Centre (EMEC)<\/a> to certify the offshore demonstration technology, which boosted the company\u2019s confidence into the liability and viability of the technology. <\/p><p><\/p>"},"id":"6613b986-fa62-4c7a-941b-f08065154490","isHidden":false,"type":"text"}]
+Postcontent: [{"content":{"location":"","url":"https://vimeo.com/639460924","video":[],"poster":[],"caption":"","autoplay":"false","muted":"true","loop":"false","controls":"true","preload":""},"id":"ff3c64d5-325d-4bf5-b9ac-ee6645c27c97","isHidden":false,"type":"video"},{"content":{"text":"<p>Speaking via video conference at the Offshore Energy Conference, Danny Golden shared some of our experiences with the challenging offshore energy environment and the expertise and ingenuity required to tackle them successfully.</p><p>Commenting on the challenges – of the present and the future – Danny said:&nbsp;<em>“Specifically around floating wind, the challenges are around cost reduction. The sites for floating wind many – once you’re into that deeper water it really opens up a huge expanse of ocean and the challenge is to be able to put platforms out there safely and cost-effectively</em>.</p><p><em>“We are working on the technology development in-house. It has gotten as far as testing offshore, being demonstrated in the Irish Atlantic”.</em></p><p>Danny also spoke about the Marine Energy Alliance project, which supported the company in one of its calls for project. As part of the project, <a href=\"https://dublinoffshore.ie/updates/emec-issues-compliance-report-for-dublin-offshore-mooring-component\" rel=\"noopener noreferrer nofollow\">Dublin Offshore worked with the European Marine Energy Centre (EMEC)</a> to certify the offshore demonstration technology, which boosted the company’s confidence into the liability and viability of the technology. </p><p></p>"},"id":"6613b986-fa62-4c7a-941b-f08065154490","isHidden":false,"type":"text"}]
+
+----
+
+Related: []
+
+----
+
+Contactblockarea: 
+
+----
+
+Extends: - 'page://FANeYQJpjoUXR493'
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: []
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
 
 ----
 

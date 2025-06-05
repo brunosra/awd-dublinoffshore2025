@@ -2,6 +2,10 @@ Title: Scottish Government FOW Winners Announced
 
 ----
 
+Cover: []
+
+----
+
 Tags: Insights
 
 ----
@@ -10,7 +14,83 @@ Published: 2020-08-15
 
 ----
 
-Postcontent: [{"content":{"text":"<p>The Floating Wind Technology Acceleration Competition run by the Carbon Trust\\'s Floating Wind Joint Industry Project has announced eight technologies to receive Scottish Government funding and developer support.<\/p><p>The competition was designed to address four key industry challenge areas, that need to be overcome to commercialise floating wind. The four areas were identified in Phase 1 of the Floating Wind JIP: monitoring and inspection, mooring systems, heavy lift maintenance and tow to port maintenance. The eight technologies will receive a share of \u00a31 million from the Scottish Government, in addition to support from the 14 leading offshore wind developers represented in the Floating Wind JIP.<\/p><p>The Dublin Offshore project is a load reduction device that sits partway up the mooring line and pivots in the water to minimise mooring loads during wave events. The project will involve tank testing in Lir Ocean test Centre, and quarter scale testing at an ocean test site.<\/p>"},"id":"c656c329-7afe-4799-9531-e1c375bd0a78","isHidden":false,"type":"text"}]
+Postcontent: [{"content":{"text":"<p>The Floating Wind Technology Acceleration Competition run by the Carbon Trust\\'s Floating Wind Joint Industry Project has announced eight technologies to receive Scottish Government funding and developer support.</p><p>The competition was designed to address four key industry challenge areas, that need to be overcome to commercialise floating wind. The four areas were identified in Phase 1 of the Floating Wind JIP: monitoring and inspection, mooring systems, heavy lift maintenance and tow to port maintenance. The eight technologies will receive a share of £1 million from the Scottish Government, in addition to support from the 14 leading offshore wind developers represented in the Floating Wind JIP.</p><p>The Dublin Offshore project is a load reduction device that sits partway up the mooring line and pivots in the water to minimise mooring loads during wave events. The project will involve tank testing in Lir Ocean test Centre, and quarter scale testing at an ocean test site.</p>"},"id":"c656c329-7afe-4799-9531-e1c375bd0a78","isHidden":false,"type":"text"}]
+
+----
+
+Related: []
+
+----
+
+Contactblockarea: 
+
+----
+
+Extends: - 'page://FANeYQJpjoUXR493'
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: []
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
 
 ----
 

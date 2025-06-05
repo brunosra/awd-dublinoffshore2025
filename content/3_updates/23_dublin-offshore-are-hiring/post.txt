@@ -2,6 +2,10 @@ Title: Open Jobs - Technical Project Manager [Closed]
 
 ----
 
+Cover: []
+
+----
+
 Tags: Updates
 
 ----
@@ -10,7 +14,19 @@ Published: 2024-10-18
 
 ----
 
-Postcontent: [{"content":{"level":"h2","text":"Open Jobs - Calling Project Managers"},"id":"5f765b99-922b-4eb4-949b-5bf11311f982","isHidden":false,"type":"heading"},{"content":{"text":"<p>Dublin Offshore is excited to announce that we are looking to hire a Technical Project Manager! We are seeking enthusiastic individuals who are passionate about the renewable energy industry and looking for a challenging but rewarding job.</p><p>As the world transitions towards more sustainable energy sources, the demand for floating offshore wind energy is set to soar. By joining our team, you will be part of a dynamic and innovative company that is at the forefront of this exciting industry.</p><p>As a Project Manager at Dublin Offshore, you will have the opportunity to work on cutting-edge technology and tackle complex engineering problems. You will also work closely with a team of talented professionals who are dedicated to making a positive impact on the environment.</p><p>At Dublin Offshore, we pride ourselves on our supportive and welcoming company culture. We value diversity, creativity, and collaboration, and strive to provide our employees with the tools and resources they need to succeed.</p><p>If you are a motivated and ambitious individual who is looking to make a difference in the world, we encourage you to apply for our open positions. Join us on this exciting journey towards a greener future!</p><p><a href=\"https://www.dublinoffshore.ie/media/pages/updates/dublin-offshore-are-hiring/b76edc1455-1729238565/job-specification_technical-project-manager.pdf\">Job Specification - Technical Project Manager</a></p><p>To apply, please submit CV and Cover letter to <a href=\"mailto:hello@dublinoffshore.ie\">hello@dublinoffshore.ie</a> with subject ‘Technical Project Manager’ by 8th November 2024.  We look forward to hearing from you!</p>"},"id":"8aa8673e-a6cc-41a9-80ca-78c19a8f074e","isHidden":false,"type":"text"}]
+Postcontent: [{"content":{"level":"h2","text":"Open Jobs - Calling Project Managers"},"id":"5f765b99-922b-4eb4-949b-5bf11311f982","isHidden":false,"type":"heading"},{"content":{"text":"<p>Dublin Offshore is excited to announce that we are looking to hire a Technical Project Manager! We are seeking enthusiastic individuals who are passionate about the renewable energy industry and looking for a challenging but rewarding job.</p><p>As the world transitions towards more sustainable energy sources, the demand for floating offshore wind energy is set to soar. By joining our team, you will be part of a dynamic and innovative company that is at the forefront of this exciting industry.</p><p>As a Project Manager at Dublin Offshore, you will have the opportunity to work on cutting-edge technology and tackle complex engineering problems. You will also work closely with a team of talented professionals who are dedicated to making a positive impact on the environment.</p><p>At Dublin Offshore, we pride ourselves on our supportive and welcoming company culture. We value diversity, creativity, and collaboration, and strive to provide our employees with the tools and resources they need to succeed.</p><p>If you are a motivated and ambitious individual who is looking to make a difference in the world, we encourage you to apply for our open positions. Join us on this exciting journey towards a greener future!</p><p><a href=\"https://www.dublinoffshore.ie/media/pages/updates/dublin-offshore-are-hiring/b76edc1455-1729238565/job-specification_technical-project-manager.pdf\">Job Specification - Technical Project Manager</a></p><p>To apply, please submit CV and Cover letter to <a href=\"mailto:hello@dublinoffshore.ie\">hello@dublinoffshore.ie</a> with subject ‘Technical Project Manager’ by 8th November 2024.&nbsp; We look forward to hearing from you!</p>"},"id":"8aa8673e-a6cc-41a9-80ca-78c19a8f074e","isHidden":false,"type":"text"}]
+
+----
+
+Related: []
+
+----
+
+Contactblockarea: 
+
+----
+
+Extends: - 'page://FANeYQJpjoUXR493'
 
 ----
 
@@ -42,7 +58,7 @@ Ogdescription:
 
 ----
 
-Ogimage: 
+Ogimage: []
 
 ----
 

@@ -31,11 +31,11 @@ tabs:
         width: 1/2
         fields:        
           contactBlockArea:
-            label: Contaact block text
+            label: Contact block text
             type: writer
             marks: false
             icon: false
-            help: If left blank, section will display  'Get in touch with us today' along with your primary email.
+            help: If left blank, section will display  'Get in touch with us today' along with your primary email. Recomnded size is H3.
             nodes: 
               - paragraph
               - heading
