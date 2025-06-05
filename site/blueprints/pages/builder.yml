@@ -27,8 +27,23 @@ tabs:
               ratio: 1/1  
           builder:
             extends: pages/builder_list
-          contact:
-            extends: blocks/contact_block
+      bottomLeft:
+        width: 1/2
+        fields:        
+          contactBlockArea:
+            label: Contaact block text
+            type: writer
+            marks: false
+            icon: false
+            help: If left blank, section will display  'Get in touch with us today' along with your primary email.
+            nodes: 
+              - paragraph
+              - heading
+              - bulletList
+      bottomRight:
+        width: 1/2
+        fields:          
+          extends: dreamform/fields/form
 
               
   files: tabs/files
