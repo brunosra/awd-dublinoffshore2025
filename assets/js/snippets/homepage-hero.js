@@ -100,30 +100,75 @@ document.addEventListener('DOMContentLoaded', () => {
 	// GSAP Scroll Animation for Hero Video
 	const heroVideo = document.querySelector('.homepage-hero__bg-video')
 	if (heroVideo) {
+		// Responsive animation configs
+		const width = window.innerWidth
+		// Define breakpoints
+		const breakpoints = {
+			sm: 0,
+			md: 700,
+			lg: 1024,
+		}
+
+		// Animation configs for each breakpoint
+		const animConfigs = {
+			sm: {
+				startWidth: '320px',
+				startHeight: '320px',
+				endWidth: '120px',
+				endHeight: '120px',
+				endMarginTop: '40px',
+			},
+			md: {
+				startWidth: '520px',
+				startHeight: '520px',
+				endWidth: '220px',
+				endHeight: '220px',
+				endMarginTop: '60px',
+			},
+			lg: {
+				startWidth: '900px',
+				startHeight: '900px',
+				endWidth: '300px',
+				endHeight: '300px',
+				endMarginTop: '120px',
+			},
+		}
+
+		// Determine which config to use
+		let anim
+		if (width < breakpoints.md) {
+			anim = animConfigs.sm
+		} else if (width < breakpoints.lg) {
+			anim = animConfigs.md
+		} else {
+			anim = animConfigs.lg
+		}
+
 		const tl = gsap.timeline({
 			scrollTrigger: {
 				trigger: heroVideo,
 				start: 'top top',
 				end: 'top+=800 top',
 				scrub: true,
+				markers: true,
 			},
 		})
 
 		tl.to(heroVideo, {
 			borderRadius: '100%',
-			width: '900px',
-			height: '900px',
+			width: anim.startWidth,
+			height: anim.startHeight,
 			minHeight: '0px',
 			maxWidth: 'none',
 			marginTop: '0px',
-			duration: 0.125, // 100/800 = 0.125 of the total scroll
+			duration: 0.125,
 		}).to(heroVideo, {
-			width: '200px',
-			height: '200px',
-			marginTop: '120px',
+			width: anim.endWidth,
+			height: anim.endHeight,
+			marginTop: anim.endMarginTop,
 			maxWidth: 'none',
 			minHeight: '0px',
-			duration: 0.875, // 700/800 = 0.875 of the total scroll
+			duration: 0.875,
 		})
 	}
 })
