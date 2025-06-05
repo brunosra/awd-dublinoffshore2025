@@ -150,7 +150,7 @@ document.addEventListener('DOMContentLoaded', () => {
 				start: 'top top',
 				end: 'top+=800 top',
 				scrub: true,
-				markers: true,
+				markers: false,
 			},
 		})
 
