@@ -1,0 +1,89 @@
+Title: Development of Inclined Taut Mooring System
+
+----
+
+Cover: - 'file://KxuZ0D5M3TdnPlUN'
+
+----
+
+Tags: Projects
+
+----
+
+Published: 2025-06-05
+
+----
+
+Postcontent: [{"content":{"text":"<p>Dublin Offshore were engaged by a leading fibre supplier for the synthetic rope industry to develop a new concept of station keeping system in partnership with a Tier 1 floating wind platform developer. </p><p>This project investigated the use of a high modulus synthetic mooring line in combination with Dublin Offshore’s proprietary LRD technology to enable the use of high modulus ropes for an inclined taut mooring for a semi-submersible platform. The result is reduced load, reduced mooring spread, reduced part count all leading to significant cost reduction.</p>"},"id":"91b64421-5b39-41e7-acf3-548a73e682ac","isHidden":false,"type":"text"},{"content":{"location":"kirby","image":["file://KxuZ0D5M3TdnPlUN"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"ba68f2c7-5ba2-4c43-a68a-551809f5582f","isHidden":false,"type":"image"}]
+
+----
+
+Related: []
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: []
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: H3nNpPbSUqyj0k3x

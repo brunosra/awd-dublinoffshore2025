@@ -1,3 +1,0 @@
-Alt: offshore windfarm project stats
-----
-Template: blocks/image

@@ -1,3 +1,0 @@
-Alt: home page hero of dublin offshore website
-----
-Template: blocks/image

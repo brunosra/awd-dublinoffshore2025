@@ -1,0 +1,89 @@
+Title: LRD Certification Project
+
+----
+
+Cover: - 'file://H9qSpsOXhA2D3VpA'
+
+----
+
+Tags: Projects
+
+----
+
+Published: 2025-06-05
+
+----
+
+Postcontent: [{"content":{"text":"<p>Under the LOADCERT project Dublin Offshore will undertake prototype certification project for the LRD.</p><p>The  project is in collaboration with the leading technology innovation center <a href=\"https://ore.catapult.org.uk/\">Offshore Renewable Energy Catapult</a>, and the world class Ocean Energy Engineering team at <a href=\"https://composites.umaine.edu/offshorewind/volturnus/\">University of Maine</a>. </p><p>This key project objective is to achieve Prototype certification status for the LRD with leading independent expert in assurance and risk, DNV.</p><p>This ambitious project is pivotal in setting precedents for certification in mooring load reduction, potentially leading to broader adoption and significant cost efficiencies in for FOW.&nbsp;&nbsp;</p><p>Standby in 2025 for exciting updates on this process!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>"},"id":"84f19179-97ae-4460-913b-c1a977b9305a","isHidden":false,"type":"text"},{"content":{"location":"kirby","image":["file://9ycqPOkHaBS9sFJX"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"88bb0110-4107-4e4f-894f-1e1f90425d87","isHidden":false,"type":"image"}]
+
+----
+
+Related: []
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: []
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: SZgEo3fEqI1HlzbC

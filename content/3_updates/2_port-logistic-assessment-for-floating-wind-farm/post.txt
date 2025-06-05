@@ -1,0 +1,89 @@
+Title: Port / Logistic Assessment for Floating Wind Farm
+
+----
+
+Cover: - 'file://cjZ4f47DIlAPUbwG'
+
+----
+
+Tags: Projects
+
+----
+
+Published: 2025-06-05
+
+----
+
+Postcontent: [{"content":{"text":"<p>Dublin Offshore were engaged by Simply Blue Energy (SBE), to undertake assessment of the ports and harbour infrastructure feasibility for the proposed Western Star Floating Offshore Wind and Wave Energy project. The project will consist of up to 1.1GW of floating offshore wind (FOW) and up to 300MW of wave energy converters (WEC).</p><p>Irish port infrastructure has not to-date played a significant role in the support of large-scale offshore construction, and the existing infrastructure capacity has been developed to meet the needs of other markets. The proposed site is within steaming distance of Tier 1 and Regionally Significant ports with potential suitability to support during both build out and O&amp;M phases. The unique requirements of the Western Star project necessitate review within the context of current logistics capacity and the potential for improvements within an individual facility to meet the project requirements. </p><p>The deployment of FOW and WEC technologies within the same project scope, though at different offshore locations, introduces multiple requirements on harbour infrastructure. The scope of the report includes development of feasible port operations for both technologies. </p><p>The project is paving the way for the realisation of the ambitions for 30GW of FOW in the Atlantic Ocean published as part of the Programme for Government in June 2020.</p>"},"id":"e2cfef7a-33ed-4e1a-9bbf-638b299dc05e","isHidden":false,"type":"text"},{"content":{"location":"kirby","image":["file://cjZ4f47DIlAPUbwG"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"cbf05f9e-9fc4-40cb-8842-3cca53d1b082","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file://s10Vj0dKDafqg2Ya"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"fb9a6b9f-052c-4313-8f5a-d51352d6a156","isHidden":false,"type":"image"}]
+
+----
+
+Related: []
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: []
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: Ts5sQIhxTqECSqT7

@@ -1,0 +1,97 @@
+Title: Third Party Case Study (Exfin & Innosea) - LCOE Impact
+
+----
+
+Cover: []
+
+----
+
+Tags: Case Study
+
+----
+
+Published: 2023-07-12
+
+----
+
+Postcontent: [{"content":{"level":"h2","text":"Key Takeaways"},"id":"015f1cc5-06bb-47e7-b781-b9137c248bf4","isHidden":false,"type":"heading"},{"content":{"location":"kirby","image":["file://8LczKlGomrprJOLp"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"7c2df1a7-e0e2-4685-8942-863bce401872","isHidden":false,"type":"image"},{"content":{"level":"h2","text":"Case Study"},"id":"ad7e45bc-0872-477a-95fe-70a6fb566481","isHidden":false,"type":"heading"},{"content":{"location":"kirby","image":["file://N7t96iaYCaB4XRQq"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"2c214046-c2f3-4813-90c4-ac08f0053d1a","isHidden":false,"type":"image"},{"content":{"text":"<p><strong>Image: LRD direct impacts on future LCOE targets. Image courtesy of Exceedence</strong></p>"},"id":"0a9408bc-4e97-459c-9c14-b889998efbc3","isHidden":false,"type":"text"},{"content":{"text":"<p>Through the NWE Interreg project, the Marine Energy Alliance, DO received combined technical and commercial services from INNOSEA SAS (INNOSEA) and Exceedence Ltd (EXC).</p><p>INNOSEA assessed the technical feasibility of the LRD by conducting Orcaflex dynamic simulations to compare the performance of an LRD based fully synthetic Inclined Taut Mooring with the mooring performance of two common mooring systems: catenary and semi-taut. The project considered was at intermediate water depth and moderate met-ocean conditions, representing a project type with existing market competitive mooring options.</p><p><a href=\"https://exceedence.com/\">Exceedence&nbsp;</a>provided techno-financial modelling of the LRD within a wider FOW project, to understand the impact on the Levelised Cost of Energy (LCOE), of the LRD as compared with a baseline built using publicly available information and industry knowledge.</p><p>The financial analysis was carried out in the techno-financial software tool,&nbsp;<a href=\"https://exfinsoftware.com/product/\">Exfin</a>, that allows the user to quickly and intui-tively build, analyse and optimise any type of marine renewable energy project.</p><p>From the results of the Orcaflex dynamic simulations, INNOSEA has found that the LRD mooring system proposed by Dublin Offshore meets the design criteria for floater motions and mooring line capacity set for this analysis thus validates technical feasibility of the LRD and of the ability to re-design a mooring system.</p><p>The technical analysis by INNOSEA shows that with the LRD, catenary and semi-taut models assessed under the same envi-ronmental conditions, a slight decrease in the rotor-nacelle assembly’s horizontal accelerations and, under specific conditions and against the catenary system only is obtained also a decrease in the excursion of the floater. <strong>Major benefit is linked to the mooring line quantity reduced from 6 lines to 3 lines and reduced system specifications required to obtain similar performance.</strong></p><p>By using Exfin, two scenarios were investigated, one with current LCOE (2020) and the other with a future expected LCOE (2030). The inputs to the project Baselines were sourced from publicly available information along with industry knowledge. By replacing the mooring &amp; anchoring component in the Base-lines with the cost of the LRD, a like for like comparison could be conducted and the impact of the LRD on LCOE identified.</p><p><strong>Results</strong></p><p>It was found that the direct impact of the LRD on the Baseline projects is an approx. 50% CAPEX reduction in the mooring &amp; anchoring component. Depending on the target LCOE, this translates to a reduction in LCOE of between 3.6% and 3.7%. The LRD was further expected to have other indirect impacts on LCOE, such as a reduction in the CAPEX cost of the substructure (5%), a reduction in installation costs <s>(</s>10%), and an increase in availability (~1%). In the current Baseline it was also expected that the LRD may have an impact on OPEX, but in the future Baseline, the OPEX had already been decreased to market estimates, thus no further impact was taken into account.</p><p>When combining the indirect impacts, it was found that the LRD could further reduce LCOE by between 2.4% and 3.4%. By combining the direct and indirect impacts of the LRD, the study highlights that the approx.</p><p>50% cost reduction in the mooring &amp; anchoring cost may contribute to a total LCOE reduction of between 6.1% and 7.0%, or an equivalent saving of between 9.2M€ and 4.5M€ per 10MW device. </p>"},"id":"8122bce1-83b0-439a-906d-9b86869cf561","isHidden":false,"type":"text"}]
+
+----
+
+Related: []
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: []
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Meta-title: 
+
+----
+
+Meta-description: 
+
+----
+
+Uuid: ULexXXvw70qqJJ3a

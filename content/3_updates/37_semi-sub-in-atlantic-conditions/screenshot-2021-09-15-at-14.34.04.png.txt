@@ -1,0 +1,3 @@
+Alt: a capex difference chart
+----
+Template: blocks/image

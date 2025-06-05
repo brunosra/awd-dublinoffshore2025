@@ -1,0 +1,89 @@
+Title: Case Study - Celtic Sea 100MW
+
+----
+
+Tags: Case Study
+
+----
+
+Published: 2024-03-27
+
+----
+
+Postcontent: [{"content":{"text":"<p>The Case Study project considers a proposed floating wind farm in the Celtic Sea. </p><p><a href=\"https://www.dublinoffshore.ie/media/pages/updates/celtic-sea-100mw/6f63ae20ef-1719217069/lrd-case-study-celticsea.pdf\">Read the Case Study via PDF</a></p>"},"id":"17adc3c2-c92a-40be-b287-7e7268329180","isHidden":false,"type":"text"},{"content":{"location":"kirby","image":["file://qXVbSsk1HAIme5rC"],"src":"","alt":"","caption":"","link":"https://www.dublinoffshore.ie/media/pages/updates/celtic-sea-100mw/5792b723b4-1711533833/lrd-case-study-owgp-d1.pdf","ratio":"","crop":"false"},"id":"e9235081-4e19-48d5-8d57-4d794150210a","isHidden":false,"type":"image"},{"content":{"location":"kirby","image":["file://nWLEZqCtt3x2UmX0"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"b172695e-f77b-4958-8f48-0b6f0f32ca22","isHidden":false,"type":"image"}]
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Meta-title: Case Study with LRD optimised Mooring System for 100MW Floating Wind Farm
+
+----
+
+Meta-description: Case Study with LRD optimised Mooring System for 100MW Floating Wind Farm
+
+----
+
+Uuid: 8P0mF9Sv8CUSAzMD

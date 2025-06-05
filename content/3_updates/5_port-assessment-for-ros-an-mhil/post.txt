@@ -1,0 +1,89 @@
+Title: Port Assessment for Ros an Mhíl
+
+----
+
+Cover: - 'file://VrctGu1utCHTwD3y'
+
+----
+
+Tags: Projects
+
+----
+
+Published: 2025-06-05
+
+----
+
+Postcontent: [{"content":{"text":"<p>Údarás na Gaeltachta contracted Dublin Offshore to undertake a study to assess the potential of Ros an Mhíl to become a Strategic Hub for the Development and Support of the Floating Offshore Wind Industry on the West Coast of Ireland.</p><p>Ros an Mhíl has the potential to play an important role supporting the significant pipeline of Floating Offshore Wind on the West Coast of Ireland. Its combined attributes of proximity to offshore project locations and consented deep-water berth (-12m alongside) provide the opportunity for cost effective entry into the offshore energy market for the Port. </p><p>The significant economic activity associated with offshore construction and wind farm operations may be realised through long term employment opportunities local to the Port and within the region. The study, delivered by Dublin Offshore and collaboration partners, assesses the Floating Offshore Wind Market, and Technical, Environmental and Socio-Economic opportunities and constraints for the proposed development.</p>"},"id":"8642e640-2034-4be1-a89c-8d151598d521","isHidden":false,"type":"text"},{"content":{"location":"kirby","image":["file://VrctGu1utCHTwD3y"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"fadc72f4-2a93-4aaf-85d4-525e4aa28b1c","isHidden":false,"type":"image"}]
+
+----
+
+Related: []
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: []
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: xJNjn7i7exgrXcoT

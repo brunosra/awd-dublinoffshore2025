@@ -1,0 +1,97 @@
+Title: WEI - Outstanding Innovation Award
+
+----
+
+Cover: - 'file://2wbqvDsWiPjmBYYo'
+
+----
+
+Tags: News
+
+----
+
+Published: 2022-03-14
+
+----
+
+Postcontent: [{"content":{"level":"h2","text":"Dublin Offshore win Outstanding Innovation at Wind Energy Ireland Annual Awards"},"id":"a70d90f8-da8b-4b99-9377-981470a26bac","isHidden":false,"type":"heading"},{"content":{"location":"kirby","image":["file://2wbqvDsWiPjmBYYo"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"d3bd31ff-0b23-423e-bd70-a61179fcfbbe","isHidden":false,"type":"image"},{"content":{"text":"<p>Dublin Offshore have been awarded the Outstanding Innovation Award at the Irish Wind Industry Awards. The Industry Awards recognise and celebrate the most original and innovative individuals and companies demonstrating excellence in their fields and the Irish wind energy sector.</p><p>Kevin Moloney,Business Manager at Siemens Gamesa Renewable Energy said after the awards <strong>'</strong>Congratulations to the team at Dublin Offshore&nbsp;for an excellent and game-changing innovation that the judges agreed has the potential to make a significant contribution to the global floating offshore market. A deserving winner of the Outstanding Innovation award of 2021'.</p>"},"id":"a9d0ca3b-120a-48e7-a9af-f0ac8d766a50","isHidden":false,"type":"text"}]
+
+----
+
+Related: []
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: []
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Meta-title: 
+
+----
+
+Meta-description: 
+
+----
+
+Uuid: hzpBgk3MUMC2odKD

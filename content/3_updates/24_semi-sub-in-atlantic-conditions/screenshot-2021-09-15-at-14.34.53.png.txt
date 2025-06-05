@@ -1,3 +1,0 @@
-Alt: mooring system specs
-----
-Template: blocks/image

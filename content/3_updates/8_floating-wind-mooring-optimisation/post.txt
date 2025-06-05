@@ -1,0 +1,89 @@
+Title: Floating Wind Mooring Optimisation
+
+----
+
+Cover: - 'file://Io1IKJNrLJ2ncXga'
+
+----
+
+Tags: Projects
+
+----
+
+Published: 2025-06-05
+
+----
+
+Postcontent: [{"content":{"location":"web","url":"https://youtu.be/fvbUMHG5Yh4","video":[],"poster":[],"caption":"","autoplay":"false","muted":"true","loop":"false","controls":"true","preload":"auto"},"id":"40510d94-85ca-403f-8a50-a00eb18ac1fe","isHidden":false,"type":"video"},{"content":{"text":"<p>Dublin Offshore has successfully completed the development of its Load Reduction Device (LRD) for Floating Offshore Wind (FOW) moorings. The project was funded by the Scottish Government as part of the Floating Wind Technology Accelerator Competition (FLW TAC), looking to support innovation in the floating wind energy sector. </p><p>The key project activities comprised mooring analysis, tank testing, third party certification, ocean testing, and LCOE analysis. Validation of numerical modelling for the FOW system was delivered through physical prototype testing in the deep ocean basin at Lir, Ireland’s National Ocean Test Facility.  Third Party Certification of the LRD was undertaken by DNV in accordance with DNVGL-SE-0160 leading to the award of a ‘Statement of Feasibility’ for the technology. </p><p>A quarter scale LRD was designed, built and deployed for ocean testing off the west coast of Ireland. The LRD accumulated 1200 hours of continuous operation, including through Hurricane Epsilon and Storm Aiden when a full-scale equivalent wave height of 22m was measured at the site. The data gathered during ocean testing and subsequent analysis was certified by the European Marine Energy Centre (EMEC) to be in compliance with IEC TS 62600-10. </p><p>Post-recovery inspection of the LRD confirmed that no damage or degradation occurred, verifying the robustness of the system.</p><p>The results of the numerical modelling, scaled tank test, and ocean test all validate the significant load reduction offered by the LRD. This reduction is as high as 70% when compared to traditional steel catenary moorings, and up to 50% when compared to higher performance semi-taut systems. </p><p>When compared against semi-taut mooring systems the LRD can deliver a reduction in LCOE of 8%. The cost savings are driven by CAPEX reductions in the mooring system and the platform.<br><br><a href=\"/@/file/vYpCBTt9fEDmDdb0\">Executive Summary</a></p>"},"id":"cbf3172b-fb0b-4e11-90bc-5b4ea6eec9dd","isHidden":false,"type":"text"}]
+
+----
+
+Related: []
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: []
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: 1anvpIIflnMoVDa9

@@ -1,0 +1,89 @@
+Title: Launch & Recovery System Concept
+
+----
+
+Cover: - 'file://NlgW9EJgFbBohREg'
+
+----
+
+Tags: Projects
+
+----
+
+Published: 2025-06-05
+
+----
+
+Postcontent: [{"content":{"text":"<p>Dublin Offshore were engaged by XOCEAN to undertake design development and concept engineering of a Launch and Recovery System (LARS) to enable the launch and recovery of their uncrewed surface vessel (USV) from offshore construction and survey vessels.  The project scope included developing the concept of operations, requirements capture, mechanical design, FEA, naval architecture, lifting analysis and preparation of drawings for quotation.</p>"},"id":"04f5e4bb-fc5b-458b-845f-47ffbfb7420d","isHidden":false,"type":"text"},{"content":{"location":"kirby","image":["file://NlgW9EJgFbBohREg"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"7b5a0e47-967d-4af5-95a0-dcadf0410930","isHidden":false,"type":"image"}]
+
+----
+
+Related: []
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: []
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: XuvDxvyhJNYgktLB
