@@ -1,5 +1,4 @@
 title: Page Builder
-icon: 📄
 
 tabs:
   content:
@@ -13,6 +12,7 @@ tabs:
             label: Heading
             type: text
             width: 1/2
+            help: If left blank the page title will be displayed.
           background:
             label: Background Image
             type: files
@@ -20,8 +20,11 @@ tabs:
             max: 1
             help: Optional
             layout: cards
-            size: medium
+            size: large
             width: 1/2
+            image:
+              cover: true
+              ratio: 1/1  
           builder:
             extends: pages/builder_list
           contact:

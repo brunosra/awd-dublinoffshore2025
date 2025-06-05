@@ -11,10 +11,8 @@ tabs:
             type: pages
             status: listed
             # sortBy: published desc
-            info: "{{ page.published }} {{ page.heroWrittenContent }}"
             layout: cards
             image:
-              query: page.heroVisualContent.toFile
               cover: true
               ratio: 16/9  
             size: huge

@@ -1,5 +1,6 @@
 Title: Legal
-icon: ✒️
+icon: file-warning-line
+
 fields:
   legaltext:
     label: Legal Text

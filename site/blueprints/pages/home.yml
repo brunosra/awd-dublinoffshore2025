@@ -1,5 +1,4 @@
 title: Page Builder
-icon: 📄
 
 tabs:
   content:
@@ -13,22 +12,30 @@ tabs:
             label: Heading
             type: text
             width: 1/3
+            help: If left blank the page title will be displayed.
           background:
             label: Background Image or video
             type: files
             max: 1
             required: true
             layout: cards
-            size: medium
+            size: large
             width: 1/3
+            image:
+              ratio: 16/9
+              backgound: white
           thumbnail:
-            label: thumbnail for video
+            label: Thumbnail for full video link
             type: files
             max: 1
             required: true
-            layout: cards
+            layout: cardlets
             size: medium
             width: 1/3
+            image:
+              cover: true
+              ratio: 16/9
+              backgound: white
           builder:
             extends: pages/builder_list
           contact:

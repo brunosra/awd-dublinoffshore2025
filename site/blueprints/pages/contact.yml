@@ -1,5 +1,7 @@
 title: Contact Page
-icon: 📄
+options:
+  duplicate: false
+  changeSlug: false
 
 tabs:
   content:

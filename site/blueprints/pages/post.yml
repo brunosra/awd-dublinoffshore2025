@@ -19,6 +19,9 @@ tabs:
                 type: files
                 layout: cards
                 size: medium
+                image:
+                  cover: true
+                  ratio: 1/1  
               tags:
                 label: Tags
                 type: tags
