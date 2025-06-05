@@ -18,7 +18,7 @@ tabs:
         fields:
           icon:
             label: Icon
-            type: icon
+            type: files
             max: 1
           heading: 
             label: Heading  
