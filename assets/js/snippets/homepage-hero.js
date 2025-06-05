@@ -1,6 +1,10 @@
 // Homepage Hero Video Modal Logic
 // Handles showing/hiding a YouTube video overlay modal on the homepage hero section
 
+import gsap from 'gsap'
+import ScrollTrigger from 'gsap/ScrollTrigger'
+gsap.registerPlugin(ScrollTrigger)
+
 document.addEventListener('DOMContentLoaded', () => {
 	const OVERLAY_ID = 'homepage-hero-video-overlay'
 	const OVERLAY_CLASS = 'homepage-hero__video-overlay'
@@ -92,4 +96,35 @@ document.addEventListener('DOMContentLoaded', () => {
 
 	// Ensure overlay is hidden on page load
 	overlay.style.display = 'none'
+
+	// GSAP Scroll Animation for Hero Video
+	const heroVideo = document.querySelector('.homepage-hero__bg-video')
+	if (heroVideo) {
+		const tl = gsap.timeline({
+			scrollTrigger: {
+				trigger: heroVideo,
+				start: 'top top',
+				end: 'top+=800 top',
+				scrub: true,
+				markers: true,
+			},
+		})
+
+		tl.to(heroVideo, {
+			borderRadius: '100%',
+			width: '900px',
+			height: '900px',
+			minHeight: '0px',
+			maxWidth: 'none',
+			marginTop: '0px',
+			duration: 0.125, // 100/800 = 0.125 of the total scroll
+		}).to(heroVideo, {
+			width: '200px',
+			height: '200px',
+			marginTop: '120px',
+			maxWidth: 'none',
+			minHeight: '0px',
+			duration: 0.875, // 700/800 = 0.875 of the total scroll
+		})
+	}
 })
