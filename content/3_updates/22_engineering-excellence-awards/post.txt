@@ -1,0 +1,97 @@
+Title: Engineering Excellence Awards
+
+----
+
+Cover: []
+
+----
+
+Tags: News
+
+----
+
+Published: 2021-11-26
+
+----
+
+Postcontent: [{"content":{"level":"h2","text":"Engineers Ireland Excellence Award Winners"},"id":"dc009068-4ed2-48ea-82a1-7014178410f7","isHidden":false,"type":"heading"},{"content":{"location":"","url":"https://youtu.be/dSH_PR54das","video":[],"poster":[],"caption":"","autoplay":"false","muted":"true","loop":"false","controls":"true","preload":""},"id":"3b33ae12-298a-4884-a9c0-f8ac10df3d76","isHidden":false,"type":"video"},{"content":{"text":"<p>Engineers Ireland’s Engineering Excellence Digital Series shines a light on the creative ways Ireland’s engineers seek to support and transform society. In addition to the engineering skill needed to deliver these projects in 2021, the series also highlights the engineers behind these projects and how their work benefits communities in Ireland and overseas.</p><p>Following a free-to-enter competition and judging process, five engineering projects were selected to represent the top engineering initiatives undertaken in the fields of innovation, sustainability, buildings and structures, and infrastructure in 2021. Dublin Offshore were selected as the Innovation Category winners and shortlisted for the overall Engineering Endeavour 2021 Award. </p><p>Collectively as a team we're very proud to have been selected for this award. This award recognises the best engineering professionals and organisations, with some of the country's most innovative projects being shortlisted each year. </p>"},"id":"d4b71f21-92a5-4534-9b17-518b4b724fba","isHidden":false,"type":"text"}]
+
+----
+
+Related: []
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: []
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Meta-title: 
+
+----
+
+Meta-description: 
+
+----
+
+Uuid: KxtsJcTZ9WnGbKV3

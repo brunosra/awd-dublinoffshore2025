@@ -1,0 +1,89 @@
+Title: Llŷr Project - Mooring Feasibility Study
+
+----
+
+Cover: - 'file://v0OHxL5qtlvZWk3l'
+
+----
+
+Tags: Projects
+
+----
+
+Published: 2025-06-05
+
+----
+
+Postcontent: [{"content":{"location":"kirby","image":["file://yAUmDFQ977mqibAE"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"f388ca38-24e7-4d29-b87d-3e72a561eccf","isHidden":false,"type":"image"},{"content":{"text":"<p>Crown Estate recently unveiled plans to unlock up to 4GW of new floating offshore wind capacity in the Celtic Sea. The new leasing process is forecast to deliver enough new capacity to provide renewable energy for almost four million homes. The new plans will focus on two project categories – early-commercial scale projects of up to 350MW of capacity and full-commercial scale projects of up to 1GW.</p><p>Through this new process, offshore wind development in the Celtic Sea has an opportunity to positively balance the needs of communities onshore and the environment, through a coordinated and planned approach which can also help to incentivize investment in grid infrastructure and ports. The shallow to intermediate water depths, and exposed site locations, result in a mooring design environment with several technical and commercial challenges.</p><p>Dublin Offshore are supporting Celtic Sea projects in developing Load Reduction Device integrated mooring systems to reduce cost and risk for these regionally specific challenges. This project delivers the validated commercial and technical feasibility for this mooring innovation up to FID using existing site data. By building a project delivery team including the project developer, technology developer, key technical and insurance stakeholders from the FOW market, and with the end user and customer as project lead, this collaborative feasibility study quantifies the validated impact of deploying the LRD in the Celtic Sea.&nbsp;The key outcomes of this project are:</p>"},"id":"f92af407-3d88-465b-817e-b2ebd5359f5a","isHidden":false,"type":"text"},{"content":{"location":"kirby","image":["file://2oHjCPOJguSvsZTV"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"a148f975-e80f-4bee-8de9-01932eba6b48","isHidden":false,"type":"image"}]
+
+----
+
+Related: []
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: []
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: BT0GoopsmRuLHGcn

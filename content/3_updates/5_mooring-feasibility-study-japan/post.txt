@@ -1,0 +1,89 @@
+Title: Mooring Feasibility Study - Japan
+
+----
+
+Cover: - 'file://x9WUPy0ydyM8DUoZ'
+
+----
+
+Tags: Projects
+
+----
+
+Published: 2025-06-05
+
+----
+
+Postcontent: [{"content":{"text":"<p>Our Client aims to develop feasibility for the delivery of mooring systems based on the Load Reduction Device for their projects in the Japanese market. The Client has a deep understanding of Japanese FOW and has identified the problem that existing mooring systems create significant technical and financial challenges for project development. The scope of this project is to deliver a techno-economic feasibility study for the integration of the LRD within both Inclined Taut Mooring (ITM) systems and a catenary system for the reference sites. A cost and risk comparison will be provided between the developed mooring systems. </p>"},"id":"93289016-631a-4117-875d-339744bda1e4","isHidden":false,"type":"text"},{"content":{"location":"kirby","image":["file://x9WUPy0ydyM8DUoZ"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"b63bc2aa-ca1a-4d1f-b7db-7d40756a4ea1","isHidden":false,"type":"image"}]
+
+----
+
+Related: []
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: []
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: hrzynrOEya5gdg0o
