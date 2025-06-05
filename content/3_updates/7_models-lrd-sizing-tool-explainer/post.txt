@@ -1,0 +1,81 @@
+Title: MODELS - LRD Sizing Tool Explainer
+
+----
+
+Tags: Insights
+
+----
+
+Published: 2024-08-20
+
+----
+
+Postcontent: [{"content":{"level":"h2","text":"LRD Sizing Tool"},"id":"e964d8b2-3ab5-4bf1-bdcb-e894c173b321","isHidden":false,"type":"heading"},{"content":{"text":"<p>We're excited to share that we've just released an explainer video showcasing our interactive web tool for sizing our Load Reduction Device (LRD). This video walks you through the tool's features, demonstrating how it builds on the recently published LRD Design Manual. 🌊</p><p> </p><p>Whether you're a seasoned mooring designer or new to the field, this video is your guide to unlocking the full potential of LRD-integrated moorings. Watch it now to see how our tool can help you optimise your designs and explore innovative solutions.</p><p> </p><p>🔗 Watch the video and explore the tool now (Find it at <a href=\"https://www.dublinoffshore.ie/technology\">https://www.dublinoffshore.ie/technology</a>)</p>"},"id":"bc0adacf-08f2-4438-a283-28580cc0cb2c","isHidden":false,"type":"text"},{"content":{"location":"web","url":"https://youtu.be/VsW9NSeHGEw","video":[],"poster":[],"caption":"","autoplay":"false","muted":"true","loop":"false","controls":"true","preload":"auto"},"id":"259735ad-7442-486e-91dd-d180edbdc71a","isHidden":false,"type":"video"}]
+
+----
+
+Metatitle: 
+
+----
+
+Metatemplate: 
+
+----
+
+Usetitletemplate: true
+
+----
+
+Metadescription: 
+
+----
+
+Ogtemplate: 
+
+----
+
+Useogtemplate: true
+
+----
+
+Ogdescription: 
+
+----
+
+Ogimage: 
+
+----
+
+Twittercardtype: 
+
+----
+
+Twitterauthor: 
+
+----
+
+Robotsindex: default
+
+----
+
+Robotsfollow: default
+
+----
+
+Robotsarchive: default
+
+----
+
+Robotsimageindex: default
+
+----
+
+Robotssnippet: default
+
+----
+
+Metainherit: 
+
+----
+
+Uuid: 2mgoKW7TPFDEva6d

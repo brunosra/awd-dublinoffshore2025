@@ -1,0 +1,25 @@
+Title: Case Study - Celtic Sea
+
+----
+
+Tags: Case Study
+
+----
+
+Published: 2024-03-27
+
+----
+
+Postcontent: [{"content":{"level":"h2","text":"Case Study - 100MW Celtic Sea"},"id":"cb31da1c-2bd6-42f8-a530-646a98cc3239","isHidden":false,"type":"heading"},{"content":{"text":"<p><strong>Project Outcomes<\/strong><\/p><p>The key outcomes of the LRD Optimised Mooring System across critical commercial evaluation categories are:<\/p>"},"id":"e2347fad-4e09-4443-817e-082d35fc17f1","isHidden":false,"type":"text"},{"content":{"location":"kirby","image":["final.png"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"true"},"id":"ae97927d-697f-49f8-8676-1aabcb5616c8","isHidden":false,"type":"image"},{"content":{"text":"<p><strong>Project Description<\/strong><\/p><p>The Case Study project considers a proposed floating wind farm in a Celtic Sea site which are summarized as follows:<\/p>"},"id":"6e77efdb-55a3-49e0-b829-dcdb96b69afe","isHidden":false,"type":"text"},{"content":{"location":"kirby","image":["overview.png"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"549d7971-f155-4437-8f77-0ea0bf5e4d20","isHidden":false,"type":"image"},{"content":{"text":"<p><strong>Optimisation Approach<\/strong><\/p><p>The project assessment was carried out using an LRD optimization process developed by Dublin Offshore:<\/p>"},"id":"c6547355-7517-473c-94db-0837b089ba89","isHidden":false,"type":"text"},{"content":{"location":"kirby","image":["approach.png"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"83496c3e-8480-4b6e-b970-893c57078810","isHidden":false,"type":"image"},{"content":{"text":"<p><strong>Pre &amp; Post Mooring System<\/strong><\/p><p>The baseline mooring system is compared to the LRD optimised mooring system demonstrating the LRD impacts:<\/p>"},"id":"0f160938-88d6-41cc-a9fd-6b1745de59f8","isHidden":false,"type":"text"},{"content":{"location":"kirby","image":["summary-outcome.png"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"bd8c1b84-0b08-4d85-8df3-91c187c90935","isHidden":false,"type":"image"},{"content":{"text":"<p><strong>Want to know more?<\/strong><\/p><p>Contact us on <a href=\"mailto:hello@dublinoffshore.ie\" rel=\"noopener noreferrer nofollow\">hello@dublinoffshore.ie<\/a> to discuss cost and risk reduction on your project mooring system.<\/p>"},"id":"e8828314-64a8-4a73-bb17-c636cddf0a7b","isHidden":false,"type":"text"}]
+
+----
+
+Meta-title: Celtic Sea Floating Offshore Wind Farm Mooring System Case Study
+
+----
+
+Meta-description: Celtic Sea Floating Offshore Wind Mooring System Semi Sub Cost Reduction Pathway Marine technology Load Reduction Device
+
+----
+
+Uuid: IgqjLgiTDMBrZbCV
