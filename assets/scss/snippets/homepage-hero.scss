@@ -1,0 +1,143 @@
+@use '../vars';
+@use '../mixins';
+
+.homepage-hero {
+	position: relative;
+
+	&__video {
+		width: 100%;
+		min-height: 844px;
+		object-fit: cover;
+		display: block;
+	}
+
+	&__container {
+		position: absolute;
+		top: 40px;
+		bottom: 40px;
+		left: 0;
+		right: 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: end;
+		gap: 20px;
+
+		align-items: start;
+		h1 {
+			max-width: 816px;
+			color: vars.$c--yellow;
+		}
+	}
+
+	&__thumbnail {
+		background-color: #deeaff4d;
+		border-radius: 16px;
+		display: flex;
+		flex-direction: column;
+		padding: 8px;
+		gap: 4px;
+		backdrop-filter: blur(4px);
+		min-width: 253px;
+
+		&-link {
+			position: relative;
+		}
+
+		&-image {
+			border-radius: 8px;
+		}
+
+		&-play-btn {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			width: 48px;
+			height: 48px;
+			transition: transform 0.4s ease-in-out;
+		}
+
+		&-link:hover {
+			.homepage-hero__thumbnail-play-btn {
+				transform: translate(-50%, -50%) scale(1.1);
+			}
+		}
+
+		p {
+			color: vars.$c--white;
+			text-align: center;
+			margin-bottom: 0px;
+		}
+	}
+
+	&__video-overlay {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100vw;
+		height: 100vh;
+		background: rgba(0, 0, 0, 0.9);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		z-index: 1000;
+		opacity: 0;
+		pointer-events: none;
+		transition: opacity 300ms ease;
+	}
+
+	&__video-overlay.is-active {
+		opacity: 1;
+		pointer-events: auto;
+	}
+
+	&__video-modal {
+		position: relative;
+		background: #111;
+		border-radius: 12px;
+		padding: 0;
+		box-shadow: 0 4px 32px rgba(0, 0, 0, 0.5);
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+		width: 100%;
+		max-width: 940px;
+	}
+
+	&__video-close {
+		background: none;
+		border: none;
+		color: #fff;
+		font-size: 2.5rem;
+		cursor: pointer;
+		position: absolute;
+		top: 12px;
+		right: 20px;
+		z-index: 10;
+		padding: 0;
+		line-height: 1;
+	}
+
+	&__video-iframe-wrapper {
+		width: 100%;
+		aspect-ratio: 16/9;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	&__video-iframe-wrapper iframe {
+		width: 100%;
+		height: 100%;
+		border: none;
+		border-radius: 8px;
+	}
+
+	@include mixins.responsive('lg') {
+		&__container {
+			flex-direction: row;
+			justify-content: space-between;
+			align-items: end;
+		}
+	}
+}
