@@ -1,5 +1,5 @@
 <?php 
-  $assetManager->add('js', vite()->asset('assets/js/vendor/plotly-3.0.1.min.js'));
+  $assetManager->add('js', vite()->asset('assets/js/vendor/plotly-2.31.1.min.js'));
   $assetManager->add('css', vite()->asset('assets/scss/snippets/blocks/lrd-app.scss'));
   $assetManager->add('js', vite()->asset('assets/js/snippets/blocks/lrd-app.js'));
 ?>

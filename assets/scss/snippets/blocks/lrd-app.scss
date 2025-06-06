@@ -159,6 +159,14 @@ section.lrd-app {
 					#graph {
 						svg {
 							width: 100%;
+							g.legend {
+  								opacity: 0.8;
+							}
+							text {
+								fill: #231F20;
+								font-family: Arial, Helvetica, sans-serif;
+								font-size: 12px;
+							}
 						}
 					}
 					#img-placeholder {
@@ -215,6 +223,17 @@ section.lrd-app {
 					}
 					.graph-area {
 						grid-column: 1 / 8;
+						display: flex;
+						flex-direction: row;
+						gap: 24px;
+						#img-placeholder {
+							width: 35% !important;
+						}
+						#graph {
+							width: 65% !important;
+							padding-bottom: 2.5%;
+							height: auto;
+						}
 					}
 				}
 

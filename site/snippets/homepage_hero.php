@@ -1,6 +1,6 @@
 <?php
 $template = $page->intendedTemplate()->name();
-$assetManager->add('css', vite()->asset('assets/scss/snippets/homepage-hero.scss'));
+// $assetManager->add('css', vite()->asset('assets/scss/snippets/homepage-hero.scss'));
 ?>
 
 
