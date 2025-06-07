@@ -27,6 +27,10 @@ button,
 	cursor: pointer;
 	border: 0;
 
+	&:after {
+		display: none;
+	}
+
 	&:hover {
 		background-position: center;
 		color: vars.$c--white !important;
