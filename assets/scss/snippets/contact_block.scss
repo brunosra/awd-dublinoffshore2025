@@ -29,6 +29,7 @@
 			color: vars.$c--yellow;
 			padding-top: 40px;
 			-webkit-text-fill-color: unset;
+			text-decoration: none;
 		}
 	}
 
@@ -39,6 +40,12 @@
 
 		button {
 			width: fit-content;
+			box-sizing: border-box;
+			outline-offset: -1;
+			outline: 1px solid vars.$c--yellow; 
+			&:hover {
+				outline: 1px solid vars.$c--white;
+			}
 		}
 	}
 

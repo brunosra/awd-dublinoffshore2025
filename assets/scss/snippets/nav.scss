@@ -220,9 +220,15 @@ nav.menu {
 				li {
 					&.has-children {
 						.expander-sub {
+							outline: 2px solid vars.$c--secondary1-25;
+							outline-offset: -2px;
 							position: absolute;
 							width: max-content;
 							left: 0;
+
+							ul {
+								gap: 1rem;
+							}
 						}
 					}
 				}
