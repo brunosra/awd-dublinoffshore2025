@@ -12,5 +12,5 @@
 [  ] check the footer form after plugin in implemented;
 
 ## Mobile:
-[  ] post list, add top and bottom margins from post cards
+[✅] post list, add top and bottom margins from post cards
 [✅] port logistic assessment - images are too close - add margin;
