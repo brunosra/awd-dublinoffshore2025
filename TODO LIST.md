@@ -2,9 +2,9 @@
 [✅] padding not working in layout
 [  ] style icons in the home;
 [  ] make links underline;
-[  ] reduce gap to 1rem in dropdown
+[✅] reduce gap to 1rem in dropdown
 [✅] padding not working in layout
-[  ] fix behavior to move to top while clicking in nav menu 
+[✅] fix behavior to move to top while clicking in nav menu 
 [  ] add border in menu dropdown
 [  ] pagination in the post list
 [  ] remove underline in contact link in the footer
