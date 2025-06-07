@@ -23,7 +23,7 @@ button,
 	background-image: url('../images/btn-background-navy.svg');
 	background-repeat: repeat-x;
 	background-position: 0 -100%;
-	transition: background-position 0.75s ease-in-out, color 0.25s ease-in-out 0.25s;
+	transition: all 0.25s ease-in-out 0.25s, background-position 0.75s ease-in-out;
 	cursor: pointer;
 	border: 0;
 
