@@ -36,6 +36,8 @@ tabs:
               cover: true
               ratio: 16/9
               backgound: white
+          builder:
+            extends: pages/builder_list
       bottomLeft:
         width: 1/2
         fields:        
