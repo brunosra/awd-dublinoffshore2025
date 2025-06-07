@@ -26,3 +26,19 @@ fields:
     # #     image:
     # #       label: Background image
     # #       type: files
+    settings:
+      fields:
+        paddingTop:
+          label: Padding-top
+          type: toggle
+          default: true
+          text:
+            - Remove
+            - Add
+        paddingBottom:
+          label: Padding-top
+          type: toggle
+          default: true
+          text:
+            - Remove
+            - Add
