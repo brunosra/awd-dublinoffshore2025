@@ -1,3 +1,26 @@
+@use "../../vars";
+
 div.icon-list {
-	
+	display: flex;
+	gap: 1rem;
+	flex-direction: column;
+	.icon-list-item {
+		display: flex;
+		gap: 1rem;
+		align-items: center;
+		padding-bottom: 1rem;
+		&:not(:last-of-type) {
+			border-bottom: 1px solid vars.$c--secondary3;
+		}
+		img {
+			background-color: vars.$c--secondary3;
+			border-radius: 0.5rem;
+			padding: 0.5rem;
+			box-sizing: border-box; 
+		}
+		p.h6 {
+			margin-bottom: 0;
+			line-height: 1em;
+		}
+	}
 }
