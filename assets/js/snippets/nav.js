@@ -5,12 +5,14 @@ let toggles = document.querySelectorAll('li.has-children');
 let floating_subnavs = document.querySelectorAll('div.expander-sub');
 
 burger.addEventListener('click', (evt) => {
+	evt.preventDefault();
 	burger.classList.toggle('close');
 	floating_nav.classList.toggle('open');
 });
 
 toggles.forEach((item) => {
-	item.addEventListener("click", () => {
+	item.addEventListener("click", (evt) => {
+		evt.preventDefault();
 		item.classList.toggle('open');
 	})
 });
