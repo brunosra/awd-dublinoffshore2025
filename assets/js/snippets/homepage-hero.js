@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	const CLOSE_BTN_CLASS = 'homepage-hero__video-close'
 	const IFRAME_WRAPPER_CLASS = 'homepage-hero__video-iframe-wrapper'
 	const THUMBNAIL_LINK_CLASS = 'homepage-hero__thumbnail-link'
-	const YOUTUBE_EMBED_URL = 'https://www.youtube.com/embed/u7zm19YgQBA?si=af6UeD9w-FcA-dEl'
+	const YOUTUBE_EMBED_URL = 'https://www.youtube.com/embed/KdL94bHxz6M?si=jd-rKixT9zIdfDT8'
 
 	/**
 	 * Create the overlay modal if it doesn't exist in the DOM.
