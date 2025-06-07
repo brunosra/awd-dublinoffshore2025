@@ -1,8 +1,8 @@
 let burger = document.querySelector('.burger');
 let floating_nav = document.querySelector('nav .expander');
 
-let toggles = document.querySelectorAll('li.has-children');
-let floating_subnavs = document.querySelectorAll('div.expander-sub');
+let toggles = document.querySelectorAll('.has-children');
+let floating_subnavs = document.querySelectorAll('div.expander-sub a');
 
 burger.addEventListener('click', (evt) => {
 	evt.preventDefault();
@@ -15,4 +15,9 @@ toggles.forEach((item) => {
 		evt.preventDefault();
 		item.classList.toggle('open');
 	})
+	floating_subnavs.forEach((item) => {
+		item.addEventListener("click", (evt) => {
+			evt.stopPropagation();
+		});
+	});
 });
