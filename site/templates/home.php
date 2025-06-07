@@ -1,6 +1,6 @@
 <?php snippet('header') ?>
 <?php snippet('homepage_hero') ?>
-  <div class="container">
+  <!-- <div class="container">
     <div style="grid-column: 1 / 13;">
       <h1 style="margin: 2rem 0;">Design System</h1>
       <h2 class="h3" style="margin: 1rem 0;">Typography</h2>
@@ -46,7 +46,7 @@
       <a href="#" class="btn btn-invisible">Invisible Button</a><br>
       <a href="#" class="btn btn-invisible btn-small">Invisible Button</a>
     </div>
-  </div>
+  </div> -->
   <?php foreach ($page->builder()->toBlocks() as $block): ?>
   <?= $block ?>
 <?php endforeach ?>
