@@ -1,5 +1,5 @@
 <?php 
-  $assetManager->add('js', vite()->asset('assets/js/vendor/plotly-3.0.1.min.js'));
+  $assetManager->add('js', vite()->asset('assets/js/vendor/plotly-2.31.1.min.js'));
   $assetManager->add('css', vite()->asset('assets/scss/snippets/blocks/lrd-app.scss'));
   $assetManager->add('js', vite()->asset('assets/js/snippets/blocks/lrd-app.js'));
 ?>
@@ -61,7 +61,7 @@
         <div id="sliders">
           <div class="slider-group">
             <div class="slider-title">
-              <p>Diameter <span>(m)</span></p>
+              <p class="small">Diameter <span>(m)</span></p>
               <input type="text" class="slider-input" disabled id="input-LRD-dia" />
             </div>
             <div class="main-slider" data-max="5" data-min="2.5">
@@ -70,7 +70,7 @@
           </div>
           <div class="slider-group">
             <div class="slider-title">
-              <p>Length <span>(m)</span></p>
+              <p class="small">Length <span>(m)</span></p>
               <input type="text" class="slider-input" disabled id="input-LRD-hei" />
             </div>
             <div class="main-slider" data-min="10" data-max="22.5">
@@ -79,16 +79,7 @@
           </div>
           <div class="slider-group">
             <div class="slider-title">
-              <p>Axes horizontal offset <span>(m)</span></p>
-              <input type="text" class="slider-input" disabled id="input-axes-horz-dist" />
-            </div>
-            <div class="main-slider" data-max="2" data-min="0">
-              <input id="axes-horz-dist" type="range" min="0" max="2" step="0.1" value="1" class="slider">
-            </div>
-          </div>
-          <div class="slider-group">
-            <div class="slider-title">
-              <p>Axes vertical offset <span>(m)</span></p>
+              <p class="small">Axes vertical offset <span>(m)</span></p>
               <input type="text" class="slider-input" disabled id="input-axes-vert-dist" />
             </div>
             <div class="main-slider" data-max="10" data-min="5">
@@ -97,7 +88,16 @@
           </div>
           <div class="slider-group">
             <div class="slider-title">
-              <p>Mooring declination from vertical <span>(deg)</span></p>
+              <p class="small">Axes horizontal offset <span>(m)</span></p>
+              <input type="text" class="slider-input" disabled id="input-axes-horz-dist" />
+            </div>
+            <div class="main-slider" data-max="2" data-min="0">
+              <input id="axes-horz-dist" type="range" min="0" max="2" step="0.1" value="1" class="slider">
+            </div>
+          </div>
+          <div class="slider-group">
+            <div class="slider-title">
+              <p class="small">Mooring declination from vertical <span>(deg)</span></p>
               <input type="text" class="slider-input" disabled id="input-mooring-decl" />
             </div>
             <div class="main-slider" data-max="85" data-min="30">
@@ -112,9 +112,9 @@
           </div>
           <div id="graph"></div>
         </div>
-        <div class="buttons" style="display: flex; gap: 20px; justify-content: center;">
-          <button class="primary" id="download-pdf">Download Specification</button>
-          <button class="primary" id="download-csv">Download Stiffness Curve</button>
+        <div class="buttons">
+          <button class="btn btn-ghost h6" id="download-pdf">Download Specification</button>
+          <button class="btn btn-ghost h6" id="download-csv">Download Stiffness Curve</button>
         </div>
       </div>
       <!-- END APP -->
