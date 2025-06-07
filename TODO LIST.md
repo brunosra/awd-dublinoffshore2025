@@ -5,7 +5,7 @@
 [✅] reduce gap to 1rem in dropdown
 [✅] padding not working in layout
 [✅] fix behavior to move to top while clicking in nav menu 
-[  ] add border in menu dropdown
+[✅] add border in menu dropdown
 [  ] pagination in the post list
 [  ] remove underline in contact link in the footer
 [  ] button in the contact footer area white border on hover
