@@ -223,6 +223,10 @@ nav.menu {
 							position: absolute;
 							width: max-content;
 							left: 0;
+
+							ul {
+								gap: 1rem;
+							}
 						}
 					}
 				}
