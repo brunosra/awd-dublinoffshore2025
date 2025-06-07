@@ -187,13 +187,14 @@ section.lrd-app {
 				grid-column: 1 / 13;
 			}
 			& > .left-col {
-				grid-column: 1 / 6;
+				grid-column: 1 / 4;
 			}
 			& > .right-col {
-				grid-column: 6 / 13;
+				grid-column: 4 / 13;
+				display: flex;
+				flex-direction: column;
 
 				form#identify {
-					grid-column: 1 / 8;
 					.formline {
 						.input-button {
 							display: flex;
