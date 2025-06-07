@@ -22,12 +22,7 @@ tabs:
         width: 1/2
         text: |
           The graph and controlls are managed directly in the code and can not be modified from the CMS. Please get in touch at aengus@anywherestudio.ie to adjust this section.
-      formPlaceholder:
-        label: Form placeholder
-        width: 1/2
-        type: info
-        text: |
-            Placeholder
+      extends: dreamform/fields/form
       # form:
       #   label: Select your form
       #   extends: dreamform/fields/form

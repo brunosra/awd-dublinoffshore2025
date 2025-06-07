@@ -19,7 +19,7 @@ $template = $page->intendedTemplate()->name();
       </a>
     </div>
     <form>
-      <div class="contact-block__inputs">
+      <!-- <div class="contact-block__inputs">
         <input type="text" placeholder="Full name">
         <input type="text" placeholder="Company / Organization">
         <input type="email" placeholder="Email">
@@ -27,7 +27,57 @@ $template = $page->intendedTemplate()->name();
         <input type="text" placeholder="Message">
       </div>
 
-      <button class="btn-primary">Send</button>
+      <button class="btn-primary">Send</button> -->
+
+      <?php snippet('dreamform/form', [
+        'form' => $page->myForm()->toPage(),
+        'attr' => [
+          // General attributes
+          'form' => ['class' => 'form'],
+          'row' => [],
+          'column' => [],
+          'field' => [],
+          'label' => [],
+          'error' => [],
+          'input' => [],
+          'button' => [],
+
+          // Field-specific attributes
+          'textarea' => [
+            'field' => [],
+            'label' => [],
+            'error' => [],
+            'input' => [],
+          ],
+          'text' => [
+            'field' => [],
+            'label' => [],
+            'error' => [],
+            'input' => [],
+          ],
+          'number' => [
+            'field' => [],
+            'label' => [],
+            'error' => [],
+            'input' => [],
+          ],
+          'file' => [
+            'field' => [],
+            'label' => [],
+            'error' => [],
+            'input' => [],
+          ],
+          'email' => [
+            'field' => [],
+            'label' => [],
+            'error' => [],
+            'input' => [],
+          ],
+
+          'success' => [], // Success message
+          'inactive' => [], // Inactive message
+        ]
+      ]); ?>
 
       <p class="small contact-block__privacy">By clicking on "Send", you agree to our
         <a href="<?= page('privacy')->url() ?>">
@@ -37,3 +87,6 @@ $template = $page->intendedTemplate()->name();
     </form>
   </div>
 </section>
+
+
+	
