@@ -36,7 +36,7 @@ fields:
             - Remove
             - Add
         paddingBottom:
-          label: Padding-top
+          label: Padding-bottom
           type: toggle
           default: true
           text:
