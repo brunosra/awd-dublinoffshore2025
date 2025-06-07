@@ -1,0 +1,25 @@
+Title: new form 2
+
+----
+
+Fields: [{"attrs":[],"columns":[{"blocks":[{"content":{"key":"name","label":"Name","placeholder":"","required":"false","errormessage":""},"id":"c6aa9534-0375-4427-b21d-8fbfad81659e","isHidden":false,"type":"text-field"}],"id":"0401a4cc-aafd-43a2-87e2-cac4e0de8b28","width":"1/2"},{"blocks":[{"content":{"key":"email","label":"Email","placeholder":"","required":"false","errormessage":""},"id":"ed21ace0-266b-44de-ae04-840d018ab04c","isHidden":false,"type":"email-field"}],"id":"0cb09f10-7d1a-4b64-b6a5-ce2510d29fc1","width":"1/2"}],"id":"4b8d7f0e-bfff-4803-aaa0-95090b36fdbf"},{"attrs":[],"columns":[{"blocks":[{"content":{"label":"Send"},"id":"c61c10b3-6272-4f04-8f15-fc78a95d06b7","isHidden":false,"type":"button-field"}],"id":"7a4482ce-1a3f-4781-95db-8fc5ef30957f","width":"1/1"}],"id":"7213d104-cdd4-476c-8c65-cf8ccd33051a"}]
+
+----
+
+Actions: [{"content":{"sendto":"static","sendtofield":"","sendtostatic":"aengustukel@yahoo.com","replyto":"field","replytofield":"ed21ace0-266b-44de-ae04-840d018ab04c","replytostatic":"","subject":"Test form","templatetype":"default","kirbytemplate":"","fieldtemplate":""},"id":"cf98b62d-3bc7-46ed-8821-1c5f2601cbc3","isHidden":false,"type":"email-action"}]
+
+----
+
+Successmessage: 
+
+----
+
+Continueonerror: false
+
+----
+
+Storesubmissions: true
+
+----
+
+Uuid: yfnNIJR0MyF3Ohva

@@ -19,6 +19,8 @@ fields:
     layout: cardlets
     size: medium
     width: 1/3
+    image:
+      cover: true
   linkedPages:
     label: Linked Pages
     width: 1/3

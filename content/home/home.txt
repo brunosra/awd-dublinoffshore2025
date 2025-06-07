@@ -22,7 +22,7 @@ Contactblockarea:
 
 ----
 
-Extends: - 'page://FANeYQJpjoUXR493'
+Extends: - 'page://yfnNIJR0MyF3Ohva'
 
 ----
 
@@ -87,6 +87,67 @@ Robotssnippet: default
 ----
 
 Metainherit: 
+
+----
+
+My-block:
+
+-
+  content:
+    formfields:
+      -
+        content:
+          label: Name
+          slug: name
+          autofill: name
+          required: true
+          inputtype: text
+          validate:
+            -
+              validate: ''
+              match: null
+              minlength: 0
+              maxlength: 100
+              min: 0
+              max: 100
+              msg: null
+              _id: 098f7870-3c4a-4e0f-9bf1-469dd01f368d
+        isHidden: false
+        type: formfields_01_input
+      -
+        content:
+          label: Email
+          slug: email
+          autofill: email
+          required: true
+          inputtype: email
+          validate:
+            -
+              validate: email
+        isHidden: false
+        type: formfields_01_input
+      -
+        content:
+          label: 'text arrea'
+          slug: text-arrea
+          autofill: name
+          required: false
+          required_fail: ''
+          placeholder: ''
+          row: 5
+          man: 255
+        id: a055aded-bddf-4ac1-ace6-abaee4e6bf72
+        isHidden: false
+        type: formfields_02_textarea
+    name: Formular
+    enable_notify: true
+    enable_confirm: false
+    redirect: false
+    display: '{{name}} ({{email}})'
+    formid: 416af016-eefe-4f12-97d1-30d66c527a87
+  id: 416af016-eefe-4f12-97d1-30d66c527a87
+  isHidden: false
+  type: form
 
 ----
 

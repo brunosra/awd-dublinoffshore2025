@@ -17,20 +17,6 @@ return [
 			'methods' => ['password', 'password-reset']
 	],
 
-    'tobimori.icon-field' => [
-    'cache' => true,
-    'folder' => 'assets/icons'
-    ],
-
-    // 'timnarr.imagex' => [
-    //     'cache' => true,
-    //     'customLazyloading' => false,
-    //     'formats' => ['avif', 'webp'],
-    //     'includeInitialFormat' => false,
-    //     'noSrcsetInImg' => false,
-    //     'relativeUrls' => false,
-    // ],
-
     'thumbs' => [
         'srcsets' => [
             'default' => [
@@ -57,9 +43,42 @@ return [
         ]
     ],
 
-    'cache' => [
+   'routes' => [
+    [
+      'pattern' => 'sitemap.xml',
+      'action'  => function() {
+          $pages = site()->pages()->index();
+
+          // fetch the pages to ignore from the config settings,
+          // if nothing is set, we ignore the error page
+          $ignore = kirby()->option('sitemap.ignore', ['error']);
+
+          $content = snippet('sitemap', compact('pages', 'ignore'), true);
+
+          // return response with correct header type
+          return new Kirby\Cms\Response($content, 'application/xml');
+      }
+    ],
+    [
+      'pattern' => 'get-pdf',
+      'method' => 'POST',
+      'action' => function() {
+        global $sys_path;
+        $sys_path = str_replace("/site/config", "", str_replace("\\", "/", __DIR__));
+        include "{$sys_path}/pdf/pdf.php";
+        return new Kirby\Cms\Response(json_encode(prepare_and_save()), 'application/json');
+      }
+    ],
+    [
+      'pattern' => 'sitemap',
+      'action'  => function() {
+        return go('sitemap.xml', 301);
+      }
+    ]
+  ],
+  'sitemap.ignore' => ['error'],
+
+  'cache' => [
     'pages' => false 
-	]
-
-
+	],
 ];
