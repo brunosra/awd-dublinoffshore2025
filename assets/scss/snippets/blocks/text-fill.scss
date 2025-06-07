@@ -3,8 +3,8 @@
 
 .text-fill {
 	background-color: vars.$c--navy;
-	padding-top: 4.93rem;
-	padding-bottom: 4.93rem;
+	padding-top: 8rem;
+	padding-bottom: 8rem;
 
 	&__container {
 		grid-template-columns: 1fr;
@@ -34,8 +34,8 @@
 	}
 
 	@include mixins.responsive('lg') {
-		padding-top: 17.125rem;
-		padding-bottom: 17.125rem;
+		padding-top: 22rem;
+		padding-bottom: 22rem;
 
 		&__content {
 			padding-left: 9rem;
